@@ -1,0 +1,14 @@
+.app-content-container {
+    background-color: #0F365F; 
+    box-shadow: 
+        0 -5px 15px rgba(0, 0, 0, 0.2), /* Ajout d'une ombre sur le dessus */
+        0 0 15px rgba(173, 216, 230, 0.6), 
+        0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.overlay-content {
+    margin-bottom: 30px; /* Ou toute autre valeur souhaitée */
+}

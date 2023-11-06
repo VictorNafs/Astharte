@@ -1,0 +1,220 @@
+/* Modification du composant Carousel pour permettre le débordement */
+.carousel, .carousel-inner {
+    width: 110%;
+    height: 100%;
+    overflow: visible;
+}
+
+.container-fluid.mt-5 {
+    margin-top: -100px !important;
+    margin-left: -75px !important;
+}
+
+/* Styles pour l'effet de fondu */
+.fade-enter, 
+.fade-exit, 
+.fade-enter-active, 
+.fade-exit-active {
+    transition: opacity 0.1s;
+}
+
+.fade-enter, 
+.fade-exit-active {
+    opacity: 0;
+}
+
+.fade-enter-active, 
+.fade-exit {
+    opacity: 1;
+}
+
+/* Styles par défaut pour le carousel et les images */
+.carousel-item {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+
+.carousel-item img.d-block {
+    margin-top: 8%;
+    margin-left: 1%;
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+    object-position: center bottom;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.6);
+}
+
+.sharp-image {
+    width: auto;
+    height: 450px;
+    position: absolute;
+    top: 300px;
+    left: 70%;
+    transform: translateX(-50%);
+    z-index: 2;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Repositionnement des flèches de navigation */
+.carousel-control-prev, .carousel-control-next {
+    width: auto;  /* Redéfinir la largeur par défaut */
+}
+
+.carousel-control-prev {
+    left: 9%;
+    top: 155px;
+}
+
+.carousel-control-next {
+    right: 9%;
+    top: 155px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(16, 4, 122); /* couleur de fond des icônes */
+    width: 40px; /* largeur de l'icône */
+    height: 40px; /* hauteur de l'icône */
+}
+
+/* Ajout d'une ombre aux flèches pour une meilleure visibilité */
+.carousel-control-prev,
+.carousel-control-next {
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.6));
+}
+
+/* Modification de la couleur des flèches */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: white; /* couleur des flèches au survol */
+}
+
+/* Styles pour le Dashboard */
+
+.container-fluid.carousel-container {
+    position: relative;
+}
+
+.carousel-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-layer {
+    z-index: 10;
+}
+
+/* Styles pour la section équipe */
+.team-member {
+    display: flex;
+    align-items: center;
+}
+
+.team-photo {
+    border-radius: 50%;
+}
+/* Styles pour les tablettes */
+@media (max-width: 992px) {
+    .container-fluid.mt-5 {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+    .carousel-item {
+        height: 1000px;
+        width: 100%;
+    }
+    .carousel-item img.d-block {
+        width: 80%;
+        height: auto;
+    }
+    .sharp-image {
+        height: 350px;
+        top: 330px;
+        left: 70%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: auto;  /* Redéfinir la largeur par défaut */
+    }
+    
+    .carousel-control-prev {
+        left: 2%;
+        top: 45%;
+    }
+    
+    .carousel-control-next {
+        right: 2%;
+        top: 45%;
+    }
+}
+
+/* Styles pour les mobiles en mode paysage */
+@media (max-width: 768px) {
+    .container-fluid.mt-5 {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+    .carousel-item {
+        height: 800px;
+        width: 100%;
+    }
+    .carousel-item img.d-block {
+        margin-top: 5%;
+        width: 80%;
+        height: auto;
+    }
+    .sharp-image {
+        height: 300px;
+        top: 230px;
+        left: 70%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: auto;  /* Redéfinir la largeur par défaut */
+    }
+    
+    .carousel-control-prev {
+        left: 2%;
+        top: 45%;
+    }
+    
+    .carousel-control-next {
+        right: 2%;
+        top: 45%;
+    }
+}
+
+
+/* Styles pour les mobiles en mode portrait */
+@media (max-width: 576px) {
+    .container-fluid.mt-5 {
+        margin-top: 0px !important;
+        margin-left: -35px !important;
+    }
+    .carousel-item {
+        height: 550px;
+        width: 100%;
+    }
+    .carousel-item img.d-block {
+        width: 80%;
+        height: auto;
+    }
+    .sharp-image {
+        height: 250px;
+        top: 130px;
+        left: 75%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: auto;  /* Redéfinir la largeur par défaut */
+    }
+    
+    .carousel-control-prev {
+        left: 2%;
+        top: 45%;
+    }
+    
+    .carousel-control-next {
+        right: 2%;
+        top: 45%;
+    }
+}

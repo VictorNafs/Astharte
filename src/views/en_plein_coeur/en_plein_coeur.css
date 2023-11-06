@@ -1,0 +1,359 @@
+.wara-logo {
+    width: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
+    height: auto; 
+    display: block; 
+    margin: 50px auto; /* Pour centrer le logo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Nécessaire pour positionner absolument un enfant */
+    padding-top: 40px; /* Ajout d'une marge en haut pour éviter le chevauchement */
+}
+
+/* Styles pour le bouton "Précédent" */
+.container > div:first-child {
+    position: absolute;
+    top: 5; /* Positionne le bouton tout en haut */
+    left: 0; /* Positionne le bouton complètement à gauche */
+    order: -1; /* Assure que le bouton est le premier élément dans le flux normal */
+}
+
+.video-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.btn-previous {
+    display: block;
+    background: linear-gradient(160deg, #a9b7c6, #eef0f2, #a9b7c6);
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
+    border: 1px solid #89a0ac;  /* Bordure légèrement bleutée */
+    font-size: 16px;  /* Augmentation de la taille de la police */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-previous:hover {
+    background: linear-gradient(160deg, #89a0ac, #dde2e5, #89a0ac);
+    transform: translateY(-3px); /* Effet de "soulèvement" lors du survol */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+p {
+    color: white;
+}
+
+.wara-title {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.text-container {
+    margin-top: -150px;
+}
+
+
+.table-container {
+    margin-top: 3rem;
+    border: 1px solid white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.table-row {
+    border-bottom: 1px solid white;
+}
+
+.table-col {
+    padding: 1rem;
+    border-right: 1px solid white;
+}
+
+.table-col:last-child {
+    border-right: none;
+}
+
+.table-col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.table-col ul {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+}
+
+.table-col li {
+    margin-bottom: 0.5rem;
+}
+
+.video-button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -20px;
+}
+
+.video-button-container .mr-3,
+.video-button-container .ml-3 {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.video-button-container .mr-3:hover,
+.video-button-container .ml-3:hover {
+    background-color: red;
+    color: black;
+}
+
+.video-button-container .ml-3:hover {
+    background-color: orange;
+    color: white;
+}
+
+.img-thumbnail, .text-left, .text-right {
+    transition: transform 1s, opacity 1s;
+    max-width: 90%;
+}
+
+.text-left {
+    width: 100%;
+    text-align: justify;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.text-right {
+    width: 100%;
+    margin-left: 55px;
+}
+
+.slide-from-right .img-thumbnail,
+.slide-from-right .text-left {
+    transform: translateX(65%);
+}
+
+.slide-from-left .img-thumbnail,
+.slide-from-left .text-right {
+    transform: translateX(0%);
+}
+
+.container > div {
+    margin-bottom: 5rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-thumbnail-large {
+    transition: transform 1s, opacity 1s;
+    max-width: 45%;
+    float: right;
+    margin-left: 0px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 4s;
+}
+.fade-in.active {
+    opacity: 1;
+}
+
+.img-thumbnail {
+    width: 300px;  /* ou la valeur que vous souhaitez */
+    height: auto; /* cela permet de maintenir le ratio de l'image */
+    object-fit: cover; /* cela s'assure que l'image couvre la zone définie sans étirer */
+    margin-left: 20px;  /* Ajustez cette valeur selon vos besoins pour l'écart entre les images */
+    margin-top: -10px;  /* décalage vertical */
+}
+
+.img-thumbnail:first-child {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.text-bg {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+
+@keyframes waraSlideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .wara-slide-in {
+    animation: waraSlideFromLeft 4s forwards;
+  }
+  
+  .wara-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wara-text-left {
+    flex: 1;
+    padding-right: 20px;
+    text-align: justify;
+    /* Ajoutez un espace entre le texte et l'image */
+  }
+  
+  .wara-img-thumbnail {
+    flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
+    max-width: 300px;  /* Définir la largeur maximale que vous souhaitez */
+    max-height: 200px; /* Définir la hauteur maximale que vous souhaitez */
+    width: 100%;
+    height: auto;
+    flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
+    /* Assurez-vous que le ratio d'aspect de l'image est conservé */
+  }
+
+  .slide-initial {
+    opacity: 0;
+}
+
+@keyframes waraRightSlideEffect {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .waraRight-slideAnim {
+    animation: waraRightSlideEffect 4s forwards;
+  }
+  
+  .waraRight-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .waraRight-textSection {
+    flex: 1;
+    padding-left: 20px; /* Ajout d'un espace à gauche du texte */
+  }
+  
+  .waraRight-imageStyle {
+    flex-shrink: 0;
+    max-width: 300px;  
+    max-height: 200px; 
+    width: 100%;
+    height: auto; 
+  }
+  
+
+@media (max-width: 768px) {
+
+    .text-container {
+        margin-top: 0px;
+    }
+    .container > div:first-child {
+        top: 40px; /* Ajustez cette valeur selon vos préférences */
+    }
+    /* Ajustements de la table */
+    .table-col {
+      font-size: 0.7rem; 
+    }
+
+    .table-col h3 {
+      margin: 0.5rem 0;
+    }
+
+    .table-col ul {
+      padding-left: 0.5rem;
+    }
+
+    .table-col li {
+      font-size: 0.6rem;
+    }
+
+    /* 1. Ajuster l'effet de glissement pour s'assurer qu'il est encore visible, mais moins prononcé */
+    .slide-from-right .img-thumbnail, 
+    .slide-from-right .text-left {
+        transform: translateX(9%);  /* Les éléments glissent légèrement de leur position d'origine */
+    }
+
+    .slide-from-left .img-thumbnail, 
+    .slide-from-left .text-right {
+        transform: translateX(-9%);  /* Les éléments glissent légèrement de leur position d'origine */
+    }
+
+    /* 2. Empiler les blocs */
+    .flex-container {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    /* 3. Ajuster le texte et les photos pour prendre toute la largeur */
+    .img-thumbnail, 
+    .text-left, 
+    .text-right {
+        max-width: 100%;
+    }
+
+    
+    .img-thumbnail-large {
+        margin-left: 0;
+        max-width: 85%;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;  /* Les images prennent toute la largeur de l'écran */
+        margin: 5px 0;
+    }
+
+    .waraRight-container, .wara-flex-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .waraRight-textSection, .wara-text-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .waraRight-imageStyle, .wara-img-thumbnail {
+        margin: 0 auto;
+        display: block;
+    }
+}

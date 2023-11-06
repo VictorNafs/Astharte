@@ -1,0 +1,87 @@
+h1, h2 {
+  color: white;
+}
+
+h1 {
+  margin-bottom: 70px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.h1mt {
+  margin-top: 20px;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;     /* Centrage horizontal */
+  align-items: center;         /* Centrage vertical */
+  gap: 50px 30px;              /* Espacement entre les éléments */
+  position: relative;
+  max-width: 1000px;           /* Largeur maximale pour éviter une expansion indésirable */
+  margin: auto;                /* Centre le conteneur sur la page */
+}
+
+.dropzone {
+  width: 156px;
+height: 234px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 
+    inset 4px 4px 4px rgba(0, 0, 0, 0.6), 
+    inset -4px -4px 6px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.3s ease;
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 18px;            /* Augmenter la taille de la police */
+  font-weight: bold;          /* Rendre le texte plus gras */
+  letter-spacing: 1px;       /* Espacement des lettres */
+  text-transform: uppercase; /* Transformer le texte en majuscules */
+  text-align: center;        /* Alignement du texte */
+  line-height: 1.5;          /* Hauteur de ligne */
+  border: 1px dashed #ffff;
+}
+
+
+.photo-grid img {
+  width: 156px;
+height: 234px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(173, 216, 230, 0.4);
+  transition: box-shadow 0.3s ease;
+  order: 0;       /* Les images sont toujours avant la dropzone */
+}
+
+.photo-grid img:hover {
+  box-shadow: 0 0 15px rgba(173, 216, 230, 0.6);
+}
+
+.photo-grid img:active {
+  box-shadow: 0 0 20px rgba(173, 216, 230, 0.8);
+}
+
+@media (max-width: 768px) {
+  .photo-grid {
+    flex-direction: column;   /* Chaque image et dropzone s'affiche sur une nouvelle ligne */
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+  }
+  .dropzone {
+    display: none;
+  }
+}

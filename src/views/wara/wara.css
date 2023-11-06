@@ -1,0 +1,110 @@
+/* Styles existants */
+.bg-image {
+    background-image: url('src/assets/images/img-wara.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1; 
+}
+
+.bg-image::before {
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.content-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.wara-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wara-image {
+    width: 65%;
+    opacity: 0;
+    transform: translateY(calc(-250%));
+    transition: transform 1s, opacity 1s;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        height: 70vh;
+    }
+    
+    .wara-image {
+        width: 100%;
+        opacity: 0;
+        transform: translateY(calc(-250%));
+        transition: transform 1s, opacity 1s;
+    }
+}
+
+.slide-from-top {
+    opacity: 1;
+}
+
+.slide-to-position {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.wara-buttons {
+    margin-top: 55px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap; /* permet aux boutons de se mettre sur plusieurs lignes si nécessaire */
+    justify-content: space-between; /* espacement entre les boutons */
+}
+
+
+
+@media (max-width: 768px) {
+    .wara-button {
+        width: 100%; /* en mode responsive, prend toute la largeur */
+    }
+    .wara-buttons {
+        margin-top: 55px;
+        display: flex;
+        flex-wrap: wrap; /* permet aux boutons de se mettre sur plusieurs lignes si nécessaire */
+        justify-content: space-between; /* espacement entre les boutons */
+    }
+}
+
+.wara-button {
+    display: inline-block;
+    background: #0F365F;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 0;
+    width: calc(50% - 10px); /* prend la moitié de la largeur moins un petit espacement */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0D2C4A;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 35px;
+}
+
+.wara-button:hover {
+    background: #0D2C4A;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,28 @@
+.team-intro {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+}
+
+.team-photo {
+    border-radius: 50%; /* Cela rendra les photos rondes. Assurez-vous que les photos ont un rapport d'aspect carré pour de meilleurs résultats. */
+    margin-right: 20px;
+}
+
+.team-member-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.team-member-title {
+    color: #777;
+    margin: 5px 0;
+}
+
+.team-member-description {
+    margin: 0;
+}

@@ -1,0 +1,11 @@
+.custom-footer {
+    box-shadow: 
+    inset 0 4px 6px rgba(0, 0, 0, 0.7), /* Ombre intérieure encore plus renforcée */
+    0 -8px 14px rgba(0, 0, 0, 0.6); /* Ombre extérieure renforcée, inversée et assombrie */
+    
+    background: linear-gradient(35deg, #4a4c4e, #2b2d2f, #4a4c4e, #2b2d2f); /* Gradient métallique très sombre */
+    
+    border-top: 3px solid #1c1e20; /* Une bordure métallique extrêmement sombre */
+    backdrop-filter: blur(7px);
+    transition: all 0.3s ease;
+}
