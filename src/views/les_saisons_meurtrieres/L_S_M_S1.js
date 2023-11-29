@@ -30,32 +30,33 @@ const L_S_M_S1 = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-lsm">
             <CCol xs={12}>
                 <div className="container">
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title">Hiver Rouge</h1>
-                    <div className="video-button-container">
+                    <h1 className="wara-title mtwt">Hiver Rouge</h1>
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-title texte">Synopsis</h1>
-                            <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                          <h1 className="wara-syn">Synopsis</h1>
+                            <p className="text-left text-bg">
+                            Hiver rouge est un téléfilm policier français, le premier de la collection Les Saisons meurtrières. Il a été réalisé par Xavier Durringer en 2011 et diffusé pour la première fois le 6 janvier 2012 sur France 2.
+                            C'est l'adaptation du polar de Gilda Piersanti Rouge Abattoir1. Il a reçu le prix de la meilleure musique au 13e Festival de la fiction TV de La Rochelle2.
                             </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <p className="text-left text-bg">
+                            Le jour de Noël, à Paris, Place de Bitche, une main découpée à la scie et accrochée à un sapin est retrouvée par l'équipe du commissaire Rousseau. Pour résoudre cette sombre enquête, sa hiérarchie lui impose l'aide d'une profileuse atypique, Mariella De Luca. Rousseau, réticent à ce partenariat, semble convaincu que cette mise en scène macabre signe le troisième meurtre d'un tueur en série.                            </p>
                       </div>
                         <img src={affichehiverrouge1} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -68,10 +69,26 @@ const L_S_M_S1 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={hiverrougeWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h1 className="wara-title">WARA</h1>
-                                        <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                                            Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-                                        </p>
+                                <h3 className="white-title">Acteurs récurrents</h3>   
+                                    <ul>
+                                        <li>Patrick Chesnais : le commissaire Rousseau</li>
+                                        <li>Camille Panonacle : Mariella De Luca, la profileuse</li>
+                                        <li>Jane Birkin : Lily Rousseau, la femme du commissaire</li>
+                                        <li>Brigitte Catillon : Françoise Berthier</li>
+                                        <li>Grégory Fitoussi : Fabrice Berthier</li>
+                                        <li>Gérald Laroche : Roubaix, un subordonné du commissaire</li>
+                                        <li>Bruno López : lieutenant Borel, un subordonné du commissaire</li>
+                                        <li>Thomas Coumans : David Fauvet</li>
+                                        <li>Michel Bompoil : le procureur François Montalembert</li>
+                                        <li>Christiane Millet : Delphine Fauvet</li>
+                                        <li>Vincent Jouan : Cortez</li>
+                                        <li>Frédéric Duff-Barbé : Miller</li>
+                                        <li>Christophe Rouzaud : Mario</li>
+                                        <li>Juliet Lemonnier : Véronica</li>
+                                        <li>Jean Miez : Leroux</li>
+                                        <li>ainsi que, dans des rôles de policiers :
+                                        Tadrina Hocking, Thomas Arnaud, Bun Daravirak, Clément Parmentier, Frédéric Platti, Christophe Thuillier et Fabrice Colson (non confirmé).</li>
+                                    </ul>
                                 </div>
                         </div>
                     </ScrollTrigger>
@@ -82,9 +99,19 @@ const L_S_M_S1 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                        <h3 className="white-title">Équipe technique</h3>   
+                            <ul>
+                                <li>Scénario : Gianguido Spinelli et Gilda Piersanti (d'après le roman de Gilda Piersanti)</li>
+                                <li>Production : Sophie Deloche</li>
+                                <li>Musique : Siegfried</li>
+                                <li>Directeur de la photographie : Manuel Téran</li>
+                                <li>Chef opérateur son : Madone Charpall</li>
+                                <li>1re assistante réalisateur : Ambre Valade</li>
+                                <li>Directrice de casting : Françoise Menidrey</li>
+                                <li>Responsable figuration : Stéphane Chemin</li>
+                                <li>Scripte : Véronique Heuchenne</li>
+                                <li>Chef décorateur : Éric Durringer</li>
+                            </ul>
                         </div>
                         <img src={hiverrougeWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

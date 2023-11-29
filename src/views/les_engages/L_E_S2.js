@@ -30,33 +30,40 @@ const L_E_S2 = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-le">
             <CCol xs={12}>
                 <div className="container">
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title">Les Engagés</h1>
+                    <h1 className="wara-title mtwt">Les Engagés</h1>
                     <h3 className="wara-title-h3">Saison 2</h3>
-                    <div className="video-button-container">
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
-                        <div className="text-container special-text-container">
-                          <h1 className="wara-title-h3 texte">Synopsis</h1>
+                        <div className="text-container-S2 special-text-container">
+                          <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                                Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La première saison est co-réalisée par Jules Thénier et Maxime Potherat, la deuxième par Slimane-Baptiste Berhoun.
+                                La série est coproduite par Astharté & Compagnie et France Télévisions Nouvelles Écritures, et diffusée à l’origine sur la plateforme Studio 4 à partir du 17 mai 2017. Depuis la refonte de l’offre numérique de France Télévisions, Les Engagés est reprise sur France.tv Slash1.
+                            </p>
+                                <br></br>
+                            <p className="text-left text-bg texte">
+                                Le Point G est un Centre LGBT situé à Lyon. Thibaut est un de ses militants les plus actifs, très engagé dans la lutte pour les droits des homosexuels. Son quotidien est soudain bouleversé par le retour dans sa vie d'Hicham, une connaissance qu'il n'avait pas revue depuis des années et qui vient chercher auprès de lui la force de faire son coming-out et de trouver sa véritable identité. Hicham admire le charisme et l'engagement de Thibaut, mais, jeté brusquement au milieu des luttes politiques du Point G, il va rapidement en percevoir les limites et les contradictions…
                             </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <p className="text-left text-bg texte">
+                                Une série créée et développée par Sullivan LE POSTEC 
+                                Réalisée par Slimane-Baptiste BERHOUN
+                                Produit par Sophie DELOCHE & Baptiste RINALDI</p>
                       </div>
                         <img src={affichele2} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -69,10 +76,19 @@ const L_E_S2 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={S2lesengagesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h1 className="wara-title">WARA</h1>
-                                        <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                                            Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-                                        </p>
+                                <h3 className="white-title">Équipe technique</h3>   
+                                    <ul>
+                                        <li>Mehdi MESKAR</li>
+                                        <li>Eric PUCHEU</li>
+                                        <li>Adrian DE LA VEGA</li>
+                                        <li>Denis D’ARCANGELO</li>
+                                        <li>Nanou HARRY</li>
+                                        <li>Claudius PAN</li>
+                                        <li>Cyril NECKER</li>
+                                        <li>Anaïs FABRE</li>
+                                        <li>Sandra PARFAIT</li>
+                                        <li>Lady CARBONE </li>
+                                    </ul>
                                 </div>
                         </div>
                     </ScrollTrigger>
@@ -83,9 +99,24 @@ const L_E_S2 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                        <h3 className="white-title">Équipe technique</h3>   
+                                    <ul>
+                                        <li>Directeur de production : Jacques BONTOUX</li>
+                                        <li>Directeur de la photographie : Matthieu ANDRIEUX</li>
+                                        <li>Chef opérateur du son : Marco PASCAL </li>
+                                        <li>1er assistant réalisateur : Ronnie Franco</li>
+                                        <li>Scripte : Pascale RENAUD </li>
+                                        <li>Directeur de casting & coach : Stéphane GAILLARD </li>
+                                        <li>Chef décorateur : Marie Marine NOTTE</li>
+                                        <li>Cheffe costumière : Julia FOUROUX </li>
+                                        <li>Cheffe maquilleuse / coiffeuse : Faustina DE SOUSA </li>
+                                        <li>Chef électricien / Machiniste - Théo FARAMA </li>
+                                        <li>Régisseur général : Pierre ADAM</li>
+                                        <li>Chefs monteurs image : Nathan DELANNOY & Nicolas BONNET</li>
+                                        <li>Etalonneur : Nicolas LOSSEC</li>
+                                        <li>Chef monteur son / Mixeur : Charli CIRCUS </li>
+                                        <li>Musique originale : Franck LEBON</li>
+                                    </ul>
                         </div>
                         <img src={S2lesengagesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

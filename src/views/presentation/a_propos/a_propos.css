@@ -3,21 +3,25 @@
     margin-bottom: 20px;
 }
 
+.team-members-container {
+    display: flex;
+    overflow-x: auto; /* Permet le défilement horizontal si les membres ne tiennent pas tous sur l'écran */
+}
+
 .team-member {
     display: flex;
+    flex-direction: column; /* Pour aligner l'image et le texte verticalement */
     align-items: center;
+    margin-right: 20px; /* Espace entre les membres de l'équipe */
 }
 
 .team-photo {
-    border-radius: 50%; /* Cela rendra les photos rondes. Assurez-vous que les photos ont un rapport d'aspect carré pour de meilleurs résultats. */
-    margin-right: 20px;
+    border-radius: 50%;
 }
 
-.team-member-name {
-    font-weight: bold;
-    margin: 0;
+.team-member-name, .team-member-title {
+    text-align: center;
 }
-
 .team-member-title {
     color: #777;
     margin: 5px 0;
@@ -25,4 +29,16 @@
 
 .team-member-description {
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .team-members-container {
+        display: block; /* Chaque membre s'affichera en colonne */
+        overflow-x: hidden; /* Plus besoin de défilement horizontal */
+    }
+
+    .team-member {
+        margin-right: 0; /* Supprime l'espace à droite pour les mobiles */
+        margin-bottom: 20px; /* Espace entre les membres */
+    }
 }

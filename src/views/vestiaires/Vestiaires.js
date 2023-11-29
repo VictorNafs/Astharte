@@ -16,7 +16,6 @@ import vestiairesWord2 from 'src/assets/images/vestiaires-word-2.jpg';
 import vestiairesbottom1 from 'src/assets/images/vestiaires-bottom-1.jpg';
 import vestiairesbottom2 from 'src/assets/images/vestiaires-bottom-2.jpg';
 import vestiairesbottom3 from 'src/assets/images/vestiaires-bottom-3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const Vestiaires = () => {
     const navigate = useNavigate();
@@ -30,32 +29,43 @@ const Vestiaires = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-v">
             <CCol xs={12}>
                 <div className="container">
-                    <div>
+                    {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
-                    </div>
-                    <h1 className="wara-title">Vestiaires</h1>
-                    <div className="video-button-container">
+                    </div> */}
+                    <h1 className="wara-title mtwt">Vestiaires</h1>
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-title texte">Synopsis</h1>
+                        <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                                À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
                             </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <p className="text-left text-bg texte">
+                                À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                            </p>
+                            <h3 className="wara-syn">Acteurs principaux</h3>
+                            <p className="text-left text-bg texte">
+                                <ul>
+                                    <li>Issaka Sawadogo : Moutari Wara</li>
+                                    <li>France Nancy Goulian : Aïcha Diallo</li>
+                                    <li>Maimouna N'Diaye : Yasmin Diallo</li>
+                                    <li>Souleymane Sèye Ndiaye : Ganka Barry</li>
+                                    <li>Canabasse : Bachar</li>
+                                </ul>
+                            </p>
                       </div>
                         <img src={affichevestiaires12} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -69,11 +79,16 @@ const Vestiaires = () => {
     <div className={`waraRight-container ${imageClass2}`}>
         <img src={vestiairesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
         <div className="waraRight-textSection text-bg">
-            <h1 className="wara-title">WARA</h1>
-            <p> 
-                Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-            </p>
+        <h3 className="white-title">Équipe technique</h3>   
+                <ul>
+                    <li>Création : Charli Beléteau</li>
+                    <li>Réalisation : Oumar Diack et Toumani Sangaré</li>
+                    <li>Création : Charli Beléteau, d'après l'idée originale de Magali Issoufou Sani4</li>
+                    <li>Réalisation : Oumar Diack et Toumani Sangaré4</li>
+                    <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko4</li>
+                    <li>Musique : Franck Lebon4</li>
+                    <li>Costumes : Mariam Diop</li>
+                </ul>
         </div>
     </div>
 </ScrollTrigger>
@@ -84,9 +99,17 @@ const Vestiaires = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                        <h3 className="white-title">Équipe technique</h3>   
+                                <ul>
+                                    <li>Photographie : Nourou Sarr</li>
+                                    <li>Son : Clément Maléo et Hamza Ouhbi</li>
+                                    <li>Montage : Nicolas Bonnet et Sarah Chartier</li>
+                                    <li>Montage Son : Jf Viguié et Romain Le bras</li>
+                                    <li>Mixage : Benjamin Cabaj</li>
+                                    <li>Production : Sophie Deloche, Mbathio Diaw, Magagi Issoufou, Alexandre Rideau et Baptiste Rinaldi</li>
+                                    <li>Sociétés de production : MJP Productions (Niger), Astharté & Compagnie (France) et Raes Production (Sénégal)3,4 en co-production avec TV5 Monde</li>
+                                    <li>Pays d'origine : France / Niger / Sénégale</li>
+                                </ul>
                         </div>
                         <img src={vestiairesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

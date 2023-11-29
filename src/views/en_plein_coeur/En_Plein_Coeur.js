@@ -30,32 +30,44 @@ const En_Plein_Coeur = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-epc">
             <CCol xs={12}>
                 <div className="container">
-                    <div>
+                    {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
-                    </div>
-                    <h1 className="wara-title">En Plein Coeur</h1>
-                    <div className="video-button-container">
+                    </div> */}
+                    <h1 className="wara-title mtwt">En Plein Coeur</h1>
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-title texte">Synopsis</h1>
+                          <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-                            </p>
+                            Fred Leprince, un jeune élève, est retrouvé mort au sein même de l’école de police. Emilie, 
+                            soeur de la victime et également élève, n’accepte pas à la thèse du suicide. La Commandante 
+                            Anne Voreppe et la capitaine Chrystel Chesnot sont en charge de l’affaire. Pour Chrystel 
+                            Chesnot, retrouver certains instructeurs ravive des blessures anciennes. Enquêter parmi leurs 
+                            pairs sera une épreuve délicate pour nos deux enquêtrices… Être flic, pour le meilleur et pour 
+                            le pire.                            </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <h3 className="wara-syn">Acteurs principaux</h3>
+                            <p className="text-left text-bg texte">
+                            <ul>
+                                <li>Réalisé par Bruno GARCIA</li> 
+                                <li>Ecrit par Emmanuel BEZIER & Christophe GAVAT, en collaboration avec Yann LE GAL</li>
+                                <li>Sur une idée originale de Maria SERIO et Christophe GAVAT</li>
+                                <li>Adaptation et dialogues Maria SERIO </li>
+                                <li>Produit par Sophie DELOCHE & Maria SERIO</li>
+                            </ul>
+                            </p>
                       </div>
                         <img src={afficheenpleincoeur} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -68,10 +80,26 @@ const En_Plein_Coeur = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={enpleincoeurWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h1 className="wara-title">WARA</h1>
-                                        <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                                            Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-                                        </p>
+                                <h3 className="white-title">Équipe technique</h3>   
+                                    <ul>
+                                        <li>Fatou N’DIAYE</li>
+                                        <li>Annie GREGORIO</li>
+                                        <li>Sam KARMANN</li>
+                                        <li>Alexandre BRASSEUR</li>
+                                        <li>Léa LEVIANT</li>
+                                        <li>Stéphane DEBAC</li>
+                                        <li>Sophie LETELLIER</li>
+                                        <li>Perkins LYAUTEY</li>
+                                        <li>Baptiste GONTHIER</li>
+                                        <li>Lawrence DAVIS</li>
+                                        <li>Marion TRAGER</li>
+                                        <li>Oscar ZOUZOUT</li>
+                                        <li>Cédric LEFFRAY</li>
+                                        <li>Max GELLER</li>
+                                        <li>Brigitte AUBRY</li>
+                                        <li>Jean CORDIER</li>
+                                        <li>avec la participation d’Annick BLANCHETEAU</li>
+                                    </ul>
                                 </div>
                         </div>
                     </ScrollTrigger>
@@ -82,9 +110,27 @@ const En_Plein_Coeur = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                        <h3 className="white-title">Équipe technique</h3>   
+                                <ul>
+                                    <li>Directrice de production Astharté : Sophie COUECOU</li>
+                                    <li>Directrice de production : Brigitte CHAUSSADE</li>
+                                    <li>Directeur de la photographie : Dominique FAUSSET</li>
+                                    <li>Chef opérateur du son : Yann LE MAPIHAN</li>
+                                    <li>1er assistant réalisateur : Rodolphe KRIEGEL</li>
+                                    <li>Scripte : Magali MOULIN</li>
+                                    <li>Directeur de casting Paris : Stéphane GAILLARD</li>
+                                    <li>Directeur de casting Bordeaux : Joël GARRIGOU</li>
+                                    <li>Chef décorateur : Régis NICOLINO</li>
+                                    <li>Chef costumier : François JUGE</li>
+                                    <li>Cheffe maquilleuse : Valérie CANCALON</li>
+                                    <li>Chef coiffeuse : Delphine LACAZE</li>
+                                    <li>Chef électricien : Yves LEROY-DAVESNE</li>
+                                    <li>Chef machiniste : Alain GAUTHERIN</li>
+                                    <li>Chef constructeur : Julien COMPAGNON</li>
+                                    <li>Régisseur général : Jean-Marie LANGLOIS</li>
+                                    <li>Chef monteur image : Mickaël LAVIGNAC</li>
+                                    <li>Chef monteur son : Matthieu CATHELINEAU</li>
+                                </ul>
                         </div>
                         <img src={enpleincoeurWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

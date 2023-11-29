@@ -39,7 +39,7 @@ height: 234px;
     inset 4px 4px 4px rgba(0, 0, 0, 0.6), 
     inset -4px -4px 6px rgba(255, 255, 255, 0.3);
   transition: box-shadow 0.3s ease;
-  order: 1;
+  order: -1;
   display: flex;
   justify-content: center;
   align-items: center;

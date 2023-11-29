@@ -12,11 +12,10 @@ import { useNavigate } from 'react-router-dom';
 
 import noirenigmaWord1 from 'src/assets/images/noirenigmaword1.jpg';
 import affichenoirenigma4 from 'src/assets/images/affiche-noir-enigma4.jpg';
-import noirenigmaWord2 from 'src/assets/images/waraword-2.jpg';
+import noirenigmaWord2 from 'src/assets/images/noirenigmaword2.jpg';
 import noirenigmabottom1 from 'src/assets/images/noirenigmabottom1.jpg';
 import noirenigmabottom2 from 'src/assets/images/noirenigmabottom2.jpg';
 import noirenigmabottom3 from 'src/assets/images/noirenigmabottom3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_S_M_S4 = () => {
     const navigate = useNavigate();
@@ -30,32 +29,32 @@ const L_S_M_S4 = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-lsm">
             <CCol xs={12}>
                 <div className="container">
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title">Noir Enigma</h1>
-                    <div className="video-button-container">
+                    <h1 className="wara-title mtwt">Noir Enigma</h1>
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-title texte">Synopsis</h1>
+                          <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-                            </p>
+                            Noir enigma est un téléfilm policier français réalisé par Manuel Boursinhac et Gianguido Spinelli diffusé sur France 2 le 20 octobre 2017, adaptation du polar de Gilda Piersanti paru en 2010 sous le titre Roma enigma1.                            </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <p className="text-left text-bg texte">
+                            Devant une pâtisserie parisienne, une jeune étudiante s'effondre, tuée par balle. Pas d'arme du crime, aucun suspect, rien dans le passé de la victime qui permette de suivre la moindre piste. Un meurtre parfait sans mobile. Une nouvelle enquête du commissaire Rousseau et de la commandante Mariella De Luca.
+                            </p>
                       </div>
                         <img src={affichenoirenigma4} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -68,10 +67,24 @@ const L_S_M_S4 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={noirenigmaWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h1 className="wara-title">WARA</h1>
-                                        <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                                            Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-                                        </p>
+                                <h3 className="white-title">Équipe technique</h3>   
+                                    <ul>
+                                        <li>Patrick Chesnais : le commissaire Jean Rousseau</li>
+                                        <li>Camille Panonacle : Mariella De Luca</li>
+                                        <li>Manon Bresch : Charlotte Castillon</li>
+                                        <li>Andréa Ferréol : Albina Destouches</li>
+                                        <li>Rufus : Roger Baudouin</li>
+                                        <li>Jean-Michel Fête : Alexandre de Montalembert</li>
+                                        <li>Jean Vocat : Jérôme Laurain</li>
+                                        <li>Antoine Berry-Roger : Gabriel Destouches</li>
+                                        <li>Nicolas Abraham : Franck Zegrani</li>
+                                        <li>Hassam Ghancy : Wassim Terrab</li>
+                                        <li>Michel Bompoil : le substitut du procureur</li>
+                                        <li>Michèle Loubet : Jeanne Destouches</li>
+                                        <li>Frédéric Siuen : François Nguyen</li>
+                                        <li>Marie Courandière : la boulangère</li>
+                                        <li>Cécile Camp : professeur Midant</li>
+                                    </ul>
                                 </div>
                         </div>
                     </ScrollTrigger>
@@ -82,9 +95,13 @@ const L_S_M_S4 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                        <h3 className="white-title">Équipe technique</h3>   
+                            <ul>
+                                <li>Réalisation : Manuel Boursinhac et Gianguido Spinelli</li>
+                                <li>Scénario : Gianguido Spinelli et Gilda Piersanti, d'après le roman Roma enigma de Gilda Piersanti</li>
+                                <li>Musique : Stéphane Moucha</li>
+                                <li>Diffusion : France : 20 octobre 2017 sur France 2</li>
+                            </ul>
                         </div>
                         <img src={noirenigmaWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

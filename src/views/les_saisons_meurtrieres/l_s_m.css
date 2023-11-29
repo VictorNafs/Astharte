@@ -1,3 +1,54 @@
+.bg-image-s-lsm {
+    background-image: url('src/assets/images/fond-rousseau.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.mtwt
+{
+    margin-top: 5%;
+}
+
+.wara-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0F365F;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+    margin-bottom: 15%;
+}
+
+.wara-title:hover {
+    color: #fff;
+}
+
+.wara-syn {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #0F365F;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+.wara-syn:hover {
+    color: #fff;
+}
+
+.white-title {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
 .wara-logo {
     width: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
     height: auto; 
@@ -33,21 +84,25 @@
 }
 
 .btn-previous {
-    display: block;
-    background: linear-gradient(160deg, #a9b7c6, #eef0f2, #a9b7c6);
-    color: #333;
+    display: inline-block;
+    background: #0F365F;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 0;
+    width: calc(100% - 10px); /* prend la moitié de la largeur moins un petit espacement */
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
-    border: 1px solid #89a0ac;  /* Bordure légèrement bleutée */
-    font-size: 16px;  /* Augmentation de la taille de la police */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0D2C4A;
+    font-size: 16px;
     transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 35px;
 }
 
 .btn-previous:hover {
-    background: linear-gradient(160deg, #89a0ac, #dde2e5, #89a0ac);
-    transform: translateY(-3px); /* Effet de "soulèvement" lors du survol */
+    background: #0D2C4A;
+    transform: translateY(-3px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,15 +111,8 @@ p {
     color: white;
 }
 
-.wara-title {
-    font-size: 3rem;
-    text-decoration: underline;
-    margin-bottom: 15px;
-    color: white;
-}
-
 .text-container {
-    margin-top: -150px;
+    margin-top: -175px;
 }
 
 
@@ -281,8 +329,45 @@ p {
     height: auto; 
   }
   
+  .waraRight-textSection ul,
+  .wara-text-left ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style-position: inside;
+}
+
+.waraRight-textSection ul li,
+.wara-text-left ul li {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    box-decoration-break: clone;
+}
+
+/* Optionnel: Ajuster la taille de la police et les espacements pour une meilleure lisibilité */
+.waraRight-textSection ul li,
+.wara-text-left ul li {
+    font-size: 0.95rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Optionnel: Séparateur entre les colonnes */
+.waraRight-textSection ul,
+.wara-text-left ul {
+    column-gap: 40px;
+}
+
 
 @media (max-width: 768px) {
+
+    .wara-title {
+        font-size: 2.4rem;
+        margin-top: 35%;
+    }
 
     .text-container {
         margin-top: 0px;
@@ -318,10 +403,9 @@ p {
         transform: translateX(-9%);  /* Les éléments glissent légèrement de leur position d'origine */
     }
 
-    /* 2. Empiler les blocs */
     .flex-container {
-        flex-direction: column;
         align-items: center;  
+        flex-direction: column-reverse;
     }
 
     /* 3. Ajuster le texte et les photos pour prendre toute la largeur */
@@ -342,8 +426,13 @@ p {
         margin: 5px 0;
     }
 
-    .waraRight-container, .wara-flex-container {
+    .waraRight-container {
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wara-flex-container{
+        flex-direction: column-reverse;
         align-items: flex-start;
     }
 
@@ -355,5 +444,30 @@ p {
     .waraRight-imageStyle, .wara-img-thumbnail {
         margin: 0 auto;
         display: block;
+    }
+    .waraRight-textSection,
+    .wara-text-left {
+        padding: 0 15px;  /* Ajouter un padding pour ne pas coller sur les bords */
+    }
+
+    .waraRight-textSection ul,
+    .wara-text-left ul {
+        columns: 1; /* Passage à une seule colonne pour les petits écrans */
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
+    }
+
+    .waraRight-textSection ul li,
+    .wara-text-left ul li {
+        font-size: 0.85rem; /* Réduction de la taille de police pour les petits écrans */
+        padding-bottom: 0.5rem;
+    }
+    
+    /* Ajustements pour les images si nécessaire */
+    .waraRight-imageStyle,
+    .wara-img-thumbnail {
+        width: 100%; /* Assurez-vous que les images ne débordent pas */
+        height: auto; /* Garder le ratio */
     }
 }

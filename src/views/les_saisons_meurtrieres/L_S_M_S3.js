@@ -30,28 +30,29 @@ const L_S_M_S3 = () => {
     };
 
     return (
-        <CRow className="bg-image-s">
+        <CRow className="bg-image-s-lsm">
             <CCol xs={12}>
                 <div className="container">
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title">Jaune Iris</h1>
-                    <div className="video-button-container">
+                    <h1 className="wara-title mtwt">Jaune Iris</h1>
+                    {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
                         </CButton>
                         <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
                             Site officiel
                         </CButton>
-                    </div>
+                    </div> */}
 
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-title texte">Synopsis</h1>
+                          <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                            Jaune iris est un téléfilm policier français réalisé par Didier Bivel diffusé pour la première fois le 23 octobre 2015 sur France 2.
+                            C'est l'adaptation du roman policier Jaune caravage de Gilda Piersanti1.                            
                             </p>
                             <br></br>
                             <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
@@ -68,10 +69,23 @@ const L_S_M_S3 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={jauneirisWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h1 className="wara-title">WARA</h1>
-                                        <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée...
-                                            Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. 
-                                        </p>
+                                <h3 className="white-title">Équipe technique</h3>   
+                                    <ul>
+                                        <li>Patrick Chesnais : le commissaire Rousseau</li>
+                                        <li>Camille Panonacle : Mariella De Luca</li>
+                                        <li>Natacha Régnier : Katia Ismaïlova</li>
+                                        <li>Catherine Marchal : la commissaire Tristani</li>
+                                        <li>Pierre Kiwitt : Boris</li>
+                                        <li>Bruno López : Borel</li>
+                                        <li>Eric Laugerias : le créateur de mode</li>
+                                        <li>Fabrice Lelyon : Lecanu</li>
+                                        <li>Michel Bompoil : le procureur</li>
+                                        <li>Maryne Bertieaux : Léonore</li>
+                                        <li>Pauline Brisy : Anna Ismaïlova</li>
+                                        <li>Christiane Millet : Delphine Fauvet</li>
+                                        <li>Fabienne Mésenge : Mme Beauregard</li>
+                                        <li>Patrick Médioni : le gérant Amnésium</li>
+                                    </ul>
                                 </div>
                         </div>
                     </ScrollTrigger>
@@ -82,9 +96,18 @@ const L_S_M_S3 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h1 className="wara-title">WARA</h1>
-                                <p> Wara (littéralement « Les Fauves » en bambara2,3) est une série télévisée dramatique politique sénégalo-nigéro-française, créée par Charli Beléteau et diffusée depuis le 10 novembre 2020 sur TV5 Monde. Il s'agit de l'idée originale de Magali Issoufou Sani4.
-      Elle est sélectionnée et projetée au festival Séries Mania en mars 20204. </p>
+                            <h3 className="white-title">Équipe technique</h3>   
+                                <ul>
+                                    <li>Scénario : Gianguido Spinelli et Gilda Piersanti (d'après le roman de Gilda Piersanti)</li>
+                                    <li>Production : Sophie Deloche</li>
+                                    <li>Musique : Nicolas Errèra</li>
+                                    <li>Son : Corinne Rozenberg</li>
+                                    <li>1er assistant du réalisateur : Thierry Lecomte</li>
+                                    <li>2e assistant du réalisateur : Ludovic Ory</li>
+                                    <li>3e assistant du réalisateur : Julie Pintos</li>
+                                    <li>Assistante casting : Sandie Perez</li>
+                                    <li>Diffusion : France : 23 octobre 2015 sur France 2</li>
+                                </ul>
                         </div>
                         <img src={jauneirisWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>

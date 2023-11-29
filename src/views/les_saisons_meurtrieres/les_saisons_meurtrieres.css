@@ -1,13 +1,14 @@
 /* Styles existants */
-.bg-image {
-    background-image: url('src/assets/images/img-wara.jpg');
+.bg-image-lsm {
+    background-image: url('src/assets/images/lsm-p.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1; 
+    height: 100vh;
 }
 
-.bg-image::before {
+.bg-image-lsm::before {
     content: ''; 
     position: absolute; 
     top: 0; 
@@ -28,33 +29,6 @@
     z-index: 2;
 }
 
-.wara-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.lsm {
-    width: 65%;
-    opacity: 0;
-    transform: translateY(calc(-250%));
-    transition: transform 1s, opacity 1s;
-    margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-    .bg-image {
-        height: 100vh;
-    }
-    
-    .lsm {
-        width: 100%;
-        opacity: 0;
-        transform: translateY(calc(-250%));
-        transition: transform 1s, opacity 1s;
-    }
-}
-
 .slide-from-top {
     opacity: 1;
 }
@@ -64,35 +38,23 @@
     opacity: 1;
 }
 
-.wara-buttons {
-    margin-top: 55px;
-    margin-bottom: 50px;
+.buttons-lsm {
+    margin-top: 35%;
+    margin-bottom: 80px;
     display: flex;
-    flex-wrap: wrap; /* permet aux boutons de se mettre sur plusieurs lignes si nécessaire */
-    justify-content: space-between; /* espacement entre les boutons */
+    flex-wrap: wrap; 
+    width: 50%;
+    justify-content: space-between; 
+    width: 100%;
 }
 
-
-
-@media (max-width: 768px) {
-    .wara-button {
-        width: 100%; /* en mode responsive, prend toute la largeur */
-    }
-    .wara-buttons {
-        margin-top: 55px;
-        display: flex;
-        flex-wrap: wrap; /* permet aux boutons de se mettre sur plusieurs lignes si nécessaire */
-        justify-content: space-between; /* espacement entre les boutons */
-    }
-}
-
-.wara-button {
+.button-lsm {
     display: inline-block;
     background: #0F365F;
     color: #fff;
-    padding: 20px 40px;
-    margin: 0;
-    width: calc(50% - 10px); /* prend la moitié de la largeur moins un petit espacement */
+    padding: 15px 20px; 
+    margin: 0 5px; /* ajoute une petite marge pour espacer les boutons */
+    width: calc(25% - 30px); /* ajuste la largeur pour tenir compte de la marge */
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -103,8 +65,19 @@
     margin-bottom: 35px;
 }
 
-.wara-button:hover {
+.button-lsm:hover {
     background: #0D2C4A;
     transform: translateY(-3px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .button-lsm {
+        width: 100%; 
+        margin: 0 0 20px 0; /* réinitialise la marge */
+    }
+    .buttons-lsm {
+        flex-direction: column; 
+        margin-top: 455px;
+    }
 }
