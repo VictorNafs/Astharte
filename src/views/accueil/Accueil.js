@@ -41,10 +41,7 @@ const Accueil = () => {
       background: bgImage3,
       link: '/vestiaires',
       title: 'Vestiaires - Saison 13',
-      text: `Série créée par Adda ABDELLI & Fabrice CHANUT 
-      Réalisée par Fabrice CHANUT, Franck LEBON et Vincent BURGEVIN 
-      Avec Adda ABDELLI, Alexandre PHILIP, Anaïs FABRE, Théo CURIN, Luc RODRIGUEZ, 
-      Jarry, PASCAL LÉGITIMUS`,
+      text: `Diffusée sur France 2 en prime time, rediffusée sur TV5Monde, reprise sur les réseaux sociaux, et bientôt adaptée au Québec, la série « Vestiaires » propose depuis douze ans à ses spectateurs un environnement familier dans lequel le handicap est inclus, l’autodérision bienvenue, et la satire sociale jouissive et tous azimuts.`,
     },
     {
       bg: wara2,

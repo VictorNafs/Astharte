@@ -49,12 +49,13 @@ const L_E_S1 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container-S1 special-text-container">
-                          <h3 className="wara-syn">Synopsis</h3>
+                          <h3 className="wara-syn">Présentation</h3>
                             <p className="text-left text-bg texte">
-                            Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La première saison est co-réalisée par Jules Thénier et Maxime Potherat, la deuxième par Slimane-Baptiste Berhoun.
+                            Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La première saison est co-réalisée par Jules Thénier et Maxime Potherat.
                             La série est coproduite par Astharté & Compagnie et France Télévisions Nouvelles Écritures, et diffusée à l’origine sur la plateforme Studio 4 à partir du 17 mai 2017. Depuis la refonte de l’offre numérique de France Télévisions, Les Engagés est reprise sur France.tv Slash1.
                             </p>
                             <br></br>
+                            <h3 className="wara-syn">Synopsis</h3>
                             <p className="text-left text-bg texte">
                             Le Point G est un Centre LGBT situé à Lyon. Thibaut est un de ses militants les plus actifs, très engagé dans la lutte pour les droits des homosexuels. Son quotidien est soudain bouleversé par le retour dans sa vie d'Hicham, une connaissance qu'il n'avait pas revue depuis des années et qui vient chercher auprès de lui la force de faire son coming-out et de trouver sa véritable identité. Hicham admire le charisme et l'engagement de Thibaut, mais, jeté brusquement au milieu des luttes politiques du Point G, il va rapidement en percevoir les limites et les contradictions…
                             </p>
@@ -88,9 +89,9 @@ const L_E_S1 = () => {
                                     <li>Pierre Cachia : Mickaël</li>
                                     <li>François-Xavier Phan : Liao</li>
                                     <li>Benjamin Mayet : Vincent</li>
-                                    <li>Elodie Colin : Lucie (figuration)</li>
+                                    <li>Elodie Colin : Lucie</li>
                                     <li>Pascal Gilbert : Paul</li>
-                                    <li>Simon Jouannot : JB (nommé Vivien dans la saison 1)</li>
+                                    <li>Simon Jouannot : JB</li>
                                     <li>Anaïs Fabre : Rose</li>
                                     </ul>
                                 </div>
@@ -107,13 +108,12 @@ const L_E_S1 = () => {
                                 <ul>
                                     <li>Créateur : Sullivan Le Postec</li>
                                     <li>Scénario : Sullivan Le Postec</li>
-                                    <li>Réalisation : Jules Thénier et Maxime Potherat (saison 1)</li>
-                                    <li>Slimane-Baptiste Berhoun (saison 2)</li>
+                                    <li>Réalisation : Jules Thénier et Maxime Potherat</li>
                                     <li>Producteurs : Sophie Deloche et Baptiste Rinaldi (Astharté & Compagnie)</li>
                                     <li>Société de production : Astharté et compagnie, France Télévision Nouvelles Écritures</li>
-                                    <li>Directeur de la photographie : Juan Siquot (saison 1), Mathieu Andrieux (saison 2)</li>
-                                    <li>Décors : Thierry Botella (saison 1) , Marie Marine Notte (saison 2)</li>
-                                    <li>Montage : Nathan Delannoy (saisons 1 & 2), Nicolas Lossec (saison 1), Nicolas Bonnet (saison 2)</li>
+                                    <li>Directeur de la photographie : Juan Siquot</li>
+                                    <li>Décors : Thierry Botella</li>
+                                    <li>Montage : Nathan Delannoy, Nicolas Lossec</li>
                                     <li>Musique : Franck Lebon</li>
                                     <li>Casting : Stéphane Gaillard</li>
                                     <li>Pays : Drapeau de la France France</li>

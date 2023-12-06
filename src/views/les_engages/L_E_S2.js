@@ -52,7 +52,7 @@ const L_E_S2 = () => {
                         <div className="text-container-S2 special-text-container">
                           <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                                Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La première saison est co-réalisée par Jules Thénier et Maxime Potherat, la deuxième par Slimane-Baptiste Berhoun.
+                                Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La deuxième saison est réalisée par Slimane-Baptiste Berhoun.
                                 La série est coproduite par Astharté & Compagnie et France Télévisions Nouvelles Écritures, et diffusée à l’origine sur la plateforme Studio 4 à partir du 17 mai 2017. Depuis la refonte de l’offre numérique de France Télévisions, Les Engagés est reprise sur France.tv Slash1.
                             </p>
                                 <br></br>

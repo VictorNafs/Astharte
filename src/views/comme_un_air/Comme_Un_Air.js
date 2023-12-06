@@ -10,13 +10,12 @@ import {
 } from '@coreui/react';
 import { useNavigate } from 'react-router-dom';
 
-import waraWord1 from 'src/assets/images/wara-word.jpg';
-import affichewara1 from 'src/assets/images/affiche-wara1.jpg';
-import waraWord2 from 'src/assets/images/waraword-2.jpg';
-import warabottom1 from 'src/assets/images/waraword3.jpg';
-import warabottom2 from 'src/assets/images/bottom-2.JPG';
-import warabottom3 from 'src/assets/images/bottom-3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
+import commeunairWord1 from 'src/assets/images/commeunair-word1.jpg';
+import affichecommeunair from 'src/assets/images/affiche-comme-un-air.jpg';
+import commeunairWord2 from 'src/assets/images/commeunair-word2.jpg';
+import commeunairbottom1 from 'src/assets/images/commeunair-bottom1.jpg';
+import commeunairbottom2 from 'src/assets/images/commeunair-bottom2.jpg';
+import commeunairbottom3 from 'src/assets/images/commeunair-bottom3.jpg';
 
 const Wara_S1 = () => {
     const navigate = useNavigate();
@@ -58,7 +57,7 @@ const Wara_S1 = () => {
                             Après avoir égratigné le monde de l'entreprise avec le moyen métrage Heureux qui comme Édouard, les réalisateurs Franck Lebon et Vincent Burgevin signent ici une nouvelle comédie musicale déjantée. Compère et acteur fétiche des deux cinéastes, Boris Vigneron y interprète un propriétaire d'aire d'autoroute au grand cœur qui gère avec bienveillance ce petit village gaulois résistant encore à l'envahisseur. Pour lui donner la réplique, la pétillante Maryvette Lair campe le rôle d'une fille à papa potiche, naïve et maladroite, missionnée par son père pour le séduire et le faire plier. Dans la peau de l'industriel machiavélique, Didier Bourdon n'a rien perdu de son pouvoir comique. Une intrigue qui sert de prétexte au duo de réalisateurs pour mettre en scène une galerie de personnages hauts en couleur, au rythme de scènes de comédies musicales décalées, aux faux airs de Broadway.
                             </p>
                       </div>
-                        <img src={affichewara1} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichecommeunair} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
@@ -67,7 +66,7 @@ const Wara_S1 = () => {
                     onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
                     offset={{ top: 50 }}>
                         <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={waraWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
+                            <img src={commeunairWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
                                     <h3 className="white-title">Acteurs principaux</h3>   
                                         <ul>
@@ -110,15 +109,15 @@ const Wara_S1 = () => {
                                 <li>Décors : Marie-Hélène Sulmoni</li>
                             </ul>
                         </div>
-                        <img src={waraWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={commeunairWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={warabottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={warabottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={warabottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom1} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom2} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom3} alt="Wara Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>
