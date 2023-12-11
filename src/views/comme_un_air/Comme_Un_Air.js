@@ -35,7 +35,7 @@ const Wara_S1 = () => {
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Comme Un Air</h1>
+                    <h1 className="wara-title mtwt">Comme Un Air d'Autoroute</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -54,7 +54,7 @@ const Wara_S1 = () => {
                             </p>
                             <br></br>
                             <p className="text-left text-bg texte">
-                            Après avoir égratigné le monde de l'entreprise avec le moyen métrage Heureux qui comme Édouard, les réalisateurs Franck Lebon et Vincent Burgevin signent ici une nouvelle comédie musicale déjantée. Compère et acteur fétiche des deux cinéastes, Boris Vigneron y interprète un propriétaire d'aire d'autoroute au grand cœur qui gère avec bienveillance ce petit village gaulois résistant encore à l'envahisseur. Pour lui donner la réplique, la pétillante Maryvette Lair campe le rôle d'une fille à papa potiche, naïve et maladroite, missionnée par son père pour le séduire et le faire plier. Dans la peau de l'industriel machiavélique, Didier Bourdon n'a rien perdu de son pouvoir comique. Une intrigue qui sert de prétexte au duo de réalisateurs pour mettre en scène une galerie de personnages hauts en couleur, au rythme de scènes de comédies musicales décalées, aux faux airs de Broadway.
+                            Les réalisateurs Franck Lebon et Vincent Burgevin signent ici une nouvelle comédie musicale déjantée, produite par Sophie Deloche et Philippe Braunstein. Boris Vigneron, compère et acteur fétiche des deux cinéastes, y interprète un propriétaire d'aire d'autoroute au grand cœur qui gère avec bienveillance ce petit village gaulois résistant encore à l'envahisseur. Pour lui donner la réplique, la pétillante Maryvette Lair campe le rôle d'une fille à papa potiche, naïve et maladroite, missionnée par son père pour le séduire et le faire plier. Dans la peau de l'industriel machiavélique, Didier Bourdon n'a rien perdu de son pouvoir comique. Une intrigue qui sert de prétexte au duo de réalisateurs pour mettre en scène une galerie de personnages hauts en couleur, au rythme de scènes de comédies musicales décalées, aux faux airs de Broadway.
                             </p>
                       </div>
                         <img src={affichecommeunair} alt="Wara Image 1" className="img-thumbnail-large" />
@@ -98,10 +98,11 @@ const Wara_S1 = () => {
                         <div className="wara-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                             <ul>
+                                <li>Production : Sophie Deloche et Philippe Braunstein</li>
                                 <li>Réalisation : Vincent Burgevin et Franck Lebon</li>
                                 <li>Scénario et dialogues : Jérôme Bruno, Vincent Burgevin, Edgard F. Grima, Franck Lebon, Boris Vigneron et Jean Vocat</li>
                                 <li>Photographie : Marc Romani</li>
-                                <li>Chorégraphies : Sandrine Chaoulli et Julie Ferrier</li>
+                                <li>Chorégraphies : Sandrine Chaoulli</li>
                                 <li>Musique originale : Franck Lebon</li>
                                 <li>Son : Eddy Laurent, Samy Bardet et Thierry Lebon</li>
                                 <li>Montage : Antoine Vareille et Nathan Delannoy</li>

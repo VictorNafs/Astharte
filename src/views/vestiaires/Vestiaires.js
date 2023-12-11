@@ -11,7 +11,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 
 import vestiairesWord1 from 'src/assets/images/vestiaires-word-1.jpg';
-import affichevestiaires12 from 'src/assets/images/affiche-vestiaires12.jpg';
+import affichevestiaires13 from 'src/assets/images/affiche-vestiaires13.jpg';
 import vestiairesWord2 from 'src/assets/images/vestiaires-word-2.jpg';
 import vestiairesbottom1 from 'src/assets/images/vestiaires-bottom-1.jpg';
 import vestiairesbottom2 from 'src/assets/images/vestiaires-bottom-2.jpg';
@@ -79,7 +79,7 @@ const Vestiaires = () => {
                                 </ul>
                             </p>
                       </div>
-                        <img src={affichevestiaires12} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichevestiaires13} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>

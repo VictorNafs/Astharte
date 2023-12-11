@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import './accueil.css'
 
 import lesEngages from 'src/assets/images/img-hor3.jpg'
-import vestiaire12 from 'src/assets/images/vestiaire12.jpg'
+import vestiaire13 from 'src/assets/images/affiche-vestiaires13.jpg'
 import wara from 'src/assets/images/wara.jpg'
 import afficheXaox from 'src/assets/images/affiche-xaox.png'
 import vestAlbum from 'src/assets/images/img-hor2.jpg'
@@ -37,7 +37,7 @@ const Accueil = () => {
     },
     {
       bg: vestAlbum,
-      overlay: vestiaire12,
+      overlay: vestiaire13,
       background: bgImage3,
       link: '/vestiaires',
       title: 'Vestiaires - Saison 13',
