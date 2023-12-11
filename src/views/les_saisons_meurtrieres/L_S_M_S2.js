@@ -117,7 +117,7 @@ const L_S_M_S2 = () => {
                                 <li>Chef opérateur son : Bernard Bats</li>
                                 <li>1er assistant réalisateur : Franck Delpech</li>
                                 <li>Directrice de casting : Françoise Menidrey</li>
-                                <li>Responsable figuration : Michel Carliez</li>
+                                <li>Chef décorateur : Eric Durringer</li>
                             </ul>
                         </div>
                         <img src={bleucatacombeWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

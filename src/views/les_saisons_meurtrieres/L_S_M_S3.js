@@ -69,7 +69,7 @@ const L_S_M_S3 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={jauneirisWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Rousseau</li>
                                         <li>Camille Panonacle : Mariella De Luca</li>
@@ -96,17 +96,18 @@ const L_S_M_S3 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h3 className="white-title">Équipe technique</h3>   
+                            <h3 className="white-title">Équipe artistique et technique</h3>   
                                 <ul>
+                                    <li>Réalisation : Didier Bivel</li>
                                     <li>Scénario : Gianguido Spinelli et Gilda Piersanti (d'après le roman de Gilda Piersanti)</li>
                                     <li>Production : Sophie Deloche</li>
                                     <li>Musique : Nicolas Errèra</li>
-                                    <li>Son : Corinne Rozenberg</li>
+                                    <li>Directeur de production : Jacques Bontoux</li>
+                                    <li>Directeur de la photographie : Marc Falchier</li>
+                                    <li>Chef opérateur son : Corinne Rozenberg</li>
                                     <li>1er assistant du réalisateur : Thierry Lecomte</li>
-                                    <li>2e assistant du réalisateur : Ludovic Ory</li>
-                                    <li>3e assistant du réalisateur : Julie Pintos</li>
-                                    <li>Assistante casting : Sandie Perez</li>
-                                    <li>Diffusion : France : 23 octobre 2015 sur France 2</li>
+                                    <li>Directrice de casting : Françoise Menidrey</li>
+                                    <li>Chef décorateur : Eric Durringer</li>
                                 </ul>
                         </div>
                         <img src={jauneirisWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
