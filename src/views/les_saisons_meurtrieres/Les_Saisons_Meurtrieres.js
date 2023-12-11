@@ -9,16 +9,16 @@ const Les_Saisons_Meurtrieres = () => {
       <CCol xs={12} className="content-center">
         <div className="buttons-lsm">
           <Link to="/les_saisons_meurtrieres/saison1" className="button-lsm">
-            Découvrir la saison 1
+            Hiver Rouge
           </Link>
           <Link to="/les_saisons_meurtrieres/saison2" className="button-lsm">
-            Découvrir la saison 2
+            Bleu Catacombes
           </Link>
           <Link to="/les_saisons_meurtrieres/saison3" className="button-lsm">
-            Découvrir la saison 3
+            Jaune Iris
           </Link>
           <Link to="/les_saisons_meurtrieres/saison4" className="button-lsm">
-            Découvrir la saison 4
+            Noir Enigma
           </Link>
         </div>
       </CCol>

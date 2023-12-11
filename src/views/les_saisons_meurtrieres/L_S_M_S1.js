@@ -69,7 +69,7 @@ const L_S_M_S1 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={hiverrougeWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Acteurs récurrents</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Rousseau</li>
                                         <li>Camille Panonacle : Mariella De Luca, la profileuse</li>
@@ -99,16 +99,17 @@ const L_S_M_S1 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
+                                <li>Réalisation : Xavier Durringer</li>
                                 <li>Scénario : Gianguido Spinelli et Gilda Piersanti (d'après le roman de Gilda Piersanti)</li>
                                 <li>Production : Sophie Deloche</li>
                                 <li>Musique : Siegfried</li>
+                                <li>Directeur de production : Pascal Storennat</li>
                                 <li>Directeur de la photographie : Manuel Téran</li>
                                 <li>Chef opérateur son : Madone Charpall</li>
                                 <li>1re assistante réalisateur : Ambre Valade</li>
                                 <li>Directrice de casting : Françoise Menidrey</li>
-                                <li>Responsable figuration : Stéphane Chemin</li>
                                 <li>Scripte : Véronique Heuchenne</li>
                                 <li>Chef décorateur : Éric Durringer</li>
                             </ul>

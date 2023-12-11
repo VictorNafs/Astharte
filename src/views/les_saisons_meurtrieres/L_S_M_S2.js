@@ -70,7 +70,7 @@ const L_S_M_S2 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={bleucatacombeWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Rousseau</li>
                                         <li>Camille Panonacle : Mariella De Luca</li>
@@ -106,13 +106,16 @@ const L_S_M_S2 = () => {
                     offset={{ top: 200 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
+                                <li>Réalisation : Charlotte Branström</li>
                                 <li>Scénario : Gianguido Spinelli et Gilda Piersanti (d'après le roman de Gilda Piersanti)</li>
                                 <li>Production : Sophie Deloche</li>
                                 <li>Musique : Frans Bak</li>
-                                <li>Son : Bernard Bats</li>
-                                <li>1er assistant de la réalisatrice : Franck Delpech</li>
+                                <li>Directeur de production : Pascal Metge</li>
+                                <li>Directeur de la photographie : Pascal Gennesseaux</li>
+                                <li>Chef opérateur son : Bernard Bats</li>
+                                <li>1er assistant réalisateur : Franck Delpech</li>
                                 <li>Directrice de casting : Françoise Menidrey</li>
                                 <li>Responsable figuration : Michel Carliez</li>
                             </ul>
