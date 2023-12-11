@@ -104,19 +104,18 @@ const L_E_S1 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                            <h3 className="white-title">Équipe technique</h3>   
+                            <h3 className="white-title">Équipe artistique et technique</h3>   
                                 <ul>
-                                    <li>Créateur : Sullivan Le Postec</li>
-                                    <li>Scénario : Sullivan Le Postec</li>
+                                    <li>Créateur de la série : Sullivan Le Postec</li>
                                     <li>Réalisation : Jules Thénier et Maxime Potherat</li>
+                                    <li>Scénario : Sullivan Le Postec</li>
                                     <li>Producteurs : Sophie Deloche et Baptiste Rinaldi (Astharté & Compagnie)</li>
-                                    <li>Société de production : Astharté et compagnie, France Télévision Nouvelles Écritures</li>
+                                    <li>Musique : Franck Lebon</li>
                                     <li>Directeur de la photographie : Juan Siquot</li>
+                                    <li>Directeur de production : Jacques Bontoux</li>
                                     <li>Décors : Thierry Botella</li>
                                     <li>Montage : Nathan Delannoy, Nicolas Lossec</li>
-                                    <li>Musique : Franck Lebon</li>
                                     <li>Casting : Stéphane Gaillard</li>
-                                    <li>Pays : Drapeau de la France France</li>
                                 </ul>
                         </div>
                         <img src={S1lesengagesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
