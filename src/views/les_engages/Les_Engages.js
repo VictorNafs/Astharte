@@ -9,13 +9,13 @@ const Les_Engages = () => {
       <CCol xs={12} className="content-center">
         <div className="buttons-le">
           <Link to="/les_engages/saison1" className="button-le">
-            Découvrir la saison 1
+            Les Engagés Saison 1
           </Link>
           <Link to="/les_engages/saison2" className="button-le">
-            Découvrir la saison 2
+            Les Engagés Saison 2
           </Link>
           <Link to="/les_engages/saison3" className="button-le">
-            Découvrir la saison 3
+            Les Engagés XAOC
           </Link>
         </div>
       </CCol>
