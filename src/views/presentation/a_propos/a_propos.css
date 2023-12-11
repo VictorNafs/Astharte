@@ -5,14 +5,17 @@
 
 .team-members-container {
     display: flex;
-    overflow-x: auto; /* Permet le défilement horizontal si les membres ne tiennent pas tous sur l'écran */
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
 }
 
 .team-member {
+    width: 100%; /* Assurez-vous que chaque membre utilise toute la largeur */
     display: flex;
-    flex-direction: column; /* Pour aligner l'image et le texte verticalement */
-    align-items: center;
-    margin-right: 20px; /* Espace entre les membres de l'équipe */
+    flex-direction: column; /* Alignez les éléments du membre de l'équipe en colonne */
+    align-items: center; /* Centre les éléments à l'intérieur de chaque membre de l'équipe */
+    margin-bottom: 20px;
 }
 
 .team-photo {

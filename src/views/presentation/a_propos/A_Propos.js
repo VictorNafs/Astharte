@@ -33,9 +33,9 @@ const A_Propos = () => {
             { src: bossImage, alt: "Mme. Astharte", name: "SOPHIE DELOCHE", title: "Productrice et Gérante" },
             { src: assistant, alt: "Max", name: "MAXIME HERVOUET", title: "Chargé de développement et de production", description: "maxime@astharte.com" },
             { src: assistantprod, alt: "Mandy", name: "MANDY GELPI", title: "Assistante de production", description: "mandy@astharte.com" },
-            { src: alternante, alt: "Tara", name: "TARA CONSTANTIN WASTIAUX", title: "Alternante assistanat de production et de développement", description: "tara@astharte.com" },
-            { src: comptable, alt: "Christine", name: "CHRISTINE CUSTODIO", title: "Comptable", description: "christine@astharte.com" }
-        ].map(member => (
+            { src: comptable, alt: "Christine", name: "CHRISTINE CUSTODIO", title: "Comptable", description: "christine@astharte.com" },
+            { src: alternante, alt: "Tara", name: "TARA CONSTANTIN WASTIAUX", title: "Alternante assistanat de production et de développement", description: "tara@astharte.com" }
+          ].map(member => (
             <div className="team-member mb-4" key={member.name}>
                 <CImage src={member.src} alt={member.alt} className="team-photo mr-4" width={100} />
                 <div>
