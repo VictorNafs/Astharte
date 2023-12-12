@@ -14,9 +14,8 @@ import S3lesengagesWord1 from 'src/assets/images/S3-les-engages-word-1.jpg';
 import affichele3 from 'src/assets/images/affiche-l-e3.jpeg';
 import S3lesengagesWord2 from 'src/assets/images/S3-les-engages-word-2.jpg';
 import S3lesengagesbottom1 from 'src/assets/images/S3-les-engages-bottom-1.jpg';
-import S3lesengagesbottom2 from 'src/assets/images/S3-les-engages-bottom-2.jpg';
+import S3lesengagesbottom2 from 'src/assets/images/xaoc-bottom-2.jpg';
 import S3lesengagesbottom3 from 'src/assets/images/S3-les-engages-bottom-3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_E_S3 = () => {
     const navigate = useNavigate();
@@ -77,7 +76,7 @@ const L_E_S3 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={S3lesengagesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Mehdi MESKAR</li>
                                         <li>Eric PUCHEU</li>
@@ -101,8 +100,13 @@ const L_E_S3 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                                     <ul>
+                                        <li>Créateur de la série : Sullivan Le Postec</li>
+                                        <li>Réalisation : Sullivan Le Postec et William Samaha</li>
+                                        <li>Scenario : Sullivan Le Postec</li>
+                                        <li>Producteurs : Sophie Deloche et Baptiste Rinaldi (Astharté & Compagnie)</li>
+                                        <li>Musique originale : Franck LEBON</li>
                                         <li>Directeur de production : Noël MAGIS </li>
                                         <li>Directeur de la photographie : Matthieu ANDRIEUX</li>
                                         <li>Chef opérateur du son : David FERRAL</li>

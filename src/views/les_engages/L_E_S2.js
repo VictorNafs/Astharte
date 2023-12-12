@@ -76,7 +76,7 @@ const L_E_S2 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={S2lesengagesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Mehdi MESKAR</li>
                                         <li>Eric PUCHEU</li>
@@ -99,14 +99,19 @@ const L_E_S2 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                                     <ul>
+                                        <li>Créateur de la série : Sullivan Le Postec</li>
+                                        <li>Réalisation : Slimane Baptiste Berhoun</li>
+                                        <li>Scenario : Sullivan Le Postec</li>
+                                        <li>Producteurs : Sophie Deloche et Baptiste Rinaldi (Astharté & Compagnie)</li>
+                                        <li>Musique originale : Franck LEBON</li>
                                         <li>Directeur de production : Jacques BONTOUX</li>
                                         <li>Directeur de la photographie : Matthieu ANDRIEUX</li>
                                         <li>Chef opérateur du son : Marco PASCAL </li>
                                         <li>1er assistant réalisateur : Ronnie Franco</li>
-                                        <li>Scripte : Pascale RENAUD </li>
                                         <li>Directeur de casting & coach : Stéphane GAILLARD </li>
+                                        <li>Scripte : Pascale RENAUD </li>
                                         <li>Chef décorateur : Marie Marine NOTTE</li>
                                         <li>Cheffe costumière : Julia FOUROUX </li>
                                         <li>Cheffe maquilleuse / coiffeuse : Faustina DE SOUSA </li>
@@ -115,7 +120,6 @@ const L_E_S2 = () => {
                                         <li>Chefs monteurs image : Nathan DELANNOY & Nicolas BONNET</li>
                                         <li>Etalonneur : Nicolas LOSSEC</li>
                                         <li>Chef monteur son / Mixeur : Charli CIRCUS </li>
-                                        <li>Musique originale : Franck LEBON</li>
                                     </ul>
                         </div>
                         <img src={S2lesengagesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

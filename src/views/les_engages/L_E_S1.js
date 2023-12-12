@@ -113,9 +113,9 @@ const L_E_S1 = () => {
                                     <li>Musique : Franck Lebon</li>
                                     <li>Directeur de la photographie : Juan Siquot</li>
                                     <li>Directeur de production : Jacques Bontoux</li>
-                                    <li>Décors : Thierry Botella</li>
-                                    <li>Montage : Nathan Delannoy, Nicolas Lossec</li>
-                                    <li>Casting : Stéphane Gaillard</li>
+                                    <li>Chef décorateur : Thierry Botella</li>
+                                    <li>Chefs monteurs : Nathan Delannoy, Nicolas Lossec</li>
+                                    <li>Directeur de casting : Stéphane Gaillard</li>
                                 </ul>
                         </div>
                         <img src={S1lesengagesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
