@@ -91,7 +91,7 @@ const Vestiaires = () => {
     <div className={`waraRight-container ${imageClass2}`}>
         <img src={vestiairesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
         <div className="waraRight-textSection text-bg">
-        <h3 className="white-title">Équipe Artistique</h3>   
+        <h3 className="white-title">Équipe artistique et technique</h3>   
                 <ul>
                     <li>Une création de Adda Abdelli et Fabrice Chanut</li>
                     <li>Scénario de Adda Abdelli, Fabrice Chanut, Franck Lebon, Virginie Peignien, Yanik Vabre, Loïc Nicoloff, Céline Boidin, Cyrille Latour et Nathan Delanoy</li>

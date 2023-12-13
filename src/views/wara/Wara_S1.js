@@ -77,7 +77,7 @@ const Wara_S1 = () => {
     <div className={`waraRight-container ${imageClass2}`}>
         <img src={waraWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
         <div className="waraRight-textSection text-bg">
-            <h3 className="white-title">Équipe technique</h3>   
+            <h3 className="white-title">Équipe artistique et technique</h3>   
                 <ul>
                     <li>Création : Charli Beléteau</li>
                     <li>Réalisation : Oumar Diack et Toumani Sangaré</li>

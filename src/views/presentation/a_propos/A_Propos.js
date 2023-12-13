@@ -14,14 +14,30 @@ const A_Propos = () => {
   return (
     <>
       <CCard className="mb-4">
-        <CCardHeader>À propos d'Astharte</CCardHeader>
+        <CCardHeader>À propos d'Astharté</CCardHeader>
         <CCardBody>
-            Après avoir travaillé de nombreuses années en cinéma et télévision, avec de grands noms de 
-            notre métier, tels Francesca Comencini, Maurice Failevic, Jean-Claude Carrière, Serge Moati, Pierre 
-            Schoeller ou encore Christophe Honoré, Sophie Deloche crée sa propre structure en 2007.       
-          <br></br><br></br>
-            Avec ASTHARTÉ & COMPAGNIE, Sophie fait le choix de défendre des projets singuliers, aux 
-            univers forts, portés par le quatuor scénariste – réalisateur – acteur – producteur.   
+        Astharté & cie est une société indépendante de production de films de fiction tous formats, tous
+        genres, tous styles.
+        <br></br> <br></br>
+        Astharté & cie produit des séries, en 90’, en 45‘, en 3’ et des unitaires sur de multiples sujets.
+        On peut tout raconter, tous les sujets sont possibles, dans le respect de nos contemporains, en
+        nous mettant, grâce à la fiction, en empathie avec les protagonistes pour nous proposer un autre
+        regard, un autre point de vue sur un sujet.
+        Le champ des possibles est vaste quand on aime découvrir des histoires qui nous emmènent
+        dans tous types de narration, du moment que la petite histoire nous touche et nous ramène à
+        l’universel.
+        <br></br> <br></br>
+        Astharté & cie c’est aussi l’association avec des co-producteurs - Philippe Braunstein -Avalon ;
+        Maria Sério - Magnolia ; Mbatio Diaw Ndiaye - Raes production. Nous associons nos forces
+        pour faire exister des projets coups de cœur.
+        <br></br> <br></br>
+        Astharté & cie c’est aussi toute une équipe ; des productions partagées pendant de
+        nombreuses années avec Baptiste Rinaldi et à présent avec Maxime Hervouet.
+        C’est un suivi rigoureux de l’administration de production par Christine Custudio. Et une
+        organisation et un accueil attentif de Mandy Gelpi.
+        <br></br> <br></br>
+        Avec Astharté & cie, Sophie Deloche fait le choix de défendre des projets singuliers, aux
+        univers forts, portés par le quatuor scénariste – réalisateur – acteur – producteur.       
         </CCardBody>
       </CCard>
 

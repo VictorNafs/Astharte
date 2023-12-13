@@ -68,7 +68,7 @@ const Wara_S1 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={commeunairWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                    <h3 className="white-title">Acteurs principaux</h3>   
+                                    <h3 className="white-title">Acteurs</h3>   
                                         <ul>
                                             <li>Boris Vigneron : Peter</li>
                                             <li>Maryvette Lair : Marie</li>
@@ -96,7 +96,7 @@ const Wara_S1 = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
                                 <li>Production : Sophie Deloche et Philippe Braunstein</li>
                                 <li>Réalisation : Vincent Burgevin et Franck Lebon</li>

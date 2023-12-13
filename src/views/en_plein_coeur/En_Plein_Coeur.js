@@ -16,7 +16,6 @@ import enpleincoeurWord2 from 'src/assets/images/en-plein-coeur-word-2.jpg';
 import enpleincoeurbottom1 from 'src/assets/images/en-plein-coeur-bottom-1.jpg';
 import enpleincoeurbottom2 from 'src/assets/images/en-plein-coeur-bottom-2.jpg';
 import enpleincoeurbottom3 from 'src/assets/images/en-plein-coeur-bottom-3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const En_Plein_Coeur = () => {
     const navigate = useNavigate();
@@ -80,7 +79,7 @@ const En_Plein_Coeur = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={enpleincoeurWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Fatou N’DIAYE</li>
                                         <li>Annie GREGORIO</li>
@@ -110,7 +109,7 @@ const En_Plein_Coeur = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                                 <ul>
                                     <li>Directrice de production Astharté : Sophie COUECOU</li>
                                     <li>Directrice de production : Brigitte CHAUSSADE</li>

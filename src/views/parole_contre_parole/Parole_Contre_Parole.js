@@ -78,7 +78,7 @@ const Parole_Contre_Parole = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={parolecontreparoleWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Équipe technique</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Elsa LUNGHINI</li>
                                         <li>François VINCENTELLI</li>
@@ -108,7 +108,7 @@ const Parole_Contre_Parole = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe technique</h3>   
+                        <h3 className="white-title">Équipe artistique et technique</h3>   
                                     <ul>
                                         <li>Directeur de production : Pierre DUFOUR </li>
                                         <li>Directeur de la photographie : Marc Falchier</li>
