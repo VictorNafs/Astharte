@@ -16,7 +16,6 @@ import bleucatacombeWord2 from 'src/assets/images/bleucatacombeword2.jpg';
 import bleucatacombebottom1 from 'src/assets/images/bleucatacombebottom1.jpg';
 import bleucatacombebottom2 from 'src/assets/images/bleucatacombebottom2.jpg';
 import bleucatacombebottom3 from 'src/assets/images/bleucatacombebottom3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_S_M_S2 = () => {
     const navigate = useNavigate();

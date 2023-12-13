@@ -16,7 +16,6 @@ import jauneirisWord2 from 'src/assets/images/jauneirisword2.jpg';
 import jauneirisbottom1 from 'src/assets/images/jauneirisbottom1.jpg';
 import jauneirisbottom2 from 'src/assets/images/jauneirisbottom2.jpg';
 import jauneirisbottom3 from 'src/assets/images/jauneirisbottom3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_S_M_S3 = () => {
     const navigate = useNavigate();

@@ -21,6 +21,7 @@ import affichevestiaires9 from 'src/assets/images/affiche-vestiaires9.jpg'
 import affichevestiaires10 from 'src/assets/images/affiche-vestiaires10.jpg'
 import affichevestiaires11 from 'src/assets/images/affiche-vestiaires11.jpg'
 import affichevestiaires12 from 'src/assets/images/affiche-vestiaires12.jpg'
+import affichevestiaires13 from 'src/assets/images/affiche-vestiaires13.jpg'
 import affichelesengages1 from 'src/assets/images/affiche-l-e1.jpg'
 import affichelesengages2 from 'src/assets/images/affiche-l-e2.jpg'
 import affichelesengages3 from 'src/assets/images/affiche-xaox.png'
@@ -162,6 +163,9 @@ const Catalogues = () => {
           </Link>
           <Link to="/vestiaires">
           <DraggableImage src={affichevestiaires12} alt="Vestiaires 12" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrpy" />
+          </Link>
+          <Link to="/vestiaires">
+          <DraggableImage src={affichevestiaires13} alt="Vestiaires 13" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrpy" />
           </Link>
           <DropZoneComponent />
         </div>

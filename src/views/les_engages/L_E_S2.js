@@ -16,7 +16,6 @@ import S2lesengagesWord2 from 'src/assets/images/S2-les-engages-word-2.jpg';
 import S2lesengagesbottom1 from 'src/assets/images/S2-les-engages-bottom-1.jpg';
 import S2lesengagesbottom2 from 'src/assets/images/S2-les-engages-bottom-2.JPG';
 import S2lesengagesbottom3 from 'src/assets/images/S2-les-engages-bottom-3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_E_S2 = () => {
     const navigate = useNavigate();

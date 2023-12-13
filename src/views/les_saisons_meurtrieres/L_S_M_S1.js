@@ -16,7 +16,6 @@ import hiverrougeWord2 from 'src/assets/images/hiverrougeword2.jpg';
 import hiverrougebottom1 from 'src/assets/images/hiverrougebottom1.jpg';
 import hiverrougebottom2 from 'src/assets/images/hiverrougebottom2.jpg';
 import hiverrougebottom3 from 'src/assets/images/hiverrougebottom3.jpg';
-import LogoWara from 'src/assets/images/logo-wara.png';
 
 const L_S_M_S1 = () => {
     const navigate = useNavigate();
