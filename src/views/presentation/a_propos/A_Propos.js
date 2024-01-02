@@ -17,14 +17,10 @@ const A_Propos = () => {
         <CCardHeader>À propos d'Astharté</CCardHeader>
         <CCardBody>
         Astharté & cie est une société indépendante de production de films de fiction tous formats, tous
-        genres, tous styles.
-        <br></br> <br></br>
-        Astharté & cie produit des séries, en 90’, en 45‘, en 3’ et des unitaires sur de multiples sujets.
+        genres, tous styles. Nous produisons des séries, en 90’, en 45‘, en 3’ et des unitaires sur de multiples sujets.
         On peut tout raconter, tous les sujets sont possibles, dans le respect de nos contemporains, en
         nous mettant, grâce à la fiction, en empathie avec les protagonistes pour nous proposer un autre
-        regard, un autre point de vue sur un sujet.
-        Le champ des possibles est vaste quand on aime découvrir des histoires qui nous emmènent
-        dans tous types de narration, du moment que la petite histoire nous touche et nous ramène à
+        regard, un autre point de vue sur un sujet, du moment que la petite histoire nous touche et nous ramène à
         l’universel.
         <br></br> <br></br>
         Astharté & cie c’est aussi l’association avec des co-producteurs - Philippe Braunstein -Avalon ;
@@ -46,11 +42,11 @@ const A_Propos = () => {
     <CCardBody>
     <div className="team-members-container">
         {[
-            { src: bossImage, alt: "Mme. Astharte", name: "SOPHIE DELOCHE", title: "Productrice et Gérante" },
-            { src: assistant, alt: "Max", name: "MAXIME HERVOUET", title: "Chargé de développement et de production", description: "maxime@astharte.com" },
-            { src: assistantprod, alt: "Mandy", name: "MANDY GELPI", title: "Assistante de production", description: "mandy@astharte.com" },
-            { src: comptable, alt: "Christine", name: "CHRISTINE CUSTODIO", title: "Comptable", description: "christine@astharte.com" },
-            { src: alternante, alt: "Tara", name: "TARA CONSTANTIN WASTIAUX", title: "Alternante assistanat de production et de développement", description: "tara@astharte.com" }
+            { src: bossImage, alt: "Mme. Astharte", name: "Sophie Deloche", title: "Productrice et Gérante" },
+            { src: assistant, alt: "Max", name: "Maxime Hervouet", title: "Chargé de développement et de production", description: "maxime@astharte.com" },
+            { src: assistantprod, alt: "Mandy", name: "Mandy Gelpi", title: "Assistante de production", description: "mandy@astharte.com" },
+            { src: comptable, alt: "Christine", name: "Christine Custodio", title: "Administratrice de production", description: "christine@astharte.com" },
+            { src: alternante, alt: "Tara", name: "Tara Constantin Wastiaux", title: "Alternante assistanat de production et de développement", description: "tara@astharte.com" }
           ].map(member => (
             <div className="team-member mb-4" key={member.name}>
                 <CImage src={member.src} alt={member.alt} className="team-photo mr-4" width={100} />

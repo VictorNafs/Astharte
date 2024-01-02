@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel'
 import './accueil.css'
@@ -55,34 +56,78 @@ const Accueil = () => {
     },
   ]
   return (
-    <div className="container-fluid mt-5">
-      <Carousel fade interval={2000} pause={false} indicators={false}>
-        {images.map((img, idx) => (
-          <Carousel.Item
-            key={idx}
-            onClick={() => handleCarouselClick(img.link)}
-            style={{
-              backgroundImage: `url(${img.background})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center center',
-              cursor: 'pointer',
-            }}
-          >
-            <img className="d-block" src={img.bg} alt="Background slide" />
-            <img className="sharp-image" src={img.overlay} alt="Overlay slide" />
-            <div className="carousel-text">
-              <h3>{img.title}</h3>
-              <p>{img.text}</p>
-            </div>
-            <Carousel.Caption>
-              {/* <h5>Titre {idx + 1}</h5>
-              <p>Description {idx + 1}</p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-        ))}
-      </Carousel>
-    </div>
-  )
+    <>
+<Helmet>
+    <title>Astharté & Compagnie - Production de Films de Fiction</title>
+    <meta name="description" content="Astharté & cie est une société indépendante de production de films de fiction, produisant des séries et des unitaires dans tous formats, genres et styles. Nous apportons un regard neuf et empathique sur divers sujets, en collaboration avec des co-producteurs renommés et une équipe dédiée à la création de projets coups de cœur." />
+    <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
+    <meta name="author" content="Astharté & Compagnie" />
+    
+    {/* Open Graph Tags */}
+    <meta property="og:title" content="Astharté & Compagnie - Production de Films de Fiction" />
+    <meta property="og:description" content="Astharté & cie est une société indépendante de production de films de fiction, produisant des séries et des unitaires dans tous formats, genres et styles." />
+    <meta property="og:url" content="https://www.votresite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.votresite.com/A.png" />
+    
+    {/* Twitter Card Tags */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Astharté & Compagnie - Production de Films de Fiction" />
+    <meta name="twitter:description" content="Astharté & cie est une société indépendante de production de films de fiction, produisant des séries et des unitaires dans tous formats, genres et styles." />
+    <meta name="twitter:image" content="https://www.votresite.com/A.png" />
+
+    {/* Schema.org JSON-LD */}
+    <script type="application/ld+json">
+        {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Astharté & Compagnie",
+            "url": "https://astharte.com",
+            "logo": "https://astharte.com/A.png",
+            "sameAs": [
+                // URLs de vos profils de réseaux sociaux
+            ]
+        })}
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="google-site-verification" content="mMNhVTW3jnrjJYd-SSDHdaGgvrf1AOCLnWNbcwBDlEw" />
+</Helmet>
+
+
+
+
+        <div className="container-fluid mt-5">
+            <Carousel fade interval={2000} pause={false} indicators={false}>
+                {images.map((img, idx) => (
+                    <Carousel.Item
+                        key={idx}
+                        onClick={() => handleCarouselClick(img.link)}
+                        style={{
+                            backgroundImage: `url(${img.background})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center center',
+                            cursor: 'pointer',
+                        }}
+                    >
+                        <img className="d-block" src={img.bg} alt="Background slide" />
+                        <img className="sharp-image" src={img.overlay} alt="Overlay slide" />
+                        <div className="carousel-text">
+                            <h3>{img.title}</h3>
+                            <p>{img.text}</p>
+                        </div>
+                        <Carousel.Caption>
+                            {/* Contenu de Carousel.Caption si nécessaire */}
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+        </div>
+    </>
+);
 }
 
-export default Accueil
+export default Accueil;

@@ -9,10 +9,10 @@ const Wara = () => {
       <CCol xs={12} className="content-center">
         <div className="buttons-w">
           <Link to="/wara/saison1" className="button-w">
-            Découvrir la saison 1
+            WARA Et si demain - Saison 1
           </Link>
           <Link to="/wara/saison2" className="button-w">
-            Découvrir la saison 2
+            WARA La déstinée dAïcha - Saison 2
           </Link>
         </div>
       </CCol>

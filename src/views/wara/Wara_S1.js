@@ -38,10 +38,10 @@ const Wara_S1 = () => {
                     <h1 className="wara-title mtwt">WARA</h1>
                     <h3 className="wara-title-h3">Et Si Demain</h3>
                     <div className="video-button-container">
-                        <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
+                        <CButton color="link" className="mr-3 video-button" onClick={() => window.open('https://www.youtube.com/@WaraLaSerie', '_blank')}>
                             Voir la vidéo
                         </CButton>
-                        <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
+                        <CButton color="link" className="ml-3 video-button" onClick={() => window.open('https://wara-laserie.com/', '_blank')}>
                             Site officiel
                         </CButton>
                     </div>
@@ -54,8 +54,7 @@ const Wara_S1 = () => {
                             À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
                             </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.</p>
-                            <h3 className="wara-syn">Acteurs principaux</h3>
+                            <h3 className="white-title">Acteurs principaux</h3>
                             <p className="text-left text-bg texte">
                             <ul>
                                 <li>Issaka Sawadogo : Moutari Wara</li>
@@ -77,15 +76,13 @@ const Wara_S1 = () => {
     <div className={`waraRight-container ${imageClass2}`}>
         <img src={waraWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
         <div className="waraRight-textSection text-bg">
-            <h3 className="white-title">Équipe artistique et technique</h3>   
+            <h3 className="white-title">Équipe artistique</h3>   
                 <ul>
-                    <li>Création : Charli Beléteau</li>
-                    <li>Réalisation : Oumar Diack et Toumani Sangaré</li>
-                    <li>Création : Charli Beléteau, d'après l'idée originale de Magali Issoufou Sani4</li>
-                    <li>Réalisation : Oumar Diack et Toumani Sangaré4</li>
-                    <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko4</li>
-                    <li>Musique : Franck Lebon4</li>
-                    <li>Costumes : Mariam Diop</li>
+                    <li>Création : Charli Beléteau, d'après une idée originale de Magagi Issoufou Sani</li>
+                    <li>Production : Sophie Deloche, Mbathio Diaw Ndiaye, Magagi Issoufou Sani, Alexandre Rideau et Baptiste Rinaldi</li>
+                    <li>Réalisation : Toumani Sangaré et Oumar Diack</li>
+                    <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko</li>
+                    <li>Musique : Franck Lebon</li>
                 </ul>
         </div>
     </div>
@@ -100,13 +97,12 @@ const Wara_S1 = () => {
                             <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Photographie : Nourou Sarr</li>
-                                    <li>Son : Clément Maléo et Hamza Ouhbi</li>
-                                    <li>Montage : Nicolas Bonnet et Sarah Chartier</li>
+                                    <li>Chef opérateur son : Clément Maléo et Hamza Ouhbi</li>
+                                    <li>Chefs monteurs : Nicolas Bonnet et Sarah Chartier</li>
                                     <li>Montage Son : Jf Viguié et Romain Le bras</li>
                                     <li>Mixage : Benjamin Cabaj</li>
-                                    <li>Production : Sophie Deloche, Mbathio Diaw, Magagi Issoufou, Alexandre Rideau et Baptiste Rinaldi</li>
-                                    <li>Sociétés de production : MJP Productions (Niger), Astharté & Compagnie (France) et Raes Production (Sénégal)3,4 en co-production avec TV5 Monde</li>
-                                    <li>Pays d'origine : France / Niger / Sénégale</li>
+                                    <li>Sociétés de production : MJP Productions (Niger), Astharté & Compagnie (France), Raes Production (Sénégal) et en co-production avec TV5 Monde</li>
+                                    <li>Pays d'origine : France / Niger / Sénégal</li>
                                 </ul>
                         </div>
                         <img src={waraWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

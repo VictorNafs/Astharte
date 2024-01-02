@@ -57,7 +57,7 @@ const En_Plein_Coeur = () => {
                             pairs sera une épreuve délicate pour nos deux enquêtrices… Être flic, pour le meilleur et pour 
                             le pire.                            </p>
                             <br></br>
-                            <h3 className="wara-syn">Acteurs principaux</h3>
+                            <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
                             <ul>
                                 <li>Réalisé par Bruno GARCIA</li> 
@@ -81,23 +81,23 @@ const En_Plein_Coeur = () => {
                                 <div className="waraRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
-                                        <li>Fatou N’DIAYE</li>
-                                        <li>Annie GREGORIO</li>
-                                        <li>Sam KARMANN</li>
-                                        <li>Alexandre BRASSEUR</li>
-                                        <li>Léa LEVIANT</li>
-                                        <li>Stéphane DEBAC</li>
-                                        <li>Sophie LETELLIER</li>
-                                        <li>Perkins LYAUTEY</li>
-                                        <li>Baptiste GONTHIER</li>
-                                        <li>Lawrence DAVIS</li>
-                                        <li>Marion TRAGER</li>
-                                        <li>Oscar ZOUZOUT</li>
-                                        <li>Cédric LEFFRAY</li>
-                                        <li>Max GELLER</li>
-                                        <li>Brigitte AUBRY</li>
-                                        <li>Jean CORDIER</li>
-                                        <li>avec la participation d’Annick BLANCHETEAU</li>
+                                        <li>Fatou N’Diaye</li>
+                                        <li>Annie Gregorio</li>
+                                        <li>Sam Karmann</li>
+                                        <li>Alexandre Brasseur</li>
+                                        <li>Léa Leviant</li>
+                                        <li>Stéphane Debac</li>
+                                        <li>Sophie Letellier</li>
+                                        <li>Perkins Lyautey</li>
+                                        <li>Baptiste Gonthier</li>
+                                        <li>Lawrence Davis</li>
+                                        <li>Marion Trager</li>
+                                        <li>Oscar Zouzout</li>
+                                        <li>Cédric Leffray</li>
+                                        <li>Max Geller</li>
+                                        <li>Brigitte Aubry</li>
+                                        <li>Jean Cordier</li>
+                                        <li>avec la participation d’Annick Blancheteau</li>
                                     </ul>
                                 </div>
                         </div>
@@ -109,26 +109,26 @@ const En_Plein_Coeur = () => {
                     offset={{ top: 50 }}>
                     <div className={`wara-flex-container ${imageClass3}`}>
                         <div className="wara-text-left text-bg">
-                        <h3 className="white-title">Équipe artistique et technique</h3>   
+                        <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
-                                    <li>Directrice de production Astharté : Sophie COUECOU</li>
-                                    <li>Directrice de production : Brigitte CHAUSSADE</li>
-                                    <li>Directeur de la photographie : Dominique FAUSSET</li>
-                                    <li>Chef opérateur du son : Yann LE MAPIHAN</li>
-                                    <li>1er assistant réalisateur : Rodolphe KRIEGEL</li>
-                                    <li>Scripte : Magali MOULIN</li>
-                                    <li>Directeur de casting Paris : Stéphane GAILLARD</li>
-                                    <li>Directeur de casting Bordeaux : Joël GARRIGOU</li>
-                                    <li>Chef décorateur : Régis NICOLINO</li>
-                                    <li>Chef costumier : François JUGE</li>
-                                    <li>Cheffe maquilleuse : Valérie CANCALON</li>
-                                    <li>Chef coiffeuse : Delphine LACAZE</li>
-                                    <li>Chef électricien : Yves LEROY-DAVESNE</li>
-                                    <li>Chef machiniste : Alain GAUTHERIN</li>
-                                    <li>Chef constructeur : Julien COMPAGNON</li>
-                                    <li>Régisseur général : Jean-Marie LANGLOIS</li>
-                                    <li>Chef monteur image : Mickaël LAVIGNAC</li>
-                                    <li>Chef monteur son : Matthieu CATHELINEAU</li>
+                                    <li>Directrice de production Sophie Couecou</li>
+                                    <li>Directrice de production : Brigitte Chaussade</li>
+                                    <li>Directeur de la photographie : Dominique Fausset</li>
+                                    <li>Chef opérateur du son : Yann LE Mapihan</li>
+                                    <li>1er assistant réalisateur : Rodolphe Kriegel</li>
+                                    <li>Scripte : Magali Moulin</li>
+                                    <li>Directeur de casting Paris : Stéphane Gaillard</li>
+                                    <li>Directeur de casting Bordeaux : Joël Garrigou</li>
+                                    <li>Chef décorateur : Régis Nicolino</li>
+                                    <li>Chef costumier : François Juge</li>
+                                    <li>Cheffe maquilleuse : Valérie Cancalon</li>
+                                    <li>Chef coiffeuse : Delphine Lacaze</li>
+                                    <li>Chef électricien : Yves Leroy-Davesne</li>
+                                    <li>Chef machiniste : Alain Gautherin</li>
+                                    <li>Chef constructeur : Julien Compagnon</li>
+                                    <li>Régisseur général : Jean-Marie Langlois</li>
+                                    <li>Chef monteur image : Mickaël Lavignac</li>
+                                    <li>Chef monteur son : Matthieu Cathelineau</li>
                                 </ul>
                         </div>
                         <img src={enpleincoeurWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

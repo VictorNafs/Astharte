@@ -78,7 +78,7 @@ const L_E_S1 = () => {
                         <div className={`waraRight-container ${imageClass2}`}>
                             <img src={S1lesengagesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
                                 <div className="waraRight-textSection text-bg">
-                                <h3 className="white-title">Acteurs récurrents</h3>   
+                                <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                     <li>Denis D'Arcangelo : Claude Favre</li>
                                     <li>Nanou Harry : Nadjet Alaoui</li>

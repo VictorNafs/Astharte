@@ -38,10 +38,10 @@ const Wara_S2 = () => {
                     <h1 className="wara-title mtwt">WARA</h1>
                     <h3 className="wara-title-h3-S2">La Destinée D'Aïcha</h3>
                     <div className="video-button-container">
-                        <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
+                        <CButton color="link" className="mr-3 video-button" onClick={() => window.open('https://www.youtube.com/@WaraLaSerie', '_blank')}>
                             Voir la vidéo
                         </CButton>
-                        <CButton color="link" className="ml-3 video-button" onClick={() => window.open('URL_DU_SITE', '_blank')}>
+                        <CButton color="link" className="ml-3 video-button" onClick={() => window.open('https://wara-laserie.com/', '_blank')}>
                             Site officiel
                         </CButton>
                     </div>
@@ -52,11 +52,35 @@ const Wara_S2 = () => {
                         <div className="text-container special-text-container">
                           <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
+                            Aïcha Diallo, étudiante en droit, est portée à la tête du mouvement « Et Si Demain » par les jeunes de Tanasanga. Le procès de sa mère, Mariam Shugger, accusée du meurtre de son époux, réactive la cause des mariages forcés. Moutari Wara, mentor d’Aïcha et prof de droit à la faculté la soutient. Il a accepté d’être l’avocat de la défense de Mariam Shugger et de la cause des femmes. 
                             </p>
+                            <p className="text-left text-bg texte">
+                            Aïcha apprend au cours du procès l'identité de son vrai père, l'ermite Papa Salim. Elle part à sa rencontre et découvre un pan de son histoire. Ce voyage va la changer et lui donner une force nouvelle. À son retour, avec les partisans de « Et Si Demain », elle se lance dans une campagne de proximité auprès des citoyens. Leur popularité va grandissante. Mais Lamine, l’homme de main de El Hadj, manipule Bachar, l’ex amoureux de Aïcha, qui va devenir un fervent opposant à leur mouvement. 
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            Moutari est rattrapé par des dossiers accusateurs, construits à charge par Lamine. Il devra se débattre pour faire reconnaître son passé.
+                            <br></br>
+                            Leur union fera-elle leur force ?
+                            </p>
+                            <h3 className="white-title">Acteurs</h3>   
+                            <p className="text-left text-bg texte">
+                                <ul>
+                                    <li>MOUTARI WARA : ISSAKA SAWADOGO</li>
+                                    <li>AÏCHA DIALLO : France Nancy GOULIAN </li>
+                                    <li>GANKA BARRY : Souleymane Seye NDIAYE</li>
+                                    <li>SHUGGER : Maimouna Ndiaye</li>
+                                    <li>BACHAR KOFFI : Abdou Bass Dia</li>
+                                    <li>BINTOU DIOP : Prudence MAIDOU</li>
+                                    <li>GAMBO : Oumar SAMB</li>
+                                    <li>HONORÉ : Khadime Rassoul DIONGUE</li>
+                                    <li>DJIBRIL : Djibril DANSOKHO</li>
+                                    <li>LAMINE : Ibrahima MBAYE</li>
+                                    <li>FÉLIE : Martine Eva MONNERVILLE</li>
+                                    <li>DIDJÉ : Lala NDIAYE</li>
+                                    <li>SALIMATA DIALLO : Marie Madeleine DIALLO</li>
+                                    <li>ZOÉ PERRIER : EMELINE NSINGI NKOSI</li>
+                                    <li>ERMITE / SALIM : THIERNO CIRE BANEL BA</li>
+                                </ul>
+                            </p>
                       </div>
                         <img src={affichewara2} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>
@@ -70,15 +94,13 @@ const Wara_S2 = () => {
     <div className={`waraRight-container ${imageClass2}`}>
         <img src={S2waraWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
         <div className="waraRight-textSection text-bg">
-        <h3 className="white-title">Équipe technique</h3>   
-                <ul>
-                    <li>Création : Charli Beléteau</li>
-                    <li>Réalisation : Oumar Diack et Toumani Sangaré</li>
-                    <li>Création : Charli Beléteau, d'après l'idée originale de Magali Issoufou Sani4</li>
-                    <li>Réalisation : Oumar Diack et Toumani Sangaré4</li>
-                    <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko4</li>
-                    <li>Musique : Franck Lebon4</li>
-                    <li>Costumes : Mariam Diop</li>
+        <h3 className="white-title">Équipe artistique</h3>   
+        <ul>
+                    <li>Création : Charli Beléteau, d'après une idée originale de Magagi Issoufou Sani</li>
+                    <li>Production : Mbathio Diaw, Issaka Sawadogo, Sophie Deloche et Maxime Hervouet</li>
+                    <li>Réalisation : Oumar Diack et Marc Tchicot</li>
+                    <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko</li>
+                    <li>Musique : Franck Lebon</li>
                 </ul>
         </div>
     </div>
@@ -93,13 +115,11 @@ const Wara_S2 = () => {
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Photographie : Nourou Sarr</li>
-                                    <li>Son : Clément Maléo et Hamza Ouhbi</li>
-                                    <li>Montage : Nicolas Bonnet et Sarah Chartier</li>
-                                    <li>Montage Son : Jf Viguié et Romain Le bras</li>
+                                    <li>Chef opérateur son : Clément Maléo et Abdourahmane ka</li>
+                                    <li>Chefs monteurs : Sarah Chartier Nicolas Bonnet</li>
                                     <li>Mixage : Benjamin Cabaj</li>
-                                    <li>Production : Sophie Deloche, Mbathio Diaw, Magagi Issoufou, Alexandre Rideau et Baptiste Rinaldi</li>
-                                    <li>Sociétés de production : MJP Productions (Niger), Astharté & Compagnie (France) et Raes Production (Sénégal)3,4 en co-production avec TV5 Monde</li>
-                                    <li>Pays d'origine : France / Niger / Sénégale</li>
+                                    <li>Sociétés de production : Astharté & Compagnie (France), Raes Production (Sénégal), Christall Productions et en co-production avec TV5 Monde</li>
+                                    <li>Pays d'origine : France / Burkina Faso / Sénégal</li>
                                 </ul>
                         </div>
                         <img src={S2waraWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

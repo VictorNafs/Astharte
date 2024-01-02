@@ -102,7 +102,11 @@
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 20px;
+}
+
+.video-button-container {
+    position: relative;
+    top: -70px; /* Déplace les boutons 20px vers le haut */
 }
 
 .container {
@@ -506,5 +510,9 @@ p {
     .wara-img-thumbnail {
         width: 100%; /* Assurez-vous que les images ne débordent pas */
         height: auto; /* Garder le ratio */
+    }
+    .video-button-container {
+        position: relative;
+        top: 10px; /* Déplace les boutons 20px vers le haut */
     }
 }

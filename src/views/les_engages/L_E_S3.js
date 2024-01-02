@@ -56,8 +56,7 @@ const L_E_S3 = () => {
                             </p>
                             <br></br>
                             <p className="text-left text-bg texte">
-                                Le Point G est un Centre LGBT situé à Lyon. Thibaut est un de ses militants les plus actifs, très engagé dans la lutte pour les droits des homosexuels. Son quotidien est soudain bouleversé par le retour dans sa vie d'Hicham, une connaissance qu'il n'avait pas revue depuis des années et qui vient chercher auprès de lui la force de faire son coming-out et de trouver sa véritable identité. Hicham admire le charisme et l'engagement de Thibaut, mais, jeté brusquement au milieu des luttes politiques du Point G, il va rapidement en percevoir les limites et les contradictions…
-                            </p>
+                            Thibaut en secourant un refugié Tchétchène d’un piège qui aurait pu être mortel va découvrir l’existence d’un programme pilote d’accueil et de protection des droits de l’homme qui a permis de mettre à l’abri plusieurs personnes en Europe. Hicham de son côté doit retourner dans sa cité à Saint Etienne, suite au décès d’un proche dans une altercation avec la police. Tous deux vont être pris dans une course contre la montre : sauver de la mort les protégés du programme Européen en découvrant la taupe au sein même des Instances Européennes pour Thibaut ; faire éclater la vérité pour Hicham sur la mort de son cousin et les fake news qui ont circulées sur ce sujet et qui entravent leurs actions.                             </p>
                             <br></br>
                             <p className="text-left text-bg texte">
                                 Une série créée et développée par Sullivan LE POSTEC 

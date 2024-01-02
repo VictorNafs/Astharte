@@ -56,8 +56,8 @@ const L_E_S2 = () => {
                             </p>
                                 <br></br>
                             <p className="text-left text-bg texte">
-                                Le Point G est un Centre LGBT situé à Lyon. Thibaut est un de ses militants les plus actifs, très engagé dans la lutte pour les droits des homosexuels. Son quotidien est soudain bouleversé par le retour dans sa vie d'Hicham, une connaissance qu'il n'avait pas revue depuis des années et qui vient chercher auprès de lui la force de faire son coming-out et de trouver sa véritable identité. Hicham admire le charisme et l'engagement de Thibaut, mais, jeté brusquement au milieu des luttes politiques du Point G, il va rapidement en percevoir les limites et les contradictions…
-                            </p>
+                            Hicham découvre la transphobie en rencontrant ELIJAH, jeune transsexuel dont il tombe amoureux. Entre bagarre pour le changement d’Etat Civil, harcèlement et fragilisation par le milieu professionnel, nous découvrirons que, même au sein de la communauté LGBTQI+. il n’est pas si simple d’accepter l’autre dans sa différence. 
+                            Nous suivrons Kaïs et Chimdalu, deux réfugiés qui fuient leur pays, Tunisie et Nigéria, où leur identité sexuelle les condamne.                            </p>
                             <br></br>
                             <p className="text-left text-bg texte">
                                 Une série créée et développée par Sullivan LE POSTEC 

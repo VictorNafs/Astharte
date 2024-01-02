@@ -35,30 +35,6 @@ const _nav = [
 
   {
     component: CNavTitle,
-    name: 'Productions unitaires',
-    className: 'underline-title',
-  },
-
-  {
-    component: CNavItem,
-    name: 'Comme Un Air',
-    to: '/comme_un_air',
-  },
-
-  {
-    component: CNavItem,
-    name: 'En Plein Coeur',
-    to: '/en_plein_coeur',
-  },
-
-  {
-    component: CNavItem,
-    name: 'Parole Contre Parole',
-    to: '/parole_contre_parole',
-  },
-
-  {
-    component: CNavTitle,
     name: 'Productions séries',
     className: 'underline-title',
   },
@@ -105,6 +81,30 @@ const _nav = [
     component: CNavItem,
     name: 'Les Saisons Meurtrières',
     to: '/les_saisons_meurtrieres',
+  },
+
+  {
+    component: CNavTitle,
+    name: 'Productions unitaires',
+    className: 'underline-title',
+  },
+
+  {
+    component: CNavItem,
+    name: 'Comme Un Air',
+    to: '/comme_un_air',
+  },
+
+  {
+    component: CNavItem,
+    name: 'En Plein Coeur',
+    to: '/en_plein_coeur',
+  },
+
+  {
+    component: CNavItem,
+    name: 'Parole Contre Parole',
+    to: '/parole_contre_parole',
   },
 ]
 

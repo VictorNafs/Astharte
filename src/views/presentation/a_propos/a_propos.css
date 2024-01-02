@@ -24,6 +24,7 @@
 
 .team-member-name, .team-member-title {
     text-align: center;
+    font-size: 1.5rem;
 }
 .team-member-title {
     color: #777;
