@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './l_e.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,41 @@ const L_E_S2 = () => {
     };
 
     return (
+        <>
+        <Helmet>
+            <title>Les Engagés - Saison 2 - Astharté & Compagnie</title>
+            <meta name="description" content="Découvrez 'Les Engagés', la deuxième saison de la série captivante produite par Astharté & Compagnie." />
+            <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
+            <meta name="author" content="Astharté & Compagnie" />
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Les Engagés - Saison 2 - Astharté & Compagnie" />
+            <meta property="og:description" content="La deuxième saison de la série 'Les Engagés', produite par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/les_engages_s2" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Les Engagés - Saison 2 - Astharté & Compagnie" />
+            <meta name="twitter:description" content="La deuxième saison de la série 'Les Engagés', produite par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "TVSeries",
+                    "name": "Les Engagés - Saison 2",
+                    "description": "La deuxième saison de la série 'Les Engagés', produite par Astharté & Compagnie.",
+                    "url": "https://astharte.com/les_engages_s2",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-le">
             <CCol xs={12}>
                 <div className="container">
@@ -137,6 +173,7 @@ const L_E_S2 = () => {
                 </div>
             </CCol>
         </CRow>
+    </>
     );
 }
 

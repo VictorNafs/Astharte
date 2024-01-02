@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './comme_un_air.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,41 @@ const Wara_S1 = () => {
     };
 
     return (
+        <>
+        <Helmet>
+            <title>Comme Un Air d'Autoroute - Astharté & Compagnie</title>
+            <meta name="description" content="Découvrez 'Comme Un Air d'Autoroute', une comédie musicale déjantée produite par Astharté & Compagnie." />
+            <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
+            <meta name="author" content="Astharté & Compagnie" />
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Comme Un Air d'Autoroute - Astharté & Compagnie" />
+            <meta property="og:description" content="Une comédie musicale déjantée produite par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/comme_un_air" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Comme Un Air d'Autoroute - Astharté & Compagnie" />
+            <meta name="twitter:description" content="Une comédie musicale déjantée produite par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "Movie",
+                    "name": "Comme Un Air d'Autoroute",
+                    "description": "Une comédie musicale déjantée produite par Astharté & Compagnie.",
+                    "url": "https://astharte.com/comme_un_air",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-cua">
             <CCol xs={12}>
                 <div className="container">
@@ -126,6 +162,7 @@ const Wara_S1 = () => {
                 </div>
             </CCol>
         </CRow>
+    </>
     );
 }
 

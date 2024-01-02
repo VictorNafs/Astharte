@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet'
 import './wara_S.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,42 @@ const Wara_S1 = () => {
     };
 
     return (
+        <>
+        <Helmet>
+            <title>Wara - Astharté & Compagnie</title>
+            <meta name="description" content="Wara, une série captivante mêlant enjeux politiques et défis personnels, produite par Astharté & Compagnie." />
+            <meta name="keywords" content="Wara, série dramatique, Astharté & Compagnie, politique, défis personnels, Afrique" />
+            <meta name="author" content="Astharté & Compagnie" />
+
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Wara - Astharté & Compagnie" />
+            <meta property="og:description" content="Découvrez 'Wara', une série dramatique qui mêle enjeux politiques et défis personnels, produite par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/wara_s1" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Wara - Astharté & Compagnie" />
+            <meta name="twitter:description" content="Explorez 'Wara', une série dramatique qui mêle enjeux politiques et défis personnels, produite par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "TVSeries",
+                    "name": "Wara",
+                    "description": "Une série dramatique 'Wara' produite par Astharté & Compagnie.",
+                    "url": "https://astharte.com/wara_s1",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-w">
             <CCol xs={12}>
                 <div className="container">
@@ -121,6 +158,7 @@ const Wara_S1 = () => {
                 </div>
             </CCol>
         </CRow>
+    </>
     );
 }
 

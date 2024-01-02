@@ -66,15 +66,15 @@ const Accueil = () => {
     {/* Open Graph Tags */}
     <meta property="og:title" content="Astharté & Compagnie - Production de Films de Fiction" />
     <meta property="og:description" content="Astharté & cie est une société indépendante de production de films de fiction, produisant des séries et des unitaires dans tous formats, genres et styles." />
-    <meta property="og:url" content="https://www.votresite.com" />
+    <meta property="og:url" content="https://astharte.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.votresite.com/A.png" />
+    <meta property="og:image" content="https://astharte.com/A.png" />
     
     {/* Twitter Card Tags */}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Astharté & Compagnie - Production de Films de Fiction" />
     <meta name="twitter:description" content="Astharté & cie est une société indépendante de production de films de fiction, produisant des séries et des unitaires dans tous formats, genres et styles." />
-    <meta name="twitter:image" content="https://www.votresite.com/A.png" />
+    <meta name="twitter:image" content="https://astharte.com/A.png" />
 
     {/* Schema.org JSON-LD */}
     <script type="application/ld+json">

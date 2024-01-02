@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import './catalogues.css'
 import { DndProvider, useDrag, useDrop } from 'react-dnd'
 import { Link } from 'react-router-dom'
@@ -71,6 +72,40 @@ const DropZoneComponent = () => {
 const Catalogues = () => {
   return (
     <DndProvider backend={HTML5Backend}>
+      <Helmet>
+          <title>Catalogue des Productions - Astharté & Compagnie</title>
+          <meta name="description" content="Découvrez notre catalogue de productions, incluant des séries et films unitaires divers. Explorez les affiches et les détails de chaque production." />
+          <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
+          <meta name="author" content="Astharté & Compagnie" />
+          {/* Open Graph Tags */}
+          <meta property="og:title" content="Catalogue des Productions - Astharté & Compagnie" />
+          <meta property="og:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
+          <meta property="og:url" content="https://astharte.com/catalogue" />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://astharte.com/A.png" />
+          
+          {/* Twitter Card Tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Catalogue des Productions - Astharté & Compagnie" />
+          <meta name="twitter:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
+          <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+          {/* Schema.org JSON-LD */}
+          <script type="application/ld+json">
+              {JSON.stringify({
+                  "@context": "http://schema.org",
+                  "@type": "CollectionPage",
+                  "name": "Catalogue des Productions",
+                  "description": "Page du catalogue des productions de Astharté & Compagnie, incluant des séries et films unitaires divers.",
+                  "url": "https://astharte.com/catalogue",
+                  // ... Autres propriétés pertinentes ...
+              })}
+          </script>
+          <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#FFFFFF" />
+      </Helmet>
       <div className="container mt-5">
         <h1>Production Unitaire</h1>
         <div className="photo-grid">

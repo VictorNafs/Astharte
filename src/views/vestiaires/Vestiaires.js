@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './vestiaires.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,42 @@ const Vestiaires = () => {
     };
 
     return (
+        <>
+         <Helmet>
+            <title>Vestiaires - Astharté & Compagnie</title>
+            <meta name="description" content="Découvrez 'Vestiaires', une série humoristique et émouvante, produite par Astharté & Compagnie, mêlant sport, comédie et défis de la vie." />
+            <meta name="keywords" content="Vestiaires, série humoristique, Astharté & Compagnie, sport, comédie, paralympiques, inclusion" />
+            <meta name="author" content="Astharté & Compagnie" />
+
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Vestiaires - Astharté & Compagnie" />
+            <meta property="og:description" content="Explorez 'Vestiaires', une série alliant humour et défis de la vie, produite par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/vestiaires" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Vestiaires - Astharté & Compagnie" />
+            <meta name="twitter:description" content="Explorez 'Vestiaires', une série alliant humour et défis de la vie, produite par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "TVSeries",
+                    "name": "Vestiaires",
+                    "description": "Une série humoristique 'Vestiaires' produite par Astharté & Compagnie.",
+                    "url": "https://astharte.com/vestiaires",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-v">
             <CCol xs={12}>
                 <div className="container">
@@ -140,6 +177,7 @@ const Vestiaires = () => {
                 </div>
             </CCol>
         </CRow>
+    </>
     );
 }
 

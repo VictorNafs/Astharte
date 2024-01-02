@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet'
 import './parole_contre_parole.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,42 @@ const Parole_Contre_Parole = () => {
     };
 
     return (
+        <>
+        <Helmet>
+            <title>Parole Contre Parole - Astharté & Compagnie</title>
+            <meta name="description" content="Découvrez 'Parole Contre Parole', un drame poignant produit par Astharté & Compagnie." />
+            <meta name="keywords" content="Parole Contre Parole, film dramatique, Astharté & Compagnie, cinéma, production de films, intrigue, suspense" />
+            <meta name="author" content="Astharté & Compagnie" />
+
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Parole Contre Parole - Astharté & Compagnie" />
+            <meta property="og:description" content="Plongez dans 'Parole Contre Parole', un drame captivant produit par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/parole_contre_parole" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Parole Contre Parole - Astharté & Compagnie" />
+            <meta name="twitter:description" content="Plongez dans 'Parole Contre Parole', un drame captivant produit par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "Movie",
+                    "name": "Parole Contre Parole",
+                    "description": "Un film dramatique 'Parole Contre Parole' produit par Astharté & Compagnie.",
+                    "url": "https://astharte.com/parole_contre_parole",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-pcp">
             <CCol xs={12}>
                 <div className="container">
@@ -144,6 +181,7 @@ const Parole_Contre_Parole = () => {
                 </div>
             </CCol>
         </CRow>
+    </>
     );
 }
 

@@ -47,4 +47,7 @@
         margin-right: 0; /* Supprime l'espace à droite pour les mobiles */
         margin-bottom: 20px; /* Espace entre les membres */
     }
+    .mb-4 {
+        margin-top: 35px; /* Augmentez cette valeur si nécessaire */
+    }
 }

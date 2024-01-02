@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './en_plein_coeur.css';
 import ScrollTrigger from 'react-scroll-trigger';
 import {
@@ -29,6 +30,41 @@ const En_Plein_Coeur = () => {
     };
 
     return (
+        <>
+        <Helmet>
+            <title>En Plein Cœur - Astharté & Compagnie</title>
+            <meta name="description" content="Découvrez 'En Plein Cœur', une intrigue policière captivante produite par Astharté & Compagnie." />
+            <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
+            <meta name="author" content="Astharté & Compagnie" />
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="En Plein Cœur - Astharté & Compagnie" />
+            <meta property="og:description" content="Une intrigue policière captivante produite par Astharté & Compagnie." />
+            <meta property="og:url" content="https://astharte.com/en_plein_coeur" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://astharte.com/A.png" />
+            
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="En Plein Cœur - Astharté & Compagnie" />
+            <meta name="twitter:description" content="Une intrigue policière captivante produite par Astharté & Compagnie." />
+            <meta name="twitter:image" content="https://astharte.com/A.png" />
+
+            {/* Schema.org JSON-LD */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "Movie",
+                    "name": "En Plein Cœur",
+                    "description": "Une intrigue policière captivante produite par Astharté & Compagnie.",
+                    "url": "https://astharte.com/en_plein_coeur",
+                    // ... Autres propriétés pertinentes ...
+                })}
+            </script>
+            <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#FFFFFF" />
+        </Helmet>
         <CRow className="bg-image-s-epc">
             <CCol xs={12}>
                 <div className="container">
@@ -147,6 +183,7 @@ const En_Plein_Coeur = () => {
                 </div>
             </CCol>
         </CRow>
+        </>
     );
 }
 
