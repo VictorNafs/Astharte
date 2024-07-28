@@ -42,13 +42,13 @@ const Wara_S1 = () => {
             <meta property="og:description" content="Découvrez 'Wara', une série dramatique qui mêle enjeux politiques et défis personnels, produite par Astharté & Compagnie." />
             <meta property="og:url" content="https://astharte.com/wara_s1" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://astharte.com/A.png" />
+            <meta property="og:image" content="https://astharte.com/favicon.ico" />
             
             {/* Twitter Card Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Wara - Astharté & Compagnie" />
             <meta name="twitter:description" content="Explorez 'Wara', une série dramatique qui mêle enjeux politiques et défis personnels, produite par Astharté & Compagnie." />
-            <meta name="twitter:image" content="https://astharte.com/A.png" />
+            <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
             {/* Schema.org JSON-LD */}
             <script type="application/ld+json">
@@ -63,7 +63,7 @@ const Wara_S1 = () => {
             </script>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
             <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
         <CRow className="bg-image-s-w">
@@ -119,7 +119,12 @@ const Wara_S1 = () => {
                     <li>Production : Sophie Deloche, Mbathio Diaw Ndiaye, Magagi Issoufou Sani, Alexandre Rideau et Baptiste Rinaldi</li>
                     <li>Réalisation : Toumani Sangaré et Oumar Diack</li>
                     <li>Scénario : Charli Beléteau, Aka Assié, Awa Ba, Renaud Beauchard, Aissata Dème, Moussa Diallo, Dialika Sané, Emma Sangaré et Merline Touko Tchoko</li>
-                    <li>Musique : Franck Lebon</li>
+                    <li>Musique : <a 
+                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: 'white', textDecoration: 'underline' }}>
+                        Franck Lebon</a></li>
                 </ul>
         </div>
     </div>

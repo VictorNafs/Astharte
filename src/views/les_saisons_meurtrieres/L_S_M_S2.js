@@ -41,13 +41,13 @@ const L_S_M_S2 = () => {
                 <meta property="og:description" content="Découvrez 'Bleu Catacombes', un épisode captivant de la série 'Les Saisons Meurtrières'." />
                 <meta property="og:url" content="https://astharte.com/l_s_m_s2" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://astharte.com/A.png" />
+                <meta property="og:image" content="https://astharte.com/favicon.ico" />
                 
                 {/* Twitter Card Tags */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Bleu Catacombes - Les Saisons Meurtrières - Astharté & Compagnie" />
                 <meta name="twitter:description" content="Découvrez 'Bleu Catacombes', un épisode captivant de la série 'Les Saisons Meurtrières'." />
-                <meta name="twitter:image" content="https://astharte.com/A.png" />
+                <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
                 {/* Schema.org JSON-LD */}
                 <script type="application/ld+json">
@@ -62,7 +62,7 @@ const L_S_M_S2 = () => {
                 </script>
                 <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
                 </Helmet>
         <CRow className="bg-image-s-lsm">

@@ -42,13 +42,13 @@ const Vestiaires = () => {
             <meta property="og:description" content="Explorez 'Vestiaires', une série alliant humour et défis de la vie, produite par Astharté & Compagnie." />
             <meta property="og:url" content="https://astharte.com/vestiaires" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://astharte.com/A.png" />
+            <meta property="og:image" content="https://astharte.com/favicon.ico" />
             
             {/* Twitter Card Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Vestiaires - Astharté & Compagnie" />
             <meta name="twitter:description" content="Explorez 'Vestiaires', une série alliant humour et défis de la vie, produite par Astharté & Compagnie." />
-            <meta name="twitter:image" content="https://astharte.com/A.png" />
+            <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
             {/* Schema.org JSON-LD */}
             <script type="application/ld+json">
@@ -63,7 +63,7 @@ const Vestiaires = () => {
             </script>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
             <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
         <CRow className="bg-image-s-v">
@@ -131,10 +131,25 @@ const Vestiaires = () => {
         <h3 className="white-title">Équipe artistique</h3>   
                 <ul>
                     <li>Une création de Adda Abdelli et Fabrice Chanut</li>
-                    <li>Scénario de Adda Abdelli, Fabrice Chanut, Franck Lebon, Virginie Peignien, Yanik Vabre, Loïc Nicoloff, Céline Boidin, Cyrille Latour et Nathan Delanoy</li>
-                    <li>Réalisation de Fabrice Chanut, Franck Lebon et Vincent Burgevin</li>
+                    <li>Scénario de Adda Abdelli, Fabrice Chanut, <a 
+                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: 'white', textDecoration: 'underline' }}>
+                        Franck Lebon</a>, Virginie Peignien, Yanik Vabre, Loïc Nicoloff, Céline Boidin, Cyrille Latour et Nathan Delanoy</li>
+                    <li>Réalisation de Fabrice Chanut, <a 
+                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: 'white', textDecoration: 'underline' }}>
+                        Franck Lebon</a> et Vincent Burgevin</li>
                     <li>Production pour Astharté & Compagnie - Sophie Deloche et pour Les Films d’Avalon - Philippe Braunstein</li>
-                    <li>Musique : Franck Lebon</li>
+                    <li>Musique : <a 
+                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: 'white', textDecoration: 'underline' }}>
+                        Franck Lebon</a></li>
                     <li>Unité fiction France télévisions Anne Holmes, Emmanuel Garcia et Christophe Louis</li>
                 </ul>
         </div>

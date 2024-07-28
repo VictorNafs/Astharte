@@ -24,13 +24,13 @@ const A_Propos = () => {
           <meta property="og:description" content="En savoir plus sur Astharté & Compagnie, une société de production de films de fiction innovante." />
           <meta property="og:url" content="https://astharte.com/a_propos" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://astharte.com/A.png" />
+          <meta property="og:image" content="https://astharte.com/favicon.ico" />
           
           {/* Twitter Card Tags */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="À Propos - Astharté & Compagnie" />
           <meta name="twitter:description" content="En savoir plus sur Astharté & Compagnie, une société de production de films de fiction innovante." />
-          <meta name="twitter:image" content="https://astharte.com/A.png" />
+          <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
           {/* Schema.org JSON-LD */}
           <script type="application/ld+json">
@@ -45,35 +45,37 @@ const A_Propos = () => {
           </script>
           <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
       </Helmet>
       <CCard className="mb-4">
-        <CCardHeader>À propos d'Astharté</CCardHeader>
+        <CCardHeader><strong>À propos d'Astharté & Compagnie</strong></CCardHeader>
         <CCardBody>
-        Astharté & cie est une société indépendante de production de films de fiction tous formats, tous
-        genres, tous styles. Nous produisons des séries, en 90’, en 45‘, en 3’ et des unitaires sur de multiples sujets.
-        On peut tout raconter, tous les sujets sont possibles, dans le respect de nos contemporains, en
-        nous mettant, grâce à la fiction, en empathie avec les protagonistes pour nous proposer un autre
-        regard, un autre point de vue sur un sujet, du moment que la petite histoire nous touche et nous ramène à
-        l’universel.
-        <br></br> <br></br>
-        Astharté & cie c’est aussi l’association avec des co-producteurs - Philippe Braunstein -Avalon ;
-        Maria Sério - Magnolia ; Mbatio Diaw Ndiaye - Raes production. Nous associons nos forces
-        pour faire exister des projets coups de cœur.
-        <br></br> <br></br>
-        Astharté & cie c’est aussi toute une équipe ; des productions partagées pendant de
-        nombreuses années avec Baptiste Rinaldi et à présent avec Maxime Hervouet.
-        C’est un suivi rigoureux de l’administration de production par Christine Custudio. Et une
-        organisation et un accueil attentif de Mandy Gelpi.
-        <br></br> <br></br>
-        Avec Astharté & cie, Sophie Deloche fait le choix de défendre des projets singuliers, aux
-        univers forts, portés par le quatuor scénariste – réalisateur – acteur – producteur.       
+          <div className="text-intro">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Astharté & Compagnie est une société indépendante de production de films de fiction tous formats, tous
+            genres, tous styles. Nous produisons des séries, en 90’, en 45‘, en 3’ et des unitaires sur de multiples sujets.
+            On peut tout raconter, tous les sujets sont possibles, dans le respect de nos contemporains, en
+            nous mettant, grâce à la fiction, en empathie avec les protagonistes pour nous proposer un autre
+            regard, un autre point de vue sur un sujet, du moment que la petite histoire nous touche et nous ramène à
+            l’universel.
+            <br></br> <br></br>
+            Astharté & Compagnie c’est aussi l’association avec des co-producteurs - Philippe Braunstein -Avalon ;
+            Maria Sério - Magnolia ; Mbatio Diaw Ndiaye - Raes production. Nous associons nos forces
+            pour faire exister des projets coups de cœur.
+            <br></br> <br></br>
+            Astharté & Compagnie c’est aussi toute une équipe ; des productions partagées pendant de
+            nombreuses années avec Baptiste Rinaldi et à présent avec Maxime Hervouet.
+            C’est un suivi rigoureux de l’administration de production par Christine Custudio. Et une
+            organisation et un accueil attentif de Mandy Gelpi.
+            <br></br> <br></br>
+            Avec Astharté & Compagnie, Sophie Deloche fait le choix de défendre des projets singuliers, aux
+            univers forts, portés par le quatuor scénariste – réalisateur – acteur – producteur. 
+          </div>      
         </CCardBody>
       </CCard>
 
       <CCard className="mb-4">
-    <CCardHeader>Notre équipe</CCardHeader>
+    <CCardHeader><strong>Notre équipe</strong></CCardHeader>
     <CCardBody>
     <div className="team-members-container">
         {[

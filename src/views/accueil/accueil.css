@@ -118,11 +118,12 @@
 
 .carousel-text {
     position: absolute;
-    bottom: 6.5%; /* Ajustez selon vos besoins */
+    top: 63%; /* Ajustez selon vos besoins */
     left: 0; /* Aligné à gauche */
     transform: translateX(10%); /* Un peu de marge à gauche */
     color: white; /* La couleur du texte */
     font-size: 1.5rem; /* Taille de la police */
+    text-align: justify; /* Ajout de la justification du texte */
     text-align: left; /* Alignement du texte à gauche */
     z-index: 3; /* Assurez-vous que le texte est visible au-dessus des images */
     width: 50%; /* Prend la moitié de la largeur de l'écran */

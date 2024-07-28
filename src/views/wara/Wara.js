@@ -20,13 +20,13 @@ const Wara = () => {
         <meta property="og:description" content="Découvrez les saisons de la série dramatique Wara, présentant des récits captivants sur les défis politiques et personnels en Afrique, produite par Astharté & Compagnie." />
         <meta property="og:url" content="https://astharte.com/wara" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://astharte.com/A.png" />
+        <meta property="og:image" content="https://astharte.com/favicon.ico" />
         
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Wara - Les Saisons de la Série - Astharté & Compagnie" />
         <meta name="twitter:description" content="Explorez les saisons de la série dramatique Wara, avec des histoires passionnantes sur les défis politiques et personnels en Afrique, produite par Astharté & Compagnie." />
-        <meta name="twitter:image" content="https://astharte.com/A.png" />
+        <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
         {/* Schema.org JSON-LD */}
         <script type="application/ld+json">

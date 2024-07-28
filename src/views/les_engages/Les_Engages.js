@@ -19,13 +19,13 @@ const Les_Engages = () => {
           <meta property="og:description" content="Découvrez les différentes saisons de la série 'Les Engagés'." />
           <meta property="og:url" content="https://astharte.com/les_engages" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://astharte.com/A.png" />
+          <meta property="og:image" content="https://astharte.com/favicon.ico" />
           
           {/* Twitter Card Tags */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Les Engagés - Séries - Astharté & Compagnie" />
           <meta name="twitter:description" content="Découvrez les différentes saisons de la série 'Les Engagés'." />
-          <meta name="twitter:image" content="https://astharte.com/A.png" />
+          <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
           {/* Schema.org JSON-LD */}
           <script type="application/ld+json">
@@ -40,7 +40,7 @@ const Les_Engages = () => {
           </script>
           <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
       </Helmet>
     <CRow className="bg-image-le">

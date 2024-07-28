@@ -41,13 +41,13 @@ const L_S_M_S3 = () => {
                 <meta property="og:description" content="Découvrez 'Jaune Iris', un épisode captivant de la série 'Les Saisons Meurtrières'." />
                 <meta property="og:url" content="https://astharte.com/l_s_m_s3" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://astharte.com/A.png" />
+                <meta property="og:image" content="https://astharte.com/favicon.ico" />
                 
                 {/* Twitter Card Tags */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Jaune Iris - Les Saisons Meurtrières - Astharté & Compagnie" />
                 <meta name="twitter:description" content="Découvrez 'Jaune Iris', un épisode captivant de la série 'Les Saisons Meurtrières'." />
-                <meta name="twitter:image" content="https://astharte.com/A.png" />
+                <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
                 {/* Schema.org JSON-LD */}
                 <script type="application/ld+json">
@@ -62,7 +62,7 @@ const L_S_M_S3 = () => {
                 </script>
                 <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
             </Helmet>
         <CRow className="bg-image-s-lsm">
@@ -90,8 +90,8 @@ const L_S_M_S3 = () => {
                             C'est l'adaptation du roman policier Jaune caravage de Gilda Piersanti1.                            
                             </p>
                             <br></br>
-                            <p className="text-left text-bg texte">À l’université de Tanasanga, les meilleurs étudiants s’invitent au cours d’un brillant professeur Moutari Warra(Issaka Sawadogo ), attirés par son charisme et sa spécialité de Droit Constitutionnel. Une relation privilégiée s’instaure avec la jeune et pétillante Aïcha Diallo(France Nancy Goulian ). Mais leur relation n’est pas un fleuve tranquille, nourrie de rapports conflictuels et d'incompréhensions générationnelles.
-</p>
+                            <p className="text-left text-bg texte">Katia (Natacha Renier), mère de famille, va découvrir après la mort de sa fille Anna, une adolescente de 17 ans, son existence cachée. L’enquête qui va en découler serra un des fils conducteurs du film. Cette intrigue aux multiples rebondissements  nous entrainera dans le milieu sulfureux et noctambule des boites de nuit, de la mode et de la photo de nu. Au travers de l’enquête, le commissaire Rousseau verra en Katia son double en féminin : un parent qui ne peut se remettre de la disparition de son enfant. Cette enquête va l’aider à ne pas de sombrer dans sa douleur.</p>
+                            <p className="text-left text-bg texte">Léonore, adolescente de 17 ans et copine d’Anna va nous emmener dans la complexité des adolescents aujourd’hui. Sollicités comme jamais vers les lumières du plaisir, de la fête, de la facilité, tout en étant confrontés à un monde violent, en crise. On découvrira au travers du personnage de Léonore les sentiments exacerbés et absolus d’une jeunesse qui peuvent aller jusqu’à la folie.</p>
                       </div>
                         <img src={affichejauneiris3} alt="Wara Image 1" className="img-thumbnail-large" />
                     </div>

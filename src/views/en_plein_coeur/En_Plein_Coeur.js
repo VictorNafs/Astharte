@@ -41,13 +41,13 @@ const En_Plein_Coeur = () => {
             <meta property="og:description" content="Une intrigue policière captivante produite par Astharté & Compagnie." />
             <meta property="og:url" content="https://astharte.com/en_plein_coeur" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://astharte.com/A.png" />
+            <meta property="og:image" content="https://astharte.com/favicon.ico" />
             
             {/* Twitter Card Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="En Plein Cœur - Astharté & Compagnie" />
             <meta name="twitter:description" content="Une intrigue policière captivante produite par Astharté & Compagnie." />
-            <meta name="twitter:image" content="https://astharte.com/A.png" />
+            <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
             {/* Schema.org JSON-LD */}
             <script type="application/ld+json">
@@ -62,7 +62,7 @@ const En_Plein_Coeur = () => {
             </script>
             <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
         <CRow className="bg-image-s-epc">

@@ -69,6 +69,11 @@ const _nav = [
   },
   {
     component: CNavItem,
+    name: 'Vestiaires Libérés',
+    to: '/vestiairesLiberes',
+  },
+  {
+    component: CNavItem,
     name: 'Wara',
     to: '/wara',
   },
@@ -105,6 +110,12 @@ const _nav = [
     component: CNavItem,
     name: 'Parole Contre Parole',
     to: '/parole_contre_parole',
+  },
+
+  {
+    component: CNavItem,
+    name: 'Virage',
+    to: '/virage',
   },
 ]
 

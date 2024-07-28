@@ -1,0 +1,473 @@
+.bg-image-s-epc {
+    background-image: url('src/assets/images/livres2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.mtwt
+{
+    margin-top: 5%;
+}
+
+.wara-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+    margin-bottom: 15%;
+}
+
+.wara-title:hover {
+    color: #0F365F;
+}
+
+.wara-syn {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+.wara-syn:hover {
+    color: #0F365F;
+}
+
+.white-title {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+.wara-logo {
+    width: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
+    height: auto; 
+    display: block; 
+    margin: 50px auto; /* Pour centrer le logo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Nécessaire pour positionner absolument un enfant */
+    padding-top: 40px; /* Ajout d'une marge en haut pour éviter le chevauchement */
+}
+
+/* Styles pour le bouton "Précédent" */
+.container > div:first-child {
+    position: absolute;
+    top: 5; /* Positionne le bouton tout en haut */
+    left: 0; /* Positionne le bouton complètement à gauche */
+    order: -1; /* Assure que le bouton est le premier élément dans le flux normal */
+}
+
+.video-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.btn-previous {
+    display: inline-block;
+    background: #0F365F;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 0;
+    width: calc(100% - 10px); /* prend la moitié de la largeur moins un petit espacement */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0D2C4A;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 35px;
+}
+
+.btn-previous:hover {
+    background: #0D2C4A;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+p {
+    color: white;
+}
+
+.text-container {
+    margin-top: -175px;
+}
+
+
+.table-container {
+    margin-top: 3rem;
+    border: 1px solid white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.table-row {
+    border-bottom: 1px solid white;
+}
+
+.table-col {
+    padding: 1rem;
+    border-right: 1px solid white;
+}
+
+.table-col:last-child {
+    border-right: none;
+}
+
+.table-col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.table-col ul {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+}
+
+.table-col li {
+    margin-bottom: 0.5rem;
+}
+
+.video-button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -20px;
+}
+
+.video-button-container .mr-3,
+.video-button-container .ml-3 {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.video-button-container .mr-3:hover,
+.video-button-container .ml-3:hover {
+    background-color: red;
+    color: black;
+}
+
+.video-button-container .ml-3:hover {
+    background-color: orange;
+    color: white;
+}
+
+.img-thumbnail, .text-left, .text-right {
+    transition: transform 1s, opacity 1s;
+    max-width: 90%;
+}
+
+.text-left {
+    width: 100%;
+    text-align: justify;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.text-right {
+    width: 100%;
+    margin-left: 55px;
+}
+
+.slide-from-right .img-thumbnail,
+.slide-from-right .text-left {
+    transform: translateX(65%);
+}
+
+.slide-from-left .img-thumbnail,
+.slide-from-left .text-right {
+    transform: translateX(0%);
+}
+
+.container > div {
+    margin-bottom: 5rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-thumbnail-large {
+    transition: transform 1s, opacity 1s;
+    max-width: 45%;
+    float: right;
+    margin-left: 0px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 4s;
+}
+.fade-in.active {
+    opacity: 1;
+}
+
+.img-thumbnail {
+    width: 300px;  /* ou la valeur que vous souhaitez */
+    height: auto; /* cela permet de maintenir le ratio de l'image */
+    object-fit: cover; /* cela s'assure que l'image couvre la zone définie sans étirer */
+    margin-left: 20px;  /* Ajustez cette valeur selon vos besoins pour l'écart entre les images */
+    margin-top: -10px;  /* décalage vertical */
+}
+
+.img-thumbnail:first-child {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.text-bg {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+
+@keyframes waraSlideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .wara-slide-in {
+    animation: waraSlideFromLeft 4s forwards;
+  }
+  
+  .wara-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wara-text-left {
+    flex: 1;
+    padding-right: 20px;
+    text-align: justify;
+    /* Ajoutez un espace entre le texte et l'image */
+  }
+  
+  .wara-img-thumbnail {
+    flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
+    max-width: 300px;  /* Définir la largeur maximale que vous souhaitez */
+    max-height: 200px; /* Définir la hauteur maximale que vous souhaitez */
+    width: 100%;
+    height: auto;
+    flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
+    /* Assurez-vous que le ratio d'aspect de l'image est conservé */
+  }
+
+  .slide-initial {
+    opacity: 0;
+}
+
+@keyframes waraRightSlideEffect {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .waraRight-slideAnim {
+    animation: waraRightSlideEffect 4s forwards;
+  }
+  
+  .waraRight-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .waraRight-textSection {
+    flex: 1;
+    padding-left: 20px; /* Ajout d'un espace à gauche du texte */
+  }
+  
+  .waraRight-imageStyle {
+    flex-shrink: 0;
+    max-width: 300px;  
+    max-height: 200px; 
+    width: 100%;
+    height: auto; 
+  }
+  
+  .waraRight-textSection ul,
+  .wara-text-left ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style-position: inside;
+}
+
+.waraRight-textSection ul li,
+.wara-text-left ul li {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    box-decoration-break: clone;
+}
+
+/* Optionnel: Ajuster la taille de la police et les espacements pour une meilleure lisibilité */
+.waraRight-textSection ul li,
+.wara-text-left ul li {
+    font-size: 0.95rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Optionnel: Séparateur entre les colonnes */
+.waraRight-textSection ul,
+.wara-text-left ul {
+    column-gap: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+    .wara-title {
+        font-size: 2.4rem;
+        margin-top: 35%;
+    }
+
+    .text-container {
+        margin-top: 0px;
+    }
+    .container > div:first-child {
+        top: 40px; /* Ajustez cette valeur selon vos préférences */
+    }
+    /* Ajustements de la table */
+    .table-col {
+      font-size: 0.7rem; 
+    }
+
+    .table-col h3 {
+      margin: 0.5rem 0;
+    }
+
+    .table-col ul {
+      padding-left: 0.5rem;
+    }
+
+    .table-col li {
+      font-size: 0.6rem;
+    }
+
+    /* 1. Ajuster l'effet de glissement pour s'assurer qu'il est encore visible, mais moins prononcé */
+    .slide-from-right .img-thumbnail, 
+    .slide-from-right .text-left {
+        transform: translateX(9%);  /* Les éléments glissent légèrement de leur position d'origine */
+    }
+
+    .slide-from-left .img-thumbnail, 
+    .slide-from-left .text-right {
+        transform: translateX(-9%);  /* Les éléments glissent légèrement de leur position d'origine */
+    }
+
+    .flex-container {
+        align-items: center;  
+        flex-direction: column-reverse;
+    }
+
+    /* 3. Ajuster le texte et les photos pour prendre toute la largeur */
+    .img-thumbnail, 
+    .text-left, 
+    .text-right {
+        max-width: 100%;
+    }
+
+    
+    .img-thumbnail-large {
+        margin-left: 0;
+        max-width: 85%;
+    }
+
+    .img-thumbnail {
+        max-width: 100%;  /* Les images prennent toute la largeur de l'écran */
+        margin: 5px 0;
+    }
+
+    .waraRight-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wara-flex-container{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .waraRight-textSection, .wara-text-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .waraRight-imageStyle, .wara-img-thumbnail {
+        margin: 0 auto;
+        display: block;
+    }
+    .waraRight-textSection,
+    .wara-text-left {
+        padding: 0 15px;  /* Ajouter un padding pour ne pas coller sur les bords */
+    }
+
+    .waraRight-textSection ul,
+    .wara-text-left ul {
+        columns: 1; /* Passage à une seule colonne pour les petits écrans */
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
+    }
+
+    .waraRight-textSection ul li,
+    .wara-text-left ul li {
+        font-size: 0.85rem; /* Réduction de la taille de police pour les petits écrans */
+        padding-bottom: 0.5rem;
+    }
+    
+    /* Ajustements pour les images si nécessaire */
+    .waraRight-imageStyle,
+    .wara-img-thumbnail {
+        width: 100%; /* Assurez-vous que les images ne débordent pas */
+        height: auto; /* Garder le ratio */
+    }
+}

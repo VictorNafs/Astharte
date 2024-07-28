@@ -41,13 +41,13 @@ const L_E_S2 = () => {
             <meta property="og:description" content="La deuxième saison de la série 'Les Engagés', produite par Astharté & Compagnie." />
             <meta property="og:url" content="https://astharte.com/les_engages_s2" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://astharte.com/A.png" />
+            <meta property="og:image" content="https://astharte.com/favicon.ico" />
             
             {/* Twitter Card Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Les Engagés - Saison 2 - Astharté & Compagnie" />
             <meta name="twitter:description" content="La deuxième saison de la série 'Les Engagés', produite par Astharté & Compagnie." />
-            <meta name="twitter:image" content="https://astharte.com/A.png" />
+            <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
             {/* Schema.org JSON-LD */}
             <script type="application/ld+json">
@@ -62,7 +62,7 @@ const L_E_S2 = () => {
             </script>
             <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
         <CRow className="bg-image-s-le">
@@ -140,7 +140,12 @@ const L_E_S2 = () => {
                                         <li>Réalisation : Slimane Baptiste Berhoun</li>
                                         <li>Scenario : Sullivan Le Postec</li>
                                         <li>Producteurs : Sophie Deloche et Baptiste Rinaldi (Astharté & Compagnie)</li>
-                                        <li>Musique originale : Franck LEBON</li>
+                                        <li>Musique originale : <a 
+                                                href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                style={{ color: 'white', textDecoration: 'underline' }}>
+                                                Franck Lebon</a></li>
                                         <li>Directeur de production : Jacques BONTOUX</li>
                                         <li>Directeur de la photographie : Matthieu ANDRIEUX</li>
                                         <li>Chef opérateur du son : Marco PASCAL </li>

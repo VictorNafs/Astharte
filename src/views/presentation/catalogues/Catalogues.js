@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
 
 import affichewara1 from 'src/assets/images/affiche-wara1.jpg'
 import affichewara2 from 'src/assets/images/affiche-wara2.jpg'
-// import affichevestiaire1 from 'src/assets/images/affiche-vestiaires1.jpg'
+import affichevestiaires1 from 'src/assets/images/affiche-vestiaires1.png'
 import affichevestiaires2 from 'src/assets/images/affiche-vestiaires2.jpg'
 import affichevestiaires3 from 'src/assets/images/affiche-vestiaires3.jpg'
 import affichevestiaires4 from 'src/assets/images/affiche-vestiaires4.jpg'
@@ -23,6 +23,7 @@ import affichevestiaires10 from 'src/assets/images/affiche-vestiaires10.jpg'
 import affichevestiaires11 from 'src/assets/images/affiche-vestiaires11.jpg'
 import affichevestiaires12 from 'src/assets/images/affiche-vestiaires12.jpg'
 import affichevestiaires13 from 'src/assets/images/affiche-vestiaires13.jpg'
+import affichevestiairesliberes from 'src/assets/images/affiche_vestiaires_liberes.jpg'
 import affichelesengages1 from 'src/assets/images/affiche-l-e1.jpg'
 import affichelesengages2 from 'src/assets/images/affiche-l-e2.jpg'
 import affichelesengages3 from 'src/assets/images/affiche-xaox.png'
@@ -31,6 +32,7 @@ import affichebleucatacombe2 from 'src/assets/images/affiche-bleu-catacombe2.jpg
 import affichejauneiris3 from 'src/assets/images/affiche-jaune-iris3.jpg'
 import affichenoirenigma4 from 'src/assets/images/affiche-noir-enigma4.jpg'
 import afficheenpleincoeur from 'src/assets/images/affiche-en-plein-coeur.jpg'
+import affichevirage from 'src/assets/images/affiche-virage.jpg'
 import affichecommeunair from 'src/assets/images/affiche-comme-un-air.jpg'
 import afficheparolecontreparole from 'src/assets/images/affiche-parole-contre-parole.jpg'
 
@@ -82,13 +84,13 @@ const Catalogues = () => {
           <meta property="og:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
           <meta property="og:url" content="https://astharte.com/catalogue" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://astharte.com/A.png" />
+          <meta property="og:image" content="https://astharte.com/favicon.ico" />
           
           {/* Twitter Card Tags */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Catalogue des Productions - Astharté & Compagnie" />
           <meta name="twitter:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
-          <meta name="twitter:image" content="https://astharte.com/A.png" />
+          <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
           {/* Schema.org JSON-LD */}
           <script type="application/ld+json">
@@ -103,12 +105,15 @@ const Catalogues = () => {
           </script>
           <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
       </Helmet>
       <div className="container mt-5">
         <h1>Production Unitaire</h1>
         <div className="photo-grid">
+          <Link to="/virage">
+          <DraggableImage src={affichevirage} alt="Virage" url="https://youtu.be/KkNVSc-xLL0?si=GEcxTlSK8vI9VKL_" />
+          </Link>
           <Link to="/parole_contre_parole">
           <DraggableImage
             src={afficheparolecontreparole}
@@ -167,6 +172,9 @@ const Catalogues = () => {
         <h2 className="mt">Vestiaires</h2>
         <div className="photo-grid">
           <Link to="/vestiaires">
+          <DraggableImage src={affichevestiaires1} alt="Vestiaires 1" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
+          </Link>
+          <Link to="/vestiaires">
           <DraggableImage src={affichevestiaires2} alt="Vestiaires 2" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
           </Link>
           <Link to="/vestiaires">
@@ -201,6 +209,13 @@ const Catalogues = () => {
           </Link>
           <Link to="/vestiaires">
           <DraggableImage src={affichevestiaires13} alt="Vestiaires 13" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrpy" />
+          </Link>
+          <DropZoneComponent />
+        </div>
+        <h2 className="mt">Vestiaires Libérés</h2>
+        <div className="photo-grid">
+          <Link to="/vestiairesLiberes">
+          <DraggableImage src={affichevestiairesliberes} alt="Vestiaires Libérés" url="https://www.youtube.com/watch?v=AVSx575UA4k&list=PLjzwwWuQmHVXFxy3hXW7XSrpOA5Z7R4vw" />
           </Link>
           <DropZoneComponent />
         </div>

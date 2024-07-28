@@ -42,13 +42,13 @@ const Parole_Contre_Parole = () => {
             <meta property="og:description" content="Plongez dans 'Parole Contre Parole', un drame captivant produit par Astharté & Compagnie." />
             <meta property="og:url" content="https://astharte.com/parole_contre_parole" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://astharte.com/A.png" />
+            <meta property="og:image" content="https://astharte.com/favicon.ico" />
             
             {/* Twitter Card Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Parole Contre Parole - Astharté & Compagnie" />
             <meta name="twitter:description" content="Plongez dans 'Parole Contre Parole', un drame captivant produit par Astharté & Compagnie." />
-            <meta name="twitter:image" content="https://astharte.com/A.png" />
+            <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
             {/* Schema.org JSON-LD */}
             <script type="application/ld+json">
@@ -63,7 +63,7 @@ const Parole_Contre_Parole = () => {
             </script>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="shortcut icon" href="A.ico" type="image/x-icon" />
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
             <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
         <CRow className="bg-image-s-pcp">

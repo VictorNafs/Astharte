@@ -50,12 +50,14 @@ const L_S_M_S4 = React.lazy(() => import('./views/les_saisons_meurtrieres/L_S_M_
 
 // const Charts = React.lazy(() => import('./views/charts/Charts'))
 const Vestiaires = React.lazy(() => import('./views/vestiaires/Vestiaires'))
+const Vestiaires_Liberes = React.lazy(() => import('./views/vestiairesLiberes/VestiairesLiberes'))
 const Wara = React.lazy(() => import('./views/wara/Wara'))
 const Parole_Contre_Parole = React.lazy(() =>
   import('./views/parole_contre_parole/Parole_Contre_Parole'),
 )
 const Les_Engages = React.lazy(() => import('./views/les_engages/Les_Engages'))
 const En_Plein_Coeur = React.lazy(() => import('./views/en_plein_coeur/En_Plein_Coeur'))
+const Virage = React.lazy(() => import('./views/virage/Virage'))
 const Comme_Un_Air = React.lazy(() => import('./views/comme_un_air/Comme_Un_Air'))
 const Les_Saisons_Meurtrieres = React.lazy(() =>
   import('./views/les_saisons_meurtrieres/Les_Saisons_Meurtrieres'),
@@ -101,10 +103,12 @@ const routes = [
   // { path: '/buttons/button-groups', name: 'Button Groups', element: ButtonGroups },
   // { path: '/charts', name: 'Contact', element: Charts },
   { path: '/vestiaires', name: 'Vestiaires', element: Vestiaires },
+  { path: '/vestiairesLiberes', name: 'Vestiaires Libérés', element: Vestiaires_Liberes },
   { path: '/wara', name: 'Wara', element: Wara },
   { path: '/parole_contre_parole', name: 'Parole_Contre_Parole', element: Parole_Contre_Parole },
   { path: '/les_engages', name: 'Les_Engages', element: Les_Engages },
   { path: '/en_plein_coeur', name: 'En_Plein_Coeur', element: En_Plein_Coeur },
+  { path: '/virage', name: 'Virage', element: Virage },
   { path: '/comme_un_air', name: 'Comme_Un_Air', element: Comme_Un_Air },
   {
     path: '/les_saisons_meurtrieres',
