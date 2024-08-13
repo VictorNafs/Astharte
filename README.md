@@ -17,8 +17,8 @@ Pour installer et configurer cette application sur votre machine locale, suivez 
 
 Clonez le dépôt :
 
-- "git clone git@github.com:VictorNafs/Seaty.git"
-- "cd Seaty"
+- "git clone git@github.com:VictorNafs/Astharte.git"
+- "cd astharte"
 
 Installez les dépendances :
 
