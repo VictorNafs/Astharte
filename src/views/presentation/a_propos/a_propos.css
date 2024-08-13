@@ -55,3 +55,30 @@
         margin-top: 35px; /* Augmentez cette valeur si nécessaire */
     }
 }
+
+.contact-card {
+    margin-top: 35px; /* Ajouter de l'espace au-dessus de la section si nécessaire */
+}
+
+.contact-card-header {
+    font-size: 1.5rem; /* Taille de la police du titre de la section */
+    font-weight: bold; /* Gras pour le titre */
+    text-align: center; /* Centrer le texte du titre */
+    margin-bottom: 15px; /* Espacement en bas du titre */
+}
+
+.contact-card-body {
+    font-size: 1rem; /* Taille de la police pour le texte dans le corps de la carte */
+    color: #333; /* Couleur du texte */
+    line-height: 1.5; /* Hauteur de ligne pour un meilleur espacement du texte */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.contact-card a {
+    color: #007bff; /* Couleur des liens (email et téléphone) */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+}
+
+.contact-card a:hover {
+    text-decoration: underline; /* Ajouter un soulignement au survol des liens */
+}

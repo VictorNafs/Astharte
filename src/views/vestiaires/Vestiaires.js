@@ -131,18 +131,8 @@ const Vestiaires = () => {
         <h3 className="white-title">Équipe artistique</h3>   
                 <ul>
                     <li>Une création de Adda Abdelli et Fabrice Chanut</li>
-                    <li>Scénario de Adda Abdelli, Fabrice Chanut, <a 
-                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        style={{ color: 'white', textDecoration: 'underline' }}>
-                        Franck Lebon</a>, Virginie Peignien, Yanik Vabre, Loïc Nicoloff, Céline Boidin, Cyrille Latour et Nathan Delanoy</li>
-                    <li>Réalisation de Fabrice Chanut, <a 
-                        href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        style={{ color: 'white', textDecoration: 'underline' }}>
-                        Franck Lebon</a> et Vincent Burgevin</li>
+                    <li>Scénario de Adda Abdelli, Fabrice Chanut, Franck Lebon, Virginie Peignien, Yanik Vabre, Loïc Nicoloff, Céline Boidin, Cyrille Latour et Nathan Delanoy</li>
+                    <li>Réalisation de Fabrice Chanut, Franck Lebon et Vincent Burgevin</li>
                     <li>Production pour Astharté & Compagnie - Sophie Deloche et pour Les Films d’Avalon - Philippe Braunstein</li>
                     <li>Musique : <a 
                         href="https://www.boriginal-music.com/compositeur/franck-lebon/" 

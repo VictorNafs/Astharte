@@ -93,22 +93,20 @@ const VestiairesLiberes = () => {
                             sujet de la disparition de la drogue, Louise rejoint son mari, Martin, et son fils, Yvan, dans
                             une petite ville au bord de la mer d’où Martin est originaire, bien décidée à retrouver les
                             siens et les ramener vivre auprès d’elle.                          </p>
-                            <br></br>
+                            <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
-                            Mais Martin ne veut plus de leur vie parisienne et de leurs métiers chronophages où ils ne
-                            font que se croiser, de leur vie qui partait à vau l’eau. Il était infirmier urgentiste, il va
-                            reprendre la gérance d’une supérette dans cette petite ville au bord de mer bien décidé à
-                            changer de vie. Il espère que Yvan, leur fils, trouvera lui aussi ici son équilibre. Et elle ? Doit-
-                            elle arrêter son métier pour le suivre ? Comment peut-il prendre cette décision tout seul ?
-                            Louise va se battre pour sauver son couple et sa famille, mais c’est sans compter sur l’affaire
-                            de drogue qui va la rattraper et pour laquelle elle devient la principale suspect.
-                            </p>
-                            <p className="text-left text-bg texte">
-                            Pour protéger sa famille et prouver son innocence, Louise va devoir retrouver la drogue.
-                            Entre choix familiaux, décisions de couple et enquêtes, les surprises ne manquent pas… et
-                            elles ne sont pas toujours bonnes. On ne sait jamais ce qui nous attend derrière un virage.
-                            Entre polar et réflexion sur la famille, Virage attend la dernière ligne droite pour dévoiler sa
-                            vérité.
+                            <ul>
+                                <li>Scénario de Maxime POTHERAT, Adda ABDELLI, Fabrice CHANUT</li>
+                                <li>Réalisation de Maxime POTHERAT</li>
+                                <li>Production pour Astharté et Compagnie - Sophie Deloche - & Les Films d’Avalon</li>
+                                <li>Philippe Braunstein</li>
+                                <li>Musique : <a 
+                                    href="https://www.boriginal-music.com/compositeur/franck-lebon/" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    style={{ color: 'white', textDecoration: 'underline' }}>
+                                    Franck Lebon</a></li>
+                            </ul>
                             </p>
                       </div>
                         <img src={affichevestiairesL} alt="Wara Image 1" className="img-thumbnail-large" />
@@ -124,16 +122,23 @@ const VestiairesLiberes = () => {
                                 <div className="waraRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
-                                        <li>Caroline Proust : LOUISE</li>
-                                        <li>Thomas Jouannet : MARTIN</li>
-                                        <li>Andréa Ferreol : FRANCOISE</li>
-                                        <li>Simon Zampieri : YVAN</li>
-                                        <li>N'Landu Lubansu : ARTHUR</li>
-                                        <li>Patrick Ridremont : WAGNER</li>
-                                        <li>Frédérique Kamatari : ADDA</li>
-                                        <li>Arthur Choisnet : TONY</li>
-                                        <li>David Ayala : SANTINI</li>
-                                        <li>Yann Tshibola : SAMBA</li>
+                                        <li>Adda ABDELLI</li>
+                                        <li>Fabrice CHANUT</li>
+                                        <li>Alexandre PHILIP</li>
+                                        <li>Anaïs FABRE</li>
+                                        <li>Luc RODRIGUEZ</li>
+                                        <li>Philippe CROIZON</li>
+                                        <li>Romain LANCRY</li>
+                                        <li>Aude GOGNY-GOUBERT</li>
+                                        <li>Julien JOSSELIN</li>
+                                        <li>Yannick VABRE</li>
+                                        <li>Magali MINIAC</li>
+                                        <li>Jérôme BRUNO</li>
+                                        <li>Nicolas MARTINEZ</li>
+                                        <li>Sébastien LALANNE</li>
+                                        <li>Arnaud CAUSSON</li>
+                                        <li>Vincent BORDES</li>
+                                        <li>Olivier PLEINDOUX</li>
                                     </ul>
                                 </div>
                         </div>
@@ -147,25 +152,15 @@ const VestiairesLiberes = () => {
                         <div className="wara-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
-                                    <li>Réalisation : Delphine Lemoine</li>
-                                    <li>Production : Sophie Deloche</li>
-                                    <li>Scénario de : Virginie Peignien et Philippe Bérenger</li>
-                                    <li>Sur une idée originale de : Philippe Bérenger</li>
-                                    <li>Chef opérateur : Bruno Privat</li>
-                                    <li>1er assistant réalisation : Emmanuel Rondeau Du Noyer</li>
-                                    <li>Scriptes : Betty Greffet</li>
-                                    <li>Ingénieur du son : Dominique Lacour</li>
-                                    <li>Directeur de production : Franck Delaunay</li>
-                                    <li>Cheffe costumière : Sophie Puig</li>
-                                    <li>Cheffe maquilleuse : Karine Gachon</li>
-                                    <li>Cheffe coiffeuse : Julie Grave</li>
-                                    <li>Chef éclairagiste : Arnaud Desbuquois</li>
-                                    <li>Chef machiniste : François Delaby</li>
-                                    <li>Chef constructeur : Benoit Delmeule</li>
-                                    <li>Cheffe décoratrice : Sylvie Monbel</li>
-                                    <li>Chef monteur Bordeaux : Mickaël Lavignac</li>
-                                    <li>Mixage : Stéphanie Roumiguiere</li>
-                                    <li>Régisseur général : Frédéric Brouard</li>
+                                    <li>Directeur de la photographie : Juan SIQUOT</li>
+                                    <li>Directeur de production : Vincent BORDES</li>
+                                    <li>1er assistante réalisateur : Caroline VANDENBUSSCHE</li>
+                                    <li>Chef opérateur son : Valentin VERRIER</li>
+                                    <li>Chef monteur : Jeronimo ACERO</li>
+                                    <li>Monteur son, mixeur : Charles MASSON</li>
+                                    <li>Chef décorateur : Nicolas BOUCHER</li>
+                                    <li>Chef costumière : Aminata SOW</li>
+                                    <li>Chef maquilleuse : Valentine ERLICH</li>
                                 </ul>
                         </div>
                         <img src={vestiairesLWord2} alt="Wara Image 3" className="wara-img-thumbnail" />

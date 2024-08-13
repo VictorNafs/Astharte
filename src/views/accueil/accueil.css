@@ -136,8 +136,8 @@
     text-transform: uppercase; /* Texte en majuscules */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
     transition: color 0.3s ease; /* Transition pour la couleur */
-    text-decoration: underline; /* Texte souligné */
-  }
+    /* text-decoration: underline; */ /* Texte souligné (ligne commentée ou supprimée) */
+}
   
   /* Styles pour les tablettes */
   @media (max-width: 992px) {
@@ -267,5 +267,29 @@
     .carousel-control-next {
         right: 2%;
         top: 45%;
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel-text {
+        font-size: 0.8rem; /* Réduire la taille de la police pour les très petits écrans */
+        width: 95%; /* Utiliser presque toute la largeur disponible */
+        transform: translateX(2.5%); /* Ajuster la marge */
+    }
+
+    .carousel-text h3 {
+        font-size: 1.2rem; /* Adapter la taille du titre */
+    }
+
+    .carousel-item img.d-block {
+        width: 90%;
+        height: auto;
+    }
+
+    .sharp-image {
+        height: 200px; /* Adapter la hauteur de l'image */
+        top: 150px; /* Ajuster la position */
+        left: 80%; /* Centrer l'image */
+        transform: translateX(-50%); /* Assurer que l'image reste centrée */
     }
 }

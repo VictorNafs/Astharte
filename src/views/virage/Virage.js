@@ -94,21 +94,15 @@ const Virage = () => {
                             une petite ville au bord de la mer d’où Martin est originaire, bien décidée à retrouver les
                             siens et les ramener vivre auprès d’elle.                          </p>
                             <br></br>
+                            <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
-                            Mais Martin ne veut plus de leur vie parisienne et de leurs métiers chronophages où ils ne
-                            font que se croiser, de leur vie qui partait à vau l’eau. Il était infirmier urgentiste, il va
-                            reprendre la gérance d’une supérette dans cette petite ville au bord de mer bien décidé à
-                            changer de vie. Il espère que Yvan, leur fils, trouvera lui aussi ici son équilibre. Et elle ? Doit-
-                            elle arrêter son métier pour le suivre ? Comment peut-il prendre cette décision tout seul ?
-                            Louise va se battre pour sauver son couple et sa famille, mais c’est sans compter sur l’affaire
-                            de drogue qui va la rattraper et pour laquelle elle devient la principale suspect.
-                            </p>
-                            <p className="text-left text-bg texte">
-                            Pour protéger sa famille et prouver son innocence, Louise va devoir retrouver la drogue.
-                            Entre choix familiaux, décisions de couple et enquêtes, les surprises ne manquent pas… et
-                            elles ne sont pas toujours bonnes. On ne sait jamais ce qui nous attend derrière un virage.
-                            Entre polar et réflexion sur la famille, Virage attend la dernière ligne droite pour dévoiler sa
-                            vérité.
+                            <ul>
+                                <li>Réalisé par Bruno GARCIA</li> 
+                                <li>Ecrit par Emmanuel BEZIER & Christophe GAVAT, en collaboration avec Yann LE GAL</li>
+                                <li>Sur une idée originale de Maria SERIO et Christophe GAVAT</li>
+                                <li>Adaptation et dialogues Maria SERIO </li>
+                                <li>Produit par Sophie DELOCHE & Maria SERIO</li>
+                            </ul>
                             </p>
                       </div>
                         <img src={affichevirage} alt="Wara Image 1" className="img-thumbnail-large" />

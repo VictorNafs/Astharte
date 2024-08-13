@@ -98,17 +98,16 @@ const A_Propos = () => {
     </CCardBody>
 </CCard>
 
-
-      {/* Vous pouvez ajouter des sections similaires pour l'Histoire, les Valeurs, etc. si nécessaire */}
-
-      {/* <CCard className="mb-4">
+        <CCard className="mb-4">
         <CCardHeader>Contactez-nous</CCardHeader>
         <CCardBody>
-          <p>
-            Si vous avez des questions ou souhaitez collaborer avec nous, n'hésitez pas à <a href="[lien_vers_page_contact]">nous contacter</a>.
-          </p>
+        <p>
+          <strong>Adresse postale :</strong> 19 rue Beaurepaire, 75010 PARIS<br/>
+          <strong>Email :</strong> <a href="mailto:info@astharte.com">info@astharte.com</a><br/>
+          <strong>Téléphone :</strong> <a href="tel:+33144919163">+33 1 44 91 91 63</a>
+        </p>
         </CCardBody>
-      </CCard> */}
+      </CCard>
     </>
   )
 }

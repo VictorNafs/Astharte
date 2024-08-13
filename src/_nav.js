@@ -96,8 +96,8 @@ const _nav = [
 
   {
     component: CNavItem,
-    name: 'Comme Un Air',
-    to: '/comme_un_air',
+    name: 'Virage',
+    to: '/virage',
   },
 
   {
@@ -114,8 +114,8 @@ const _nav = [
 
   {
     component: CNavItem,
-    name: 'Virage',
-    to: '/virage',
+    name: 'Comme Un Air',
+    to: '/comme_un_air',
   },
 ]
 
