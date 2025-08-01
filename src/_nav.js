@@ -15,8 +15,8 @@ const _nav = [
   {
     component: CNavTitle,
     name: 'Présentation',
-    className: 'underline-title',
-  },
+    className: 'c-nav-title', 
+    },
   // {
   //   component: CNavItem,
   //   name: 'À Venir',
@@ -24,7 +24,7 @@ const _nav = [
   // },
   {
     component: CNavItem,
-    name: 'Catalogue',
+    name: 'Catalogue/Bandes Annonces',
     to: '/presentation/catalogues',
   },
   {
@@ -36,8 +36,8 @@ const _nav = [
   {
     component: CNavTitle,
     name: 'Productions séries',
-    className: 'underline-title',
-  },
+    className: 'c-nav-title', 
+    },
   // {
   //   component: CNavGroup,
   //   name: 'Productions',
@@ -62,6 +62,11 @@ const _nav = [
   //   to: '/charts',
   //   icon: <CIcon icon={cilInbox} customClassName="nav-icon" />,
   // },
+  {
+    component: CNavItem,
+    name: 'Immeuble Partagé',
+    to: '/ip',
+  },
   {
     component: CNavItem,
     name: 'Vestiaires',
@@ -91,8 +96,8 @@ const _nav = [
   {
     component: CNavTitle,
     name: 'Productions unitaires',
-    className: 'underline-title',
-  },
+    className: 'c-nav-title', 
+    },
 
   {
     component: CNavItem,

@@ -49,6 +49,7 @@ const L_S_M_S4 = React.lazy(() => import('./views/les_saisons_meurtrieres/L_S_M_
 // const Validation = React.lazy(() => import('./views/forms/validation/Validation'))
 
 // const Charts = React.lazy(() => import('./views/charts/Charts'))
+const Ip = React.lazy(() => import('./views/ip/Ip'))
 const Vestiaires = React.lazy(() => import('./views/vestiaires/Vestiaires'))
 const Vestiaires_Liberes = React.lazy(() => import('./views/vestiairesLiberes/VestiairesLiberes'))
 const Wara = React.lazy(() => import('./views/wara/Wara'))
@@ -102,6 +103,7 @@ const routes = [
   // { path: '/buttons/dropdowns', name: 'Dropdowns', element: Dropdowns },
   // { path: '/buttons/button-groups', name: 'Button Groups', element: ButtonGroups },
   // { path: '/charts', name: 'Contact', element: Charts },
+  { path: '/ip', name: 'Ip', element: Ip },
   { path: '/vestiaires', name: 'Vestiaires', element: Vestiaires },
   { path: '/vestiairesLiberes', name: 'Vestiaires Libérés', element: Vestiaires_Liberes },
   { path: '/wara', name: 'Wara', element: Wara },

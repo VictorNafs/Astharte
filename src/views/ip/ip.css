@@ -1,5 +1,5 @@
-.bg-image-s-lsm {
-    background-image: url('src/assets/images/fond_Lsm_Hr.jpg');
+.bg-image-s-v {
+    background-image: url('src/assets/images/fond-fleurs.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -13,22 +13,22 @@
 .wara-title {
     font-size: 3rem;
     font-weight: bold;
-    color: #0F365F;
+    color: #fff;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     transition: color 0.3s ease;
     text-decoration: underline;
-    margin-bottom: 50px;
+    margin-bottom: 15%;
 }
 
 .wara-title:hover {
-    color: #fff;
+    color: #0F365F;
 }
 
 .wara-syn {
     font-size: 1.9rem;
     font-weight: bold;
-    color: #0F365F;
+    color: #fff;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     transition: color 0.3s ease;
@@ -36,7 +36,7 @@
 }
 
 .wara-syn:hover {
-    color: #fff;
+    color: #0F365F;
 }
 
 .white-title {
@@ -112,7 +112,7 @@ p {
 }
 
 .text-container {
-    margin-top: -175px;
+    margin-top: -185px;
 }
 
 
@@ -361,36 +361,6 @@ p {
     column-gap: 40px;
 }
 
-.palm-awards {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.palm-item.crowned {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: nowrap;
-}
-
-.palm-half {
-  width: 50px;
-  height: auto;
-}
-
-.palm-label.crowned-text {
-  font-weight: bold;
-  text-shadow: 1px 1px 2px black;
-  font-size: 1.1rem;
-  color: #0F365F;
-  text-align: center;
-  max-width: 350px;
-}
 
 @media (max-width: 768px) {
 
@@ -400,7 +370,7 @@ p {
     }
 
     .text-container {
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .container > div:first-child {
         top: 40px; /* Ajustez cette valeur selon vos préférences */
@@ -500,27 +470,4 @@ p {
         width: 100%; /* Assurez-vous que les images ne débordent pas */
         height: auto; /* Garder le ratio */
     }
-          .palm-awards {
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .palm-item.crowned {
-    flex-direction: row;           /* 🔄 On garde l'affichage horizontal */
-    flex: 0 1 90%;                 /* ✅ Plus large en responsive */
-    max-width: 95vw;               /* Utilisation quasi complète de la largeur écran */
-    gap: 8px;
-  }
-
-  .palm-half {
-    width: 60px;                   /* 🖼️ Toujours visible, un peu réduit mais pas trop */
-  }
-
-  .palm-label.crowned-text {
-    font-size: 1rem;
-    max-width: 100%;              /* 🧾 On laisse le texte s'étaler s'il peut */
-    line-height: 1.2;
-    padding: 0 5px;
-  }
 }
-

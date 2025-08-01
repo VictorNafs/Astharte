@@ -6,9 +6,8 @@ import './a_propos.css';
 import { CCard, CCardHeader, CCardBody, CImage } from '@coreui/react';
 
 import bossImage from 'src/assets/images/portrait_sophie.jpg';
-import assistant from 'src/assets/images/portrait_maxime.jpg';
-import assistantprod from 'src/assets/images/portrait_mandy.jpg';
-import alternante from 'src/assets/images/portrait_tara.jpg';
+import assistant from 'src/assets/images/julia.jpg';
+
 import comptable from 'src/assets/images/portrait_christine.jpg';
 
 const A_Propos = () => {
@@ -63,10 +62,10 @@ const A_Propos = () => {
             Maria Sério - Magnolia ; Mbatio Diaw Ndiaye - Raes production. Nous associons nos forces
             pour faire exister des projets coups de cœur.
             <br></br> <br></br>
-            Astharté & Compagnie c’est aussi toute une équipe ; des productions partagées pendant de
-            nombreuses années avec Baptiste Rinaldi et à présent avec Maxime Hervouet.
+            Astharté & Compagnie c’est une équipe ; des productions partagées pendant de
+            nombreuses années avec Baptiste Rinaldi.
             C’est un suivi rigoureux de l’administration de production par Christine Custudio. Et une
-            organisation et un accueil attentif de Mandy Gelpi.
+            organisation et un accueil attentif de Julia Salicetti.
             <br></br> <br></br>
             Avec Astharté & Compagnie, Sophie Deloche fait le choix de défendre des projets singuliers, aux
             univers forts, portés par le quatuor scénariste – réalisateur – acteur – producteur. 
@@ -80,10 +79,8 @@ const A_Propos = () => {
     <div className="team-members-container">
         {[
             { src: bossImage, alt: "Mme. Astharte", name: "Sophie Deloche", title: "Productrice et Gérante" },
-            { src: assistant, alt: "Max", name: "Maxime Hervouet", title: "Chargé de développement et de production", description: "maxime@astharte.com" },
-            { src: assistantprod, alt: "Mandy", name: "Mandy Gelpi", title: "Assistante de production", description: "mandy@astharte.com" },
+            { src: assistant, alt: "Julia", name: "Julia Salicetti", title: "Assistante de production", description: "julia@astharte.com" },
             { src: comptable, alt: "Christine", name: "Christine Custodio", title: "Administratrice de production", description: "christine@astharte.com" },
-            { src: alternante, alt: "Tara", name: "Tara Constantin Wastiaux", title: "Alternante assistanat de production et de développement", description: "tara@astharte.com" }
           ].map(member => (
             <div className="team-member mb-4" key={member.name}>
                 <CImage src={member.src} alt={member.alt} className="team-photo mr-4" width={100} />
@@ -97,19 +94,27 @@ const A_Propos = () => {
         </div>
     </CCardBody>
 </CCard>
-
-        <CCard className="mb-4">
-        <CCardHeader>Contactez-nous</CCardHeader>
-        <CCardBody>
-        <p>
-          <strong>Adresse postale :</strong> 19 rue Beaurepaire, 75010 PARIS<br/>
-          <strong>Email :</strong> <a href="mailto:info@astharte.com">info@astharte.com</a><br/>
-          <strong>Téléphone :</strong> <a href="tel:+33144919163">+33 1 44 91 91 63</a>
-        </p>
-        </CCardBody>
-      </CCard>
-    </>
+<CCard className="mb-4 contact-card">
+  <CCardHeader className="contact-card-header">Informations de contact</CCardHeader>
+  <CCardBody className="contact-card-body">
+    <p>
+      <strong>Email :</strong>{' '}
+      <a href="mailto:info@astharte.com">info@astharte.com</a>
+      <br />
+      <strong>Téléphone :</strong>{' '}
+      <a href="tel:+33144919163">+33 1 44 91 91 63</a>
+      <br />
+      <strong>Adresse :</strong>{' '}
+      <a href="19, rue Beaurepaire, 75010">19, rue Beaurepaire, 75010</a>
+    </p>
+  </CCardBody>
+</CCard>
+</>
   )
 }
 
 export default A_Propos;
+
+
+
+

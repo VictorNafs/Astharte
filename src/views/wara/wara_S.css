@@ -391,7 +391,6 @@ p {
     column-gap: 40px;
 }
 
-  
 @media (max-width: 768px) {
 
     .wara-title {
@@ -515,4 +514,27 @@ p {
         position: relative;
         top: 10px; /* Déplace les boutons 20px vers le haut */
     }
+/* 📱 MOBILE - déjà en place */
+  .palm-awards {
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: -5%;
+  }
+
+  .palm-icon {
+    width: 60px;
+  }
+
+  .palm-label {
+    font-size: 0.85rem;
+  }
+}
+
+/* 📲 TABLETTE */
+@media (min-width: 768px) and (max-width: 1400px) {
+.wara-title {
+    margin-bottom: 45%;
+}
+
 }

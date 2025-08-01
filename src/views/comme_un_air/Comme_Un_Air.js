@@ -67,6 +67,7 @@ const Wara_S1 = () => {
         </Helmet>
         <CRow className="bg-image-s-cua">
             <CCol xs={12}>
+                
                 <div className="container">
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
@@ -80,7 +81,15 @@ const Wara_S1 = () => {
                             Site officiel
                         </CButton>
                     </div> */}
+<div className="palm-awards">
+                    
+                    <div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix de la musique originale 13ème FESTIVAL DE LA FICTION TV (2011)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
 
+</div>
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">

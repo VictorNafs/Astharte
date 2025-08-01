@@ -94,14 +94,17 @@ const Virage = () => {
                             une petite ville au bord de la mer d’où Martin est originaire, bien décidée à retrouver les
                             siens et les ramener vivre auprès d’elle.                          </p>
                             <br></br>
-                            <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
                             <ul>
-                                <li>Réalisé par Bruno GARCIA</li> 
-                                <li>Ecrit par Emmanuel BEZIER & Christophe GAVAT, en collaboration avec Yann LE GAL</li>
-                                <li>Sur une idée originale de Maria SERIO et Christophe GAVAT</li>
-                                <li>Adaptation et dialogues Maria SERIO </li>
-                                <li>Produit par Sophie DELOCHE & Maria SERIO</li>
+                                <li>Une coproduction ASTHARTÉ & COMPAGNIE, FRANCE TÉLÉVISIONS, NARRATIV NATION - UMEDIA en association avec UFUND</li>
+                                <li>Une production éxécutive FRANCE TÉLÉVISIONS LA FABRIQUE</li>
+                                <li>Réalisé par Delphine LEMOINE</li> 
+                                <li>Ecrit par Virginie PEIGNIEN et Philippe BERENGER</li>
+                                <li>Musique original de Maïdi ROTH et Franck PILANT</li>
+                                <li>Produit par Sophie DELOCHE</li>
+                                <li>En partenariat avec le CNC et avec la participation de TV5 Monde et de la RTS</li>
+                                <li>Avec le soutien de la PROCIREP et de l'ANGOA du TAX SHELTER du Gouvernement Fédéral de Belgique</li>
+                                <li>Ventes internationales FILM & PICTURE</li>
                             </ul>
                             </p>
                       </div>
@@ -118,16 +121,16 @@ const Virage = () => {
                                 <div className="waraRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
-                                        <li>Caroline Proust : LOUISE</li>
-                                        <li>Thomas Jouannet : MARTIN</li>
-                                        <li>Andréa Ferreol : FRANCOISE</li>
-                                        <li>Simon Zampieri : YVAN</li>
-                                        <li>N'Landu Lubansu : ARTHUR</li>
-                                        <li>Patrick Ridremont : WAGNER</li>
-                                        <li>Frédérique Kamatari : ADDA</li>
-                                        <li>Arthur Choisnet : TONY</li>
-                                        <li>David Ayala : SANTINI</li>
-                                        <li>Yann Tshibola : SAMBA</li>
+                                        <li>Caroline PROUST</li>
+                                        <li>Thomas JOUANNET</li>
+                                        <li>Andréa FERREOL</li>
+                                        <li>Simon ZAMPIERI</li>
+                                        <li>N'Landu LUBANSU</li>
+                                        <li>Patrick RIDREMONT</li>
+                                        <li>Frédérique KAMATARI</li>
+                                        <li>Arthur CHOISNET</li>
+                                        <li>David AYALA</li>
+                                        <li>Yann TSHIBOLA</li>
                                     </ul>
                                 </div>
                         </div>

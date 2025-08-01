@@ -46,6 +46,7 @@ const Les_Saisons_Meurtrieres = () => {
       </Helmet>
     <CRow className="bg-image-lsm">
       <CCol xs={12} className="content-center">
+
         <div className="buttons-lsm">
           <Link to="/les_saisons_meurtrieres/saison1" className="button-lsm">
             Hiver Rouge

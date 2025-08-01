@@ -93,14 +93,18 @@ const En_Plein_Coeur = () => {
                             pairs sera une épreuve délicate pour nos deux enquêtrices… Être flic, pour le meilleur et pour 
                             le pire.                            </p>
                             <br></br>
-                            <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
                             <ul>
-                                <li>Réalisé par Bruno GARCIA</li> 
-                                <li>Ecrit par Emmanuel BEZIER & Christophe GAVAT, en collaboration avec Yann LE GAL</li>
-                                <li>Sur une idée originale de Maria SERIO et Christophe GAVAT</li>
-                                <li>Adaptation et dialogues Maria SERIO </li>
-                                <li>Produit par Sophie DELOCHE & Maria SERIO</li>
+                                <li>Une coproduction ASTHARTÉ & COMPAGNIE, MAGNOLIA, FRANCE TÉLÉVISIONS, BE-FILMS et la RTBF</li>
+                                <li>Réalisé par Bruno GARCIA</li>
+                                <li>Idée Originale : Maria SERIO & Christophe GAVAT</li>
+                                <li>Scénario Christophe GAVAT, Emmanuel BEZIER, Yann LE GAL</li>
+                                <li>Adaptation et Dialogues : Maria SERIO</li>
+                                <li>Musique originale de Franck LEBON</li>
+                                <li>Produit par Maria SERIO et Sophie DELOCHE</li>
+                                <li>En partenariat avec le CNC et avec la participation de TV5 Monde et de la RTS</li>
+                                <li>Avec le soutien de la Région Nouvelle-Aquitaine et du Département Gironde</li>
+                                <li>Ventes internationales FILM & PICTURE</li>
                             </ul>
                             </p>
                       </div>
@@ -133,7 +137,7 @@ const En_Plein_Coeur = () => {
                                         <li>Max Geller</li>
                                         <li>Brigitte Aubry</li>
                                         <li>Jean Cordier</li>
-                                        <li>avec la participation d’Annick Blancheteau</li>
+                                        <li>et la participation d’Annick Blancheteau</li>
                                     </ul>
                                 </div>
                         </div>
@@ -147,6 +151,8 @@ const En_Plein_Coeur = () => {
                         <div className="wara-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
+                                    <li>Réalisation : Bruno GARCIA</li>
+                                    <li>Production : Sophie Deloche et Maria SERIO</li>
                                     <li>Directrice de production Sophie Couecou</li>
                                     <li>Directrice de production : Brigitte Chaussade</li>
                                     <li>Directeur de la photographie : Dominique Fausset</li>

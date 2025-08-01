@@ -35,6 +35,7 @@ import afficheenpleincoeur from 'src/assets/images/affiche-en-plein-coeur.jpg'
 import affichevirage from 'src/assets/images/affiche-virage.jpg'
 import affichecommeunair from 'src/assets/images/affiche-comme-un-air.jpg'
 import afficheparolecontreparole from 'src/assets/images/affiche-parole-contre-parole.jpg'
+import afficheIp from 'src/assets/images/affiche-ip.jpg'
 
 const DraggableImage = ({ src, alt, url }) => {
   const [{ isDragging }, dragRef] = useDrag({
@@ -216,6 +217,13 @@ const Catalogues = () => {
         <div className="photo-grid">
           <Link to="/vestiairesLiberes">
           <DraggableImage src={affichevestiairesliberes} alt="Vestiaires Libérés" url="https://www.youtube.com/watch?v=AVSx575UA4k&list=PLjzwwWuQmHVXFxy3hXW7XSrpOA5Z7R4vw" />
+          </Link>
+          <DropZoneComponent />
+        </div>
+          <h2 className="mt">Immeuble Partagé</h2>
+        <div className="photo-grid">
+          <Link to="/Ip">
+          <DraggableImage src={afficheIp} alt="Immeuble Partagé" />
           </Link>
           <DropZoneComponent />
         </div>

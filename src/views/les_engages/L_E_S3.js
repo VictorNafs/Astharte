@@ -178,6 +178,7 @@ const L_E_S3 = () => {
 </ScrollTrigger>
 
                 </div>
+
             </CCol>
         </CRow>
     </>

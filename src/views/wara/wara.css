@@ -39,7 +39,7 @@
 }
 
 .buttons-w {
-    margin-top: 35%;
+    margin-top: 40px;
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap; 
@@ -70,13 +70,80 @@
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* === PALME LIGNE FIXÉE === */
+.palm-awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 230px;
+  row-gap: 30px;
+}
+
+/* Une palme = une ligne complète avec img + texte + img */
+.palm-item.crowned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  flex: 0 1 30%; /* ⚠️ Max 3 par ligne, sinon saut */
+  min-width: 280px;
+  max-width: 400px;
+}
+
+/* 🏅 Palmes plus grandes */
+.palm-half {
+  width: 70px;
+  height: auto;
+}
+
+/* 📝 Texte resserré horizontalement mais même taille */
+.palm-label.crowned-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  max-width: 200px;     /* ✅ plus serré horizontalement */
+  line-height: 1.2;
+  word-break: break-word;
+}
+
 @media (max-width: 768px) {
-    .button-w {
-        width: 100%; 
-        margin: 0 0 20px 0; /* réinitialise la marge */
-    }
-    .buttons-w {
-        flex-direction: column; 
-        margin-top: 455px;
-    }
+  .button-w {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .buttons-w {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .palm-awards {
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap; /* ✅ autorise les retours à la ligne */
+    margin-bottom: -15px;
+  }
+
+  .palm-item.crowned {
+    flex-direction: row;
+    flex: 0 1 90%;
+    max-width: 150vw;
+    gap: 8px;
+  }
+
+  .palm-half {
+    width: 60px;
+  }
+
+  .palm-label.crowned-text {
+    font-size: 1rem;
+    max-width: 100%;
+    line-height: 1.2;
+    padding: 0 5px;
+  }
 }

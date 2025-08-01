@@ -86,13 +86,24 @@ const VestiairesLiberes = () => {
                         <div className="text-container special-text-container">
                           <h1 className="wara-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            Paris. Un flag. Un coup de fil au mauvais moment. La vie de Louise Heck, capitaine
-                            aux Stups, vient de basculer. L’appel de son fils pendant le flag lui a fait perdre l’attention
-                            qu’elle aurait dû avoir, faisant échouer le flag. Pas facile de coordonner l’annonce du départ
-                            des siens pour une vie loin d’elle et une action aussi tendue. Tandis que l’IGPN enquête au
-                            sujet de la disparition de la drogue, Louise rejoint son mari, Martin, et son fils, Yvan, dans
-                            une petite ville au bord de la mer d’où Martin est originaire, bien décidée à retrouver les
-                            siens et les ramener vivre auprès d’elle.                          </p>
+                            <h2 className="wara-in_bloc">Les Handis dans l’Histoire :</h2> Mettre en scène, des figures célèbres et identifiées de la Grande
+                            Histoire (Jeanne d’Arc, le Roi Arthur, Jésus) ou des figures tout aussi célèbres et identifiées
+                            tirées du vaste patrimoine des contes (La Belle au Bois Dormant, le Chat Botté), 
+                            face à un personnage handicapé dont la présence va détourner, transformer ou bouleverser le 
+                            passage historique ou fictionnel dans lequel il intervient. </p>
+                            <p className="text-left text-bg texte">
+                            C’est une relecture d’un ensemble de situations ou d’événements supposés acquis (car 
+                            historiques ou faisant partie de la culture occidentale), et qui vont par conséquent être 
+                            requalifiés, ré-axés à travers le regard de nos auteurs handis.
+                            À chaque épisode un handicap différent est évoqué, et le détournement fait sens, de manière 
+                            légère et ludique. Le référent visuel est bien là : la situation comique. Et il n’est pas 
+                            question de rire du handicap, mais avec l’handicap.</p>
+                            <p className="text-left text-bg texte">
+                            Comme dans la série Vestiaires, saisir le décalage dans les conversations, de souligner 
+                            l’absurdité de certaines situations, qu’elles soient dues au handicap ou plus généralement à 
+                            une autre vision de la vie. Ces réguliers petits écarts face aux choses de tous les jours 
+                            construisent un regard différent, un regard déformant. 
+                            </p>
                             <h3 className="wara-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
                             <ul>

@@ -18,7 +18,7 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     transition: color 0.3s ease;
     text-decoration: underline;
-    margin-bottom: 15%;
+    margin-bottom: 10px;
 }
 
 .wara-title:hover {
@@ -361,16 +361,57 @@ p {
     column-gap: 40px;
 }
 
+/* === PALME LIGNE FIXÉE === */
+.palm-awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  row-gap: 30px;
+}
+
+/* Une palme = une ligne complète avec img + texte + img */
+.palm-item.crowned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  flex: 0 1 30%; /* ⚠️ Max 3 par ligne, sinon saut */
+  min-width: 280px;
+  max-width: 400px;
+}
+
+/* 🏅 Palmes plus grandes */
+.palm-half {
+  width: 70px;
+  height: auto;
+}
+
+/* 📝 Texte resserré horizontalement mais même taille */
+.palm-label.crowned-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  max-width: 200px;     /* ✅ plus serré horizontalement */
+  line-height: 1.2;
+  word-break: break-word;
+}
 
 @media (max-width: 768px) {
 
     .wara-title {
         font-size: 2.4rem;
         margin-top: 35%;
+        margin-bottom: 10px;
     }
 
     .text-container {
-        margin-top: 0px;
+        margin-top: 60px;
     }
     .container > div:first-child {
         top: 40px; /* Ajustez cette valeur selon vos préférences */
@@ -470,4 +511,28 @@ p {
         width: 100%; /* Assurez-vous que les images ne débordent pas */
         height: auto; /* Garder le ratio */
     }
+
+
+      .palm-awards {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .palm-item.crowned {
+    flex-direction: row;           /* 🔄 On garde l'affichage horizontal */
+    flex: 0 1 90%;                 /* ✅ Plus large en responsive */
+    max-width: 95vw;               /* Utilisation quasi complète de la largeur écran */
+    gap: 8px;
+  }
+
+  .palm-half {
+    width: 60px;                   /* 🖼️ Toujours visible, un peu réduit mais pas trop */
+  }
+
+  .palm-label.crowned-text {
+    font-size: 1rem;
+    max-width: 100%;              /* 🧾 On laisse le texte s'étaler s'il peut */
+    line-height: 1.2;
+    padding: 0 5px;
+  }
 }

@@ -46,6 +46,26 @@ const Wara = () => {
     </Helmet>
     <CRow className="bg-image-w">
       <CCol xs={12} className="content-center">
+                        <div className="palm-awards">
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Clôture Festival DOUALA SÉRIE (2023)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Première mondiale et Prix du Panorama International à SERIES MANIA</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Sélection Officielle à FESPACO (2021)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+</div>
         <div className="buttons-w">
           <Link to="/wara/saison1" className="button-w">
             WARA Et si demain - Saison 1

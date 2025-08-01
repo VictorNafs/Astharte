@@ -81,7 +81,27 @@ const Vestiaires = () => {
                             Site officiel
                         </CButton>
                     </div> */}
+<div className="palm-awards">
 
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix de la Révélation TV FILM FRANÇAIS (2012)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix d'interprétation FESTIVAL DE LA FICTION TV (2016)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix du meilleur programme court TV FESTIVAL DE LUCHON (2018)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+</div>
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">

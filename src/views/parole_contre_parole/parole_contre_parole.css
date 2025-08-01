@@ -13,22 +13,22 @@
 .wara-title {
     font-size: 3rem;
     font-weight: bold;
-    color: #fff;
+    color: #0F365F;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     transition: color 0.3s ease;
     text-decoration: underline;
-    margin-bottom: 15%;
+    margin-bottom: 4%;
 }
 
 .wara-title:hover {
-    color: #0F365F;
+    color: white;
 }
 
 .wara-syn {
     font-size: 1.9rem;
     font-weight: bold;
-    color: #fff;
+    color: #0F365F;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     transition: color 0.3s ease;
@@ -361,113 +361,166 @@ p {
     column-gap: 40px;
 }
 
+/* === PALME LIGNE FIXÉE === */
+.palm-awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  row-gap: 30px;
+}
+
+/* Une palme = une ligne complète avec img + texte + img */
+.palm-item.crowned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  flex: 0 1 30%; /* ⚠️ Max 3 par ligne, sinon saut */
+  min-width: 280px;
+  max-width: 400px;
+}
+
+/* 🏅 Palmes plus grandes */
+.palm-half {
+  width: 40px;
+  height: auto;
+}
+
+/* 📝 Texte resserré horizontalement mais même taille */
+.palm-label.crowned-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0F365F;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  max-width: 200px;     /* ✅ plus serré horizontalement */
+  line-height: 1.2;
+  word-break: break-word;
+}
 
 @media (max-width: 768px) {
 
-    .wara-title {
-        font-size: 2.1rem;
-        margin-top: 35%;
-    }
+  .wara-title {
+    font-size: 2.1rem;
+    margin-top: 35%;
+    margin-bottom: 50px;
+  }
 
-    .text-container {
-        margin-top: 0px;
-    }
-    .container > div:first-child {
-        top: 40px; /* Ajustez cette valeur selon vos préférences */
-    }
-    /* Ajustements de la table */
-    .table-col {
-      font-size: 0.7rem; 
-    }
+  .text-container {
+    margin-top: 0px;
+  }
 
-    .table-col h3 {
-      margin: 0.5rem 0;
-    }
+  .container > div:first-child {
+    top: 40px;
+  }
 
-    .table-col ul {
-      padding-left: 0.5rem;
-    }
+  .table-col {
+    font-size: 0.7rem; 
+  }
 
-    .table-col li {
-      font-size: 0.6rem;
-    }
+  .table-col h3 {
+    margin: 0.5rem 0;
+  }
 
-    /* 1. Ajuster l'effet de glissement pour s'assurer qu'il est encore visible, mais moins prononcé */
-    .slide-from-right .img-thumbnail, 
-    .slide-from-right .text-left {
-        transform: translateX(9%);  /* Les éléments glissent légèrement de leur position d'origine */
-    }
+  .table-col ul {
+    padding-left: 0.5rem;
+  }
 
-    .slide-from-left .img-thumbnail, 
-    .slide-from-left .text-right {
-        transform: translateX(-9%);  /* Les éléments glissent légèrement de leur position d'origine */
-    }
+  .table-col li {
+    font-size: 0.6rem;
+  }
 
-    .flex-container {
-        align-items: center;  
-        flex-direction: column-reverse;
-    }
+  .slide-from-right .img-thumbnail, 
+  .slide-from-right .text-left {
+    transform: translateX(9%);
+  }
 
-    /* 3. Ajuster le texte et les photos pour prendre toute la largeur */
-    .img-thumbnail, 
-    .text-left, 
-    .text-right {
-        max-width: 100%;
-    }
+  .slide-from-left .img-thumbnail, 
+  .slide-from-left .text-right {
+    transform: translateX(-9%);
+  }
 
-    
-    .img-thumbnail-large {
-        margin-left: 0;
-        max-width: 85%;
-    }
+  .flex-container {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 
-    .img-thumbnail {
-        max-width: 100%;  /* Les images prennent toute la largeur de l'écran */
-        margin: 5px 0;
-    }
+  .img-thumbnail,
+  .text-left,
+  .text-right {
+    max-width: 100%;
+  }
 
-    .waraRight-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .img-thumbnail-large {
+    margin-left: 0;
+    max-width: 85%;
+  }
 
-    .wara-flex-container{
-        flex-direction: column-reverse;
-        align-items: flex-start;
-    }
+  .img-thumbnail {
+    max-width: 100%;
+    margin: 5px 0;
+  }
 
-    .waraRight-textSection, .wara-text-left {
-        padding: 0;
-        text-align: center;
-    }
+  .waraRight-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .waraRight-imageStyle, .wara-img-thumbnail {
-        margin: 0 auto;
-        display: block;
-    }
-    .waraRight-textSection,
-    .wara-text-left {
-        padding: 0 15px;  /* Ajouter un padding pour ne pas coller sur les bords */
-    }
+  .wara-flex-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 
-    .waraRight-textSection ul,
-    .wara-text-left ul {
-        columns: 1; /* Passage à une seule colonne pour les petits écrans */
-        -webkit-columns: 1;
-        -moz-columns: 1;
-        column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
-    }
+  .waraRight-textSection,
+  .wara-text-left {
+    padding: 0 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-    .waraRight-textSection ul li,
-    .wara-text-left ul li {
-        font-size: 0.85rem; /* Réduction de la taille de police pour les petits écrans */
-        padding-bottom: 0.5rem;
-    }
-    
-    /* Ajustements pour les images si nécessaire */
-    .waraRight-imageStyle,
-    .wara-img-thumbnail {
-        width: 100%; /* Assurez-vous que les images ne débordent pas */
-        height: auto; /* Garder le ratio */
-    }
+  .waraRight-imageStyle,
+  .wara-img-thumbnail {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .waraRight-textSection ul,
+  .wara-text-left ul {
+    columns: 1;
+    column-gap: 20px;
+  }
+
+  .waraRight-textSection ul li,
+  .wara-text-left ul li {
+    font-size: 0.85rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .palm-awards {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .palm-item.crowned {
+    flex-direction: row;
+    flex: 0 1 90%;
+    max-width: 95vw;
+    gap: 8px;
+  }
+
+  .palm-half {
+    width: 60px;
+  }
+
+  .palm-label.crowned-text {
+    font-size: 1rem;
+    max-width: 100%;
+    line-height: 1.2;
+    padding: 0 5px;
+  }
 }

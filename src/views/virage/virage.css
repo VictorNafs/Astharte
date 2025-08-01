@@ -455,7 +455,7 @@ p {
         columns: 1; /* Passage à une seule colonne pour les petits écrans */
         -webkit-columns: 1;
         -moz-columns: 1;
-        column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
+        column-gap: 40px; /* Réduction de l'espace entre les colonnes si nécessaire */
     }
 
     .waraRight-textSection ul li,

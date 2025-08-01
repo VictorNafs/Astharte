@@ -45,6 +45,7 @@ const Les_Engages = () => {
       </Helmet>
     <CRow className="bg-image-le">
       <CCol xs={12} className="content-center">
+
         <div className="buttons-le">
           <Link to="/les_engages/saison1" className="button-le">
             Les Engagés Saison 1
@@ -56,6 +57,70 @@ const Les_Engages = () => {
             Les Engagés XAOC
           </Link>
         </div>
+
+                                <div className="palm-awards">
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Première mondiale SERIES MANIA et FESTIVAL DE LA FICTION (2021)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Selection officielle à SERIES MANIA (2021)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Cheries cheris FESTIVAL DU FILM LGBTQI+++ Paris (2021)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix du public FESTIVAL FACE A FACE (2019)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix du mérite aux ROME WEB AWARDS ONLINE (2018)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix du Festival HOLLY WEB FESTIVAL (2018)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Meilleure série digitale ou web-série FESTIVAL DE LA FICTION TV (2017)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Meilleure série LGBT aux UK WEB FEST (2017)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Compétition officielle FESTIVAL DE LUCHON</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+<div className="palm-item crowned">
+  <img src={require('src/assets/images/palm-left.png')} alt="Palme gauche" className="palm-half" />
+  <p className="palm-label crowned-text">Prix du Jury FESTIVAL FRANCOPHONE DE LA WEB SERIE (2017)</p>
+  <img src={require('src/assets/images/palm-right.png')} alt="Palme droite" className="palm-half" />
+</div>
+
+</div>
+
       </CCol>
     </CRow>
     </>
