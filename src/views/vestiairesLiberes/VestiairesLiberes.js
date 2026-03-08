@@ -65,13 +65,13 @@ const VestiairesLiberes = () => {
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
-        <CRow className="bg-image-s-epc">
+        <CRow className="bg-image-vl">
             <CCol xs={12}>
                 <div className="container">
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Vestiaires Libérés</h1>
+                    <h1 className="vestiaires_liberes-title mtwt">Vestiaires Libérés</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -84,9 +84,9 @@ const VestiairesLiberes = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="vestiaires_liberes-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
-                            <h2 className="wara-in_bloc">Les Handis dans l’Histoire :</h2> Mettre en scène, des figures célèbres et identifiées de la Grande
+                            <h2 className="vestiaires_liberes-in_bloc">Les Handis dans l’Histoire :</h2> Mettre en scène, des figures célèbres et identifiées de la Grande
                             Histoire (Jeanne d’Arc, le Roi Arthur, Jésus) ou des figures tout aussi célèbres et identifiées
                             tirées du vaste patrimoine des contes (La Belle au Bois Dormant, le Chat Botté), 
                             face à un personnage handicapé dont la présence va détourner, transformer ou bouleverser le 
@@ -104,7 +104,7 @@ const VestiairesLiberes = () => {
                             une autre vision de la vie. Ces réguliers petits écarts face aux choses de tous les jours 
                             construisent un regard différent, un regard déformant. 
                             </p>
-                            <h3 className="wara-syn">Équipe artistique</h3>
+                            <h3 className="vestiaires_liberes-syn">Équipe artistique</h3>
                             <p className="text-left text-bg texte">
                             <ul>
                                 <li>Scénario de Maxime POTHERAT, Adda ABDELLI, Fabrice CHANUT</li>
@@ -120,17 +120,17 @@ const VestiairesLiberes = () => {
                             </ul>
                             </p>
                       </div>
-                        <img src={affichevestiairesL} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichevestiairesL} alt="vestiaires_liberes Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right vestiaires_liberesRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={vestiairesLWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`vestiaires_liberesRight-container ${imageClass2}`}>
+                            <img src={vestiairesLWord1} alt="vestiaires_liberes Image 2" className="vestiaires_liberesRight-imageStyle" />
+                                <div className="vestiaires_liberesRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Adda ABDELLI</li>
@@ -157,10 +157,10 @@ const VestiairesLiberes = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left vestiaires_liberes-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`vestiaires_liberes-flex-container ${imageClass3}`}>
+                        <div className="vestiaires_liberes-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Directeur de la photographie : Juan SIQUOT</li>
@@ -174,15 +174,15 @@ const VestiairesLiberes = () => {
                                     <li>Chef maquilleuse : Valentine ERLICH</li>
                                 </ul>
                         </div>
-                        <img src={vestiairesLWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={vestiairesLWord2} alt="vestiaires_liberes Image 3" className="vestiaires_liberes-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={vestiairesLbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={vestiairesLbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={vestiairesLbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={vestiairesLbottom1} alt="vestiaires_liberes Image 4" className="img-thumbnail" />
+        <img src={vestiairesLbottom2} alt="vestiaires_liberes Image 4" className="img-thumbnail" />
+        <img src={vestiairesLbottom3} alt="vestiaires_liberes Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

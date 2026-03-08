@@ -3,9 +3,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import './catalogues.css'
-import { DndProvider, useDrag, useDrop } from 'react-dnd'
 import { Link } from 'react-router-dom'
-import { HTML5Backend } from 'react-dnd-html5-backend'
 import PropTypes from 'prop-types'
 
 import affichewara1 from 'src/assets/images/affiche-wara1.jpg'
@@ -24,218 +22,150 @@ import affichevestiaires11 from 'src/assets/images/affiche-vestiaires11.jpg'
 import affichevestiaires12 from 'src/assets/images/affiche-vestiaires12.jpg'
 import affichevestiaires13 from 'src/assets/images/affiche-vestiaires13.jpg'
 import affichevestiairesliberes from 'src/assets/images/affiche_vestiaires_liberes.jpg'
+
 import affichelesengages1 from 'src/assets/images/affiche-l-e1.jpg'
 import affichelesengages2 from 'src/assets/images/affiche-l-e2.jpg'
 import affichelesengages3 from 'src/assets/images/affiche-xaox.png'
+
 import affichehiverrouge1 from 'src/assets/images/affiche-hiver-rouge1.jpg'
 import affichebleucatacombe2 from 'src/assets/images/affiche-bleu-catacombe2.jpg'
 import affichejauneiris3 from 'src/assets/images/affiche-jaune-iris3.jpg'
 import affichenoirenigma4 from 'src/assets/images/affiche-noir-enigma4.jpg'
+
 import afficheenpleincoeur from 'src/assets/images/affiche-en-plein-coeur.jpg'
 import affichevirage from 'src/assets/images/affiche-virage.jpg'
 import affichecommeunair from 'src/assets/images/affiche-comme-un-air.jpg'
 import afficheparolecontreparole from 'src/assets/images/affiche-parole-contre-parole.jpg'
+
 import afficheIp from 'src/assets/images/affiche-ip.jpg'
 
-const DraggableImage = ({ src, alt, url }) => {
-  const [{ isDragging }, dragRef] = useDrag({
-    type: 'IMAGE',
-    item: { id: src, url },
-    collect: (monitor) => ({
-      isDragging: monitor.isDragging(),
-    }),
-  })
+const ImageCard = ({ src, alt }) => (
+  <>
+    <img src={src} alt={alt} />
+    <h3>{alt}</h3>
+  </>
+)
 
-  return <img ref={dragRef} style={{ opacity: isDragging ? 0.5 : 1 }} src={src} alt={alt} />
-}
-
-const DropZoneComponent = () => {
-  const [, dropRef] = useDrop({
-    accept: 'IMAGE',
-    drop: (item) => {
-      console.log("Drop detected with item:", item);
-      if (item.url) {
-        window.open(item.url, '_blank');
-      }
-    },
-    collect: (monitor) => ({
-      isOver: monitor.isOver(),
-    }),
-  });
-
-  return (
-    <div ref={dropRef} className="dropzone">
-      {"Déposez les affiches ici pour voir ce qu'elles cachent"}
+const renderImages = (items) =>
+  items.map((item, index) => (
+    <div key={index} className="catalogue-card">
+      <Link to={item.link}>
+        <ImageCard src={item.src} alt={item.alt} />
+      </Link>
     </div>
-  );
-}
-
-
+  ))
 
 const Catalogues = () => {
-  return (
-    <DndProvider backend={HTML5Backend}>
-      <Helmet>
-          <title>Catalogue des Productions - Astharté & Compagnie</title>
-          <meta name="description" content="Découvrez notre catalogue de productions, incluant des séries et films unitaires divers. Explorez les affiches et les détails de chaque production." />
-          <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie, production cinématographique, créativité cinématographique, production de séries, diversité des genres" />
-          <meta name="author" content="Astharté & Compagnie" />
-          {/* Open Graph Tags */}
-          <meta property="og:title" content="Catalogue des Productions - Astharté & Compagnie" />
-          <meta property="og:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
-          <meta property="og:url" content="https://astharte.com/catalogue" />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://astharte.com/favicon.ico" />
-          
-          {/* Twitter Card Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Catalogue des Productions - Astharté & Compagnie" />
-          <meta name="twitter:description" content="Explorez notre catalogue de productions, incluant des séries et films unitaires divers." />
-          <meta name="twitter:image" content="https://astharte.com/favicon.ico" />
 
-          {/* Schema.org JSON-LD */}
-          <script type="application/ld+json">
-              {JSON.stringify({
-                  "@context": "http://schema.org",
-                  "@type": "CollectionPage",
-                  "name": "Catalogue des Productions",
-                  "description": "Page du catalogue des productions de Astharté & Compagnie, incluant des séries et films unitaires divers.",
-                  "url": "https://astharte.com/catalogue",
-                  // ... Autres propriétés pertinentes ...
-              })}
-          </script>
-          <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <meta name="theme-color" content="#FFFFFF" />
+  const filmsUnitaires = [
+    { src: affichevirage, alt: "Virage", link: "/virage" },
+    { src: afficheparolecontreparole, alt: "Parole Contre Parole", link: "/parole_contre_parole" },
+    { src: afficheenpleincoeur, alt: "En Plein Coeur", link: "/en_plein_coeur" },
+    { src: affichecommeunair, alt: "Comme Un Air", link: "/comme_un_air" }
+  ]
+
+  const wara = [
+    { src: affichewara1, alt: "Wara Saison 1", link: "/wara/saison1" },
+    { src: affichewara2, alt: "Wara Saison 2", link: "/wara/saison2" }
+  ]
+
+  const engages = [
+    { src: affichelesengages1, alt: "Les Engagés Saison 1", link: "/les_engages/saison1" },
+    { src: affichelesengages2, alt: "Les Engagés Saison 2", link: "/les_engages/saison2" },
+    { src: affichelesengages3, alt: "Les Engagés Saison 3", link: "/les_engages/saison3" }
+  ]
+
+  const saisonsMeurtrieres = [
+    { src: affichehiverrouge1, alt: "Hiver Rouge", link: "/les_saisons_meurtrieres/saison1" },
+    { src: affichebleucatacombe2, alt: "Bleu Catacombe", link: "/les_saisons_meurtrieres/saison2" },
+    { src: affichejauneiris3, alt: "Jaune Iris", link: "/les_saisons_meurtrieres/saison3" },
+    { src: affichenoirenigma4, alt: "Noir Enigma", link: "/les_saisons_meurtrieres/saison4" }
+  ]
+
+  const vestiaires = [
+    affichevestiaires1,
+    affichevestiaires2,
+    affichevestiaires3,
+    affichevestiaires4,
+    affichevestiaires5,
+    affichevestiaires6,
+    affichevestiaires7,
+    affichevestiaires8,
+    affichevestiaires9,
+    affichevestiaires10,
+    affichevestiaires11,
+    affichevestiaires12,
+    affichevestiaires13
+  ].map((src, i) => ({
+    src,
+    alt: `Vestiaires Saison ${i + 1}`,
+    link: "/vestiaires"
+  }))
+
+  return (
+    <>
+      <Helmet>
+        <title>Catalogue des Productions - Astharté & Compagnie</title>
+        <meta name="description" content="Découvrez notre catalogue de productions, incluant des séries et films unitaires divers." />
+        <meta name="keywords" content="production de films, séries télévisées, cinéma, fiction, Astharté & Compagnie" />
+        <meta name="author" content="Astharté & Compagnie" />
       </Helmet>
+
       <div className="container mt-5">
-        <h1>Production Unitaire</h1>
+
+        <h1>Films Unitaires</h1>
         <div className="photo-grid">
-          <Link to="/virage">
-          <DraggableImage src={affichevirage} alt="Virage" url="https://youtu.be/KkNVSc-xLL0?si=GEcxTlSK8vI9VKL_" />
-          </Link>
-          <Link to="/parole_contre_parole">
-          <DraggableImage
-            src={afficheparolecontreparole}
-            alt="Parole Contre Parole"
-            url="https://youtu.be/YzaelClGE2A?si=y8juf6kmd7t6JMHO"
-          />
-          </Link>
-          <Link to="/en_plein_coeur">
-          <DraggableImage src={afficheenpleincoeur} alt="En Plein Coeur" url="https://youtu.be/20oiaCzaKL8?si=e7QIGRV4XoBYzRkS" />
-          </Link>
-          <Link to="/comme_un_air">
-          <DraggableImage src={affichecommeunair} alt="Comme Un Air" url="https://youtu.be/svQGyKYbjD8?si=oX5CL3h8iDlnCZxF" />
-          </Link>
-          <DropZoneComponent />
+          {renderImages(filmsUnitaires)}
         </div>
-        <h1 className="h1mt">Production Séries</h1>
+
+        <h1 className="h1mt">Séries</h1>
+
         <h2 className="mt">Wara</h2>
         <div className="photo-grid">
-          <Link to="/wara/saison1">
-          <DraggableImage src={affichewara1} alt="Wara 1" url="https://wara-laserie.com/" />
-          </Link>
-          <Link to="/wara/saison2">
-          <DraggableImage src={affichewara2} alt="Wara 2" url="https://wara-laserie.com/" />
-          </Link>
-          <DropZoneComponent />
+          {renderImages(wara)}
         </div>
+
         <h2 className="mt">Les Engagés</h2>
         <div className="photo-grid">
-          <Link to="/les_engages/saison1">
-          <DraggableImage src={affichelesengages1} alt="Les Engagés 1" url="https://youtu.be/26wHsdP3Xtk?si=UyTKYHyZnS69Lvg7" />
-          </Link>
-          <Link to="/les_engages/saison2">
-          <DraggableImage src={affichelesengages2} alt="Les Engagés 2" url="https://youtu.be/muc0CSXNNc0?si=-6oS8jYOEutQd1B8" />
-          </Link>
-          <Link to="/les_engages/saison3">
-          <DraggableImage src={affichelesengages3} alt="Les Engagés 3" url="https://youtu.be/O8wwiGBhw04?si=I-e9E3OKAlskE642" />
-          </Link>
-          <DropZoneComponent />
+          {renderImages(engages)}
         </div>
+
         <h2 className="mt">Les Saisons Meurtrières</h2>
         <div className="photo-grid">
-          <Link to="/les_saisons_meurtrieres/saison1">
-          <DraggableImage src={affichehiverrouge1} alt="Hiver Rouge" url="https://youtu.be/n8k818wN2eQ?si=yXMJmArkzQT8Y7Vi" />
-          </Link>
-          <Link to="/les_saisons_meurtrieres/saison2">
-          <DraggableImage src={affichebleucatacombe2} alt="Bleu Catacombe" url="https://youtu.be/OwMUrASGezE?si=Ql8sHY3uLa304sLk" />
-          </Link>
-          <Link to="/les_saisons_meurtrieres/saison3">
-          <DraggableImage src={affichejauneiris3} alt="Jaune Iris" url="https://youtu.be/OwMUrASGezE?si=Mm_Lp_mmdZuaH9CC" />
-          </Link>
-          <Link to="/les_saisons_meurtrieres/saison4">
-          <DraggableImage src={affichenoirenigma4} alt="Noir Enigma" url="https://youtu.be/OwMUrASGezE?si=Mm_Lp_mmdZuaH9CC" />
-          </Link>
-          <DropZoneComponent />
+          {renderImages(saisonsMeurtrieres)}
         </div>
+
         <h2 className="mt">Vestiaires</h2>
         <div className="photo-grid">
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires1} alt="Vestiaires 1" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires2} alt="Vestiaires 2" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires3} alt="Vestiaires 3" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires4} alt="Vestiaires 4" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires5} alt="Vestiaires 5" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires6} alt="Vestiaires 6" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires7} alt="Vestiaires 7" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires8} alt="Vestiaires 8" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires9} alt="Vestiaires 9" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires10} alt="Vestiaires 10" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires11} alt="Vestiaires 11" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrp" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires12} alt="Vestiaires 12" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrpy" />
-          </Link>
-          <Link to="/vestiaires">
-          <DraggableImage src={affichevestiaires13} alt="Vestiaires 13" url="https://youtube.com/@vestiairesfrance2?si=kiLb1RsVttPvRkrpy" />
-          </Link>
-          <DropZoneComponent />
+          {renderImages(vestiaires)}
         </div>
+
         <h2 className="mt">Vestiaires Libérés</h2>
         <div className="photo-grid">
-          <Link to="/vestiairesLiberes">
-          <DraggableImage src={affichevestiairesliberes} alt="Vestiaires Libérés" url="https://www.youtube.com/watch?v=AVSx575UA4k&list=PLjzwwWuQmHVXFxy3hXW7XSrpOA5Z7R4vw" />
-          </Link>
-          <DropZoneComponent />
+          <div className="catalogue-card">
+            <Link to="/vestiairesLiberes">
+              <ImageCard src={affichevestiairesliberes} alt="Vestiaires Libérés" />
+            </Link>
+          </div>
         </div>
-          <h2 className="mt">Immeuble Partagé</h2>
+
+        <h2 className="mt">Immeuble Partagé</h2>
         <div className="photo-grid">
-          <Link to="/Ip">
-          <DraggableImage src={afficheIp} alt="Immeuble Partagé" />
-          </Link>
-          <DropZoneComponent />
+          <div className="catalogue-card">
+            <Link to="/Ip">
+              <ImageCard src={afficheIp} alt="Immeuble Partagé" />
+            </Link>
+          </div>
         </div>
+
       </div>
-    </DndProvider>
+    </>
   )
 }
 
-DraggableImage.propTypes = {
+ImageCard.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
-  url: PropTypes.string,
 }
 
 export default Catalogues

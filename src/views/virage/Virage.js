@@ -65,13 +65,13 @@ const Virage = () => {
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
-        <CRow className="bg-image-s-epc">
+        <CRow className="bg-image-virage">
             <CCol xs={12}>
                 <div className="container">
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Virage</h1>
+                    <h1 className="virage-title mtwt">Virage</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -84,7 +84,7 @@ const Virage = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="virage-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                             Paris. Un flag. Un coup de fil au mauvais moment. La vie de Louise Heck, capitaine
                             aux Stups, vient de basculer. L’appel de son fils pendant le flag lui a fait perdre l’attention
@@ -108,17 +108,17 @@ const Virage = () => {
                             </ul>
                             </p>
                       </div>
-                        <img src={affichevirage} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichevirage} alt="virage Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right virageRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={virageWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`virageRight-container ${imageClass2}`}>
+                            <img src={virageWord1} alt="virage Image 2" className="virageRight-imageStyle" />
+                                <div className="virageRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Caroline PROUST</li>
@@ -138,10 +138,10 @@ const Virage = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left virage-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`virage-flex-container ${imageClass3}`}>
+                        <div className="virage-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Réalisation : Delphine Lemoine</li>
@@ -164,15 +164,15 @@ const Virage = () => {
                                     <li>Régisseur général : Frédéric Brouard</li>
                                 </ul>
                         </div>
-                        <img src={virageWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={virageWord2} alt="virage Image 3" className="virage-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={viragebottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={viragebottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={viragebottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={viragebottom1} alt="virage Image 4" className="img-thumbnail" />
+        <img src={viragebottom2} alt="virage Image 4" className="img-thumbnail" />
+        <img src={viragebottom3} alt="virage Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

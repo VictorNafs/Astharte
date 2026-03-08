@@ -72,7 +72,7 @@ const Parole_Contre_Parole = () => {
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Parole Contre Parole</h1>
+                    <h1 className="parole_contre_parole-title mtwt">Parole Contre Parole</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -98,7 +98,7 @@ const Parole_Contre_Parole = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="parole_contre_parole-syn">Synopsis</h1>
                                 <p className="text-left text-bg">
                                     Laura, jeune commissaire priseur à la carrière prometteuse, voit sa vie basculer 
                                     le jour où elle est victime d’un viol. Le violeur est un galeriste connu et respecté, et le 
@@ -117,17 +117,17 @@ const Parole_Contre_Parole = () => {
                                 Produit par Sophie DELOCHE
                                 </p>
                       </div>
-                        <img src={afficheparolecontreparole} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={afficheparolecontreparole} alt="parole_contre_parole Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right parole_contre_paroleRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={parolecontreparoleWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`parole_contre_paroleRight-container ${imageClass2}`}>
+                            <img src={parolecontreparoleWord1} alt="parole_contre_parole Image 2" className="parole_contre_paroleRight-imageStyle" />
+                                <div className="parole_contre_paroleRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Elsa LUNGHINI</li>
@@ -154,10 +154,10 @@ const Parole_Contre_Parole = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left parole_contre_parole-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`parole_contre_parole-flex-container ${imageClass3}`}>
+                        <div className="parole_contre_parole-text-left text-bg">
                         <h3 className="white-title">Équipe artistique et technique</h3>   
                                     <ul>
                                         <li>Directeur de production : Pierre DUFOUR </li>
@@ -178,15 +178,15 @@ const Parole_Contre_Parole = () => {
                                         <li>Cheffe monteuse son : Corinne ROZENBERG</li>
                                     </ul>
                         </div>
-                        <img src={parolecontreparoleWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={parolecontreparoleWord2} alt="parole_contre_parole Image 3" className="parole_contre_parole-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={parolecontreparolebottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={parolecontreparolebottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={parolecontreparolebottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={parolecontreparolebottom1} alt="parole_contre_parole Image 4" className="img-thumbnail" />
+        <img src={parolecontreparolebottom2} alt="parole_contre_parole Image 4" className="img-thumbnail" />
+        <img src={parolecontreparolebottom3} alt="parole_contre_parole Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

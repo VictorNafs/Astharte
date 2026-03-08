@@ -10,7 +10,7 @@
     margin-top: 5%;
 }
 
-.wara-title {
+.les_engages-title {
     font-size: 3rem;
     font-weight: bold;
     color: #0F365F;
@@ -21,11 +21,11 @@
     margin-bottom: 15px;
 }
 
-.wara-title:hover {
+.les_engages-title:hover {
     color: #fff;
 }
 
-.wara-title-h3 {
+.les_engages-title-h3 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #0F365F;
@@ -36,11 +36,11 @@
     margin-bottom: 10%;
 }
 
-.wara-title-h3:hover {
+.les_engages-title-h3:hover {
     color: #fff;
 }
 
-.wara-title-h3-S2 {
+.les_engages-title-h3-S2 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #0F365F;
@@ -50,11 +50,11 @@
     text-decoration: underline;
     margin-bottom: 10%;
 }
-.wara-title-h3-S2:hover {
+.les_engages-title-h3-S2:hover {
     color: #fff;
 }
 
-.wara-syn {
+.les_engages-syn {
     font-size: 1.9rem;
     font-weight: bold;
     color: #0F365F;
@@ -64,7 +64,7 @@
     text-decoration: underline;
 }
 
-.wara-syn:hover {
+.les_engages-syn:hover {
     color: #fff;
 }
 
@@ -78,7 +78,7 @@
     text-decoration: underline;
 }
 
-.wara-logo {
+.les_engages-logo {
     width: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
     height: auto; 
     display: block; 
@@ -286,7 +286,7 @@ p {
 
 
 
-@keyframes waraSlideFromLeft {
+@keyframes les_engagesSlideFromLeft {
     0% {
       transform: translateX(-100%);
     }
@@ -295,24 +295,24 @@ p {
     }
   }
   
-  .wara-slide-in {
-    animation: waraSlideFromLeft 4s forwards;
+  .les_engages-slide-in {
+    animation: les_engagesSlideFromLeft 4s forwards;
   }
   
-  .wara-flex-container {
+  .les_engages-flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .wara-text-left {
+  .les_engages-text-left {
     flex: 1;
     padding-right: 20px;
     text-align: justify;
     /* Ajoutez un espace entre le texte et l'image */
   }
   
-  .wara-img-thumbnail {
+  .les_engages-img-thumbnail {
     flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
     max-width: 300px;  /* Définir la largeur maximale que vous souhaitez */
     max-height: 200px; /* Définir la hauteur maximale que vous souhaitez */
@@ -326,7 +326,7 @@ p {
     opacity: 0;
 }
 
-@keyframes waraRightSlideEffect {
+@keyframes les_engagesRightSlideEffect {
     0% {
       transform: translateX(100%);
     }
@@ -335,22 +335,22 @@ p {
     }
   }
   
-  .waraRight-slideAnim {
-    animation: waraRightSlideEffect 4s forwards;
+  .les_engagesRight-slideAnim {
+    animation: les_engagesRightSlideEffect 4s forwards;
   }
   
-  .waraRight-container {
+  .les_engagesRight-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .waraRight-textSection {
+  .les_engagesRight-textSection {
     flex: 1;
     padding-left: 20px; /* Ajout d'un espace à gauche du texte */
   }
   
-  .waraRight-imageStyle {
+  .les_engagesRight-imageStyle {
     flex-shrink: 0;
     max-width: 300px;  
     max-height: 200px; 
@@ -358,8 +358,8 @@ p {
     height: auto; 
   }
   
-  .waraRight-textSection ul,
-  .wara-text-left ul {
+  .les_engagesRight-textSection ul,
+  .les_engages-text-left ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
@@ -369,8 +369,8 @@ p {
     list-style-position: inside;
 }
 
-.waraRight-textSection ul li,
-.wara-text-left ul li {
+.les_engagesRight-textSection ul li,
+.les_engages-text-left ul li {
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
@@ -378,26 +378,26 @@ p {
 }
 
 /* Optionnel: Ajuster la taille de la police et les espacements pour une meilleure lisibilité */
-.waraRight-textSection ul li,
-.wara-text-left ul li {
+.les_engagesRight-textSection ul li,
+.les_engages-text-left ul li {
     font-size: 0.95rem;
     padding-bottom: 0.5rem;
 }
 
 /* Optionnel: Séparateur entre les colonnes */
-.waraRight-textSection ul,
-.wara-text-left ul {
+.les_engagesRight-textSection ul,
+.les_engages-text-left ul {
     column-gap: 40px;
 }
 
 @media (max-width: 768px) {
 
-    .wara-title {
+    .les_engages-title {
         font-size: 2.4rem;
         margin-top: 35%;
     }
 
-    .wara-title-h3-S2 {
+    .les_engages-title-h3-S2 {
         font-size: 1.6rem;
         font-weight: bold;
         color: #0F365F;
@@ -465,47 +465,47 @@ p {
         margin: 5px 0;
     }
 
-    .waraRight-container {
+    .les_engagesRight-container {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .wara-flex-container{
+    .les_engages-flex-container{
         flex-direction: column-reverse;
         align-items: flex-start;
     }
 
-    .waraRight-textSection, .wara-text-left {
+    .les_engagesRight-textSection, .les_engages-text-left {
         padding: 0;
         text-align: center;
     }
 
-    .waraRight-imageStyle, .wara-img-thumbnail {
+    .les_engagesRight-imageStyle, .les_engages-img-thumbnail {
         margin: 0 auto;
         display: block;
     }
-    .waraRight-textSection,
-    .wara-text-left {
+    .les_engagesRight-textSection,
+    .les_engages-text-left {
         padding: 0 15px;  /* Ajouter un padding pour ne pas coller sur les bords */
     }
 
-    .waraRight-textSection ul,
-    .wara-text-left ul {
+    .les_engagesRight-textSection ul,
+    .les_engages-text-left ul {
         columns: 1; /* Passage à une seule colonne pour les petits écrans */
         -webkit-columns: 1;
         -moz-columns: 1;
         column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
     }
 
-    .waraRight-textSection ul li,
-    .wara-text-left ul li {
+    .les_engagesRight-textSection ul li,
+    .les_engages-text-left ul li {
         font-size: 0.85rem; /* Réduction de la taille de police pour les petits écrans */
         padding-bottom: 0.5rem;
     }
     
     /* Ajustements pour les images si nécessaire */
-    .waraRight-imageStyle,
-    .wara-img-thumbnail {
+    .les_engagesRight-imageStyle,
+    .les_engages-img-thumbnail {
         width: 100%; /* Assurez-vous que les images ne débordent pas */
         height: auto; /* Garder le ratio */
     }

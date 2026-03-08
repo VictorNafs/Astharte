@@ -1,4 +1,4 @@
-.bg-image-s-v {
+.bg-image-ip {
     background-image: url('src/assets/images/fond-fleurs.jpg');
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@
     margin-top: 5%;
 }
 
-.wara-title {
+.ip-title {
     font-size: 3rem;
     font-weight: bold;
     color: #fff;
@@ -21,11 +21,11 @@
     margin-bottom: 15%;
 }
 
-.wara-title:hover {
+.ip-title:hover {
     color: #0F365F;
 }
 
-.wara-syn {
+.ip-syn {
     font-size: 1.9rem;
     font-weight: bold;
     color: #fff;
@@ -35,7 +35,7 @@
     text-decoration: underline;
 }
 
-.wara-syn:hover {
+.ip-syn:hover {
     color: #0F365F;
 }
 
@@ -49,7 +49,7 @@
     text-decoration: underline;
 }
 
-.wara-logo {
+.ip-logo {
     width: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
     height: auto; 
     display: block; 
@@ -257,7 +257,7 @@ p {
 
 
 
-@keyframes waraSlideFromLeft {
+@keyframes ipSlideFromLeft {
     0% {
       transform: translateX(-100%);
     }
@@ -266,24 +266,24 @@ p {
     }
   }
   
-  .wara-slide-in {
-    animation: waraSlideFromLeft 4s forwards;
+  .ip-slide-in {
+    animation: ipSlideFromLeft 4s forwards;
   }
   
-  .wara-flex-container {
+  .ip-flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .wara-text-left {
+  .ip-text-left {
     flex: 1;
     padding-right: 20px;
     text-align: justify;
     /* Ajoutez un espace entre le texte et l'image */
   }
   
-  .wara-img-thumbnail {
+  .ip-img-thumbnail {
     flex-shrink: 0; /* Pour éviter que l'image ne se rétrécisse */
     max-width: 300px;  /* Définir la largeur maximale que vous souhaitez */
     max-height: 200px; /* Définir la hauteur maximale que vous souhaitez */
@@ -297,7 +297,7 @@ p {
     opacity: 0;
 }
 
-@keyframes waraRightSlideEffect {
+@keyframes ipRightSlideEffect {
     0% {
       transform: translateX(100%);
     }
@@ -306,22 +306,22 @@ p {
     }
   }
   
-  .waraRight-slideAnim {
-    animation: waraRightSlideEffect 4s forwards;
+  .ipRight-slideAnim {
+    animation: ipRightSlideEffect 4s forwards;
   }
   
-  .waraRight-container {
+  .ipRight-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .waraRight-textSection {
+  .ipRight-textSection {
     flex: 1;
     padding-left: 20px; /* Ajout d'un espace à gauche du texte */
   }
   
-  .waraRight-imageStyle {
+  .ipRight-imageStyle {
     flex-shrink: 0;
     max-width: 300px;  
     max-height: 200px; 
@@ -329,8 +329,8 @@ p {
     height: auto; 
   }
   
-  .waraRight-textSection ul,
-  .wara-text-left ul {
+  .ipRight-textSection ul,
+  .ip-text-left ul {
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
@@ -340,8 +340,8 @@ p {
     list-style-position: inside;
 }
 
-.waraRight-textSection ul li,
-.wara-text-left ul li {
+.ipRight-textSection ul li,
+.ip-text-left ul li {
     break-inside: avoid;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
@@ -349,22 +349,22 @@ p {
 }
 
 /* Optionnel: Ajuster la taille de la police et les espacements pour une meilleure lisibilité */
-.waraRight-textSection ul li,
-.wara-text-left ul li {
+.ipRight-textSection ul li,
+.ip-text-left ul li {
     font-size: 0.95rem;
     padding-bottom: 0.5rem;
 }
 
 /* Optionnel: Séparateur entre les colonnes */
-.waraRight-textSection ul,
-.wara-text-left ul {
+.ipRight-textSection ul,
+.ip-text-left ul {
     column-gap: 40px;
 }
 
 
 @media (max-width: 768px) {
 
-    .wara-title {
+    .ip-title {
         font-size: 2.4rem;
         margin-top: 35%;
     }
@@ -426,47 +426,47 @@ p {
         margin: 5px 0;
     }
 
-    .waraRight-container {
+    .ipRight-container {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .wara-flex-container{
+    .ip-flex-container{
         flex-direction: column-reverse;
         align-items: flex-start;
     }
 
-    .waraRight-textSection, .wara-text-left {
+    .ipRight-textSection, .ip-text-left {
         padding: 0;
         text-align: center;
     }
 
-    .waraRight-imageStyle, .wara-img-thumbnail {
+    .ipRight-imageStyle, .ip-img-thumbnail {
         margin: 0 auto;
         display: block;
     }
-    .waraRight-textSection,
-    .wara-text-left {
+    .ipRight-textSection,
+    .ip-text-left {
         padding: 0 15px;  /* Ajouter un padding pour ne pas coller sur les bords */
     }
 
-    .waraRight-textSection ul,
-    .wara-text-left ul {
+    .ipRight-textSection ul,
+    .ip-text-left ul {
         columns: 1; /* Passage à une seule colonne pour les petits écrans */
         -webkit-columns: 1;
         -moz-columns: 1;
         column-gap: 20px; /* Réduction de l'espace entre les colonnes si nécessaire */
     }
 
-    .waraRight-textSection ul li,
-    .wara-text-left ul li {
+    .ipRight-textSection ul li,
+    .ip-text-left ul li {
         font-size: 0.85rem; /* Réduction de la taille de police pour les petits écrans */
         padding-bottom: 0.5rem;
     }
     
     /* Ajustements pour les images si nécessaire */
-    .waraRight-imageStyle,
-    .wara-img-thumbnail {
+    .ipRight-imageStyle,
+    .ip-img-thumbnail {
         width: 100%; /* Assurez-vous que les images ne débordent pas */
         height: auto; /* Garder le ratio */
     }

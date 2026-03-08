@@ -72,7 +72,7 @@ const L_S_M_S4 = () => {
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title mtwt">Noir Enigma</h1>
+                    <h1 className="les_saisons_m-title mtwt">Noir Enigma</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -85,7 +85,7 @@ const L_S_M_S4 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="les_saisons_m-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                             Noir enigma est un téléfilm policier français réalisé par Manuel Boursinhac et Gianguido Spinelli diffusé sur France 2 le 20 octobre 2017, adaptation du polar de Gilda Piersanti paru en 2010 sous le titre Roma enigma1.                            </p>
                             <br></br>
@@ -93,17 +93,17 @@ const L_S_M_S4 = () => {
                             Devant une pâtisserie parisienne, une jeune étudiante s'effondre, tuée par balle. Pas d'arme du crime, aucun suspect, rien dans le passé de la victime qui permette de suivre la moindre piste. Un meurtre parfait sans mobile. Une nouvelle enquête du commissaire Rousseau et de la commandante Mariella De Luca.
                             </p>
                       </div>
-                        <img src={affichenoirenigma4} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichenoirenigma4} alt="les_saisons_m Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right les_saisons_mRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={noirenigmaWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`les_saisons_mRight-container ${imageClass2}`}>
+                            <img src={noirenigmaWord1} alt="les_saisons_m Image 2" className="les_saisons_mRight-imageStyle" />
+                                <div className="les_saisons_mRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Jean Rousseau</li>
@@ -128,10 +128,10 @@ const L_S_M_S4 = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left les_saisons_m-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`les_saisons_m-flex-container ${imageClass3}`}>
+                        <div className="les_saisons_m-text-left text-bg">
                         <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
                                 <li>Réalisation : Manuel Boursinhac</li>
@@ -144,15 +144,15 @@ const L_S_M_S4 = () => {
                                 <li>Chef décorateur : Eric Durringer</li>
                             </ul>
                         </div>
-                        <img src={noirenigmaWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={noirenigmaWord2} alt="les_saisons_m Image 3" className="les_saisons_m-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={noirenigmabottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={noirenigmabottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={noirenigmabottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={noirenigmabottom1} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={noirenigmabottom2} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={noirenigmabottom3} alt="les_saisons_m Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

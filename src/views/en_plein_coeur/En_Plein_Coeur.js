@@ -71,7 +71,7 @@ const En_Plein_Coeur = () => {
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">En Plein Coeur</h1>
+                    <h1 className="en_plein_coeur-title mtwt">En Plein Coeur</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -84,7 +84,7 @@ const En_Plein_Coeur = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="en_plein_coeur-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                             Fred Leprince, un jeune élève, est retrouvé mort au sein même de l’école de police. Emilie, 
                             soeur de la victime et également élève, n’accepte pas à la thèse du suicide. La Commandante 
@@ -108,17 +108,17 @@ const En_Plein_Coeur = () => {
                             </ul>
                             </p>
                       </div>
-                        <img src={afficheenpleincoeur} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={afficheenpleincoeur} alt="en_plein_coeur Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right en_plein_coeurRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={enpleincoeurWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`en_plein_coeurRight-container ${imageClass2}`}>
+                            <img src={enpleincoeurWord1} alt="en_plein_coeur Image 2" className="en_plein_coeurRight-imageStyle" />
+                                <div className="en_plein_coeurRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Fatou N’Diaye</li>
@@ -145,10 +145,10 @@ const En_Plein_Coeur = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left en_plein_coeur-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`en_plein_coeur-flex-container ${imageClass3}`}>
+                        <div className="en_plein_coeur-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Réalisation : Bruno GARCIA</li>
@@ -173,15 +173,15 @@ const En_Plein_Coeur = () => {
                                     <li>Chef monteur son : Matthieu Cathelineau</li>
                                 </ul>
                         </div>
-                        <img src={enpleincoeurWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={enpleincoeurWord2} alt="en_plein_coeur Image 3" className="en_plein_coeur-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={enpleincoeurbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={enpleincoeurbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={enpleincoeurbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={enpleincoeurbottom1} alt="en_plein_coeur Image 4" className="img-thumbnail" />
+        <img src={enpleincoeurbottom2} alt="en_plein_coeur Image 4" className="img-thumbnail" />
+        <img src={enpleincoeurbottom3} alt="en_plein_coeur Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

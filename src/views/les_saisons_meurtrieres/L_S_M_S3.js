@@ -71,7 +71,7 @@ const L_S_M_S3 = () => {
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title mtwt">Jaune Iris</h1>
+                    <h1 className="les_saisons_m-title mtwt">Jaune Iris</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -84,7 +84,7 @@ const L_S_M_S3 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="les_saisons_m-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                             Jaune iris est un téléfilm policier français réalisé par Didier Bivel diffusé pour la première fois le 23 octobre 2015 sur France 2.
                             C'est l'adaptation du roman policier Jaune caravage de Gilda Piersanti1.                            
@@ -93,17 +93,17 @@ const L_S_M_S3 = () => {
                             <p className="text-left text-bg texte">Katia (Natacha Renier), mère de famille, va découvrir après la mort de sa fille Anna, une adolescente de 17 ans, son existence cachée. L’enquête qui va en découler serra un des fils conducteurs du film. Cette intrigue aux multiples rebondissements  nous entrainera dans le milieu sulfureux et noctambule des boites de nuit, de la mode et de la photo de nu. Au travers de l’enquête, le commissaire Rousseau verra en Katia son double en féminin : un parent qui ne peut se remettre de la disparition de son enfant. Cette enquête va l’aider à ne pas de sombrer dans sa douleur.</p>
                             <p className="text-left text-bg texte">Léonore, adolescente de 17 ans et copine d’Anna va nous emmener dans la complexité des adolescents aujourd’hui. Sollicités comme jamais vers les lumières du plaisir, de la fête, de la facilité, tout en étant confrontés à un monde violent, en crise. On découvrira au travers du personnage de Léonore les sentiments exacerbés et absolus d’une jeunesse qui peuvent aller jusqu’à la folie.</p>
                       </div>
-                        <img src={affichejauneiris3} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichejauneiris3} alt="les_saisons_m Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right les_saisons_mRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={jauneirisWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`les_saisons_mRight-container ${imageClass2}`}>
+                            <img src={jauneirisWord1} alt="les_saisons_m Image 2" className="les_saisons_mRight-imageStyle" />
+                                <div className="les_saisons_mRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Rousseau</li>
@@ -127,10 +127,10 @@ const L_S_M_S3 = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left les_saisons_m-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`les_saisons_m-flex-container ${imageClass3}`}>
+                        <div className="les_saisons_m-text-left text-bg">
                             <h3 className="white-title">Équipe artistique et technique</h3>   
                                 <ul>
                                     <li>Réalisation : Didier Bivel</li>
@@ -145,15 +145,15 @@ const L_S_M_S3 = () => {
                                     <li>Chef décorateur : Eric Durringer</li>
                                 </ul>
                         </div>
-                        <img src={jauneirisWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={jauneirisWord2} alt="les_saisons_m Image 3" className="les_saisons_m-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={jauneirisbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={jauneirisbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={jauneirisbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={jauneirisbottom1} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={jauneirisbottom2} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={jauneirisbottom3} alt="les_saisons_m Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

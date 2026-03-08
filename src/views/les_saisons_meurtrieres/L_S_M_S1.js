@@ -72,7 +72,7 @@ const L_S_M_S1 = () => {
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title mtwt">Hiver Rouge</h1>
+                    <h1 className="les_saisons_m-title mtwt">Hiver Rouge</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -91,7 +91,7 @@ const L_S_M_S1 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="les_saisons_m-syn">Synopsis</h1>
                             <p className="text-left text-bg">
                             Hiver rouge est un téléfilm policier français, le premier de la collection Les Saisons meurtrières. Il a été réalisé par Xavier Durringer en 2011 et diffusé pour la première fois le 6 janvier 2012 sur France 2.
                             C'est l'adaptation du polar de Gilda Piersanti Rouge Abattoir1. Il a reçu le prix de la meilleure musique au 13e Festival de la fiction TV de La Rochelle2.
@@ -100,17 +100,17 @@ const L_S_M_S1 = () => {
                             <p className="text-left text-bg">
                             Le jour de Noël, à Paris, Place de Bitche, une main découpée à la scie et accrochée à un sapin est retrouvée par l'équipe du commissaire Rousseau. Pour résoudre cette sombre enquête, sa hiérarchie lui impose l'aide d'une profileuse atypique, Mariella De Luca. Rousseau, réticent à ce partenariat, semble convaincu que cette mise en scène macabre signe le troisième meurtre d'un tueur en série.                            </p>
                       </div>
-                        <img src={affichehiverrouge1} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichehiverrouge1} alt="les_saisons_m Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right les_saisons_mRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={hiverrougeWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`les_saisons_mRight-container ${imageClass2}`}>
+                            <img src={hiverrougeWord1} alt="les_saisons_m Image 2" className="les_saisons_mRight-imageStyle" />
+                                <div className="les_saisons_mRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Patrick Chesnais : le commissaire Rousseau</li>
@@ -137,10 +137,10 @@ const L_S_M_S1 = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left les_saisons_m-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`les_saisons_m-flex-container ${imageClass3}`}>
+                        <div className="les_saisons_m-text-left text-bg">
                         <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
                                 <li>Réalisation : Xavier Durringer</li>
@@ -156,15 +156,15 @@ const L_S_M_S1 = () => {
                                 <li>Chef décorateur : Éric Durringer</li>
                             </ul>
                         </div>
-                        <img src={hiverrougeWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={hiverrougeWord2} alt="les_saisons_m Image 3" className="les_saisons_m-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={hiverrougebottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={hiverrougebottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={hiverrougebottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={hiverrougebottom1} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={hiverrougebottom2} alt="les_saisons_m Image 4" className="img-thumbnail" />
+        <img src={hiverrougebottom3} alt="les_saisons_m Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>

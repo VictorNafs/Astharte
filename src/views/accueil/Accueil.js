@@ -36,7 +36,7 @@ const Accueil = () => {
       background: bgImage1,
       link: '/ip',
       title: 'Immeuble Partagé',
-      text: `A venir, une série écrite par Adda Abdelli et Fabrice Chanut, co-produite avec Les Films d'Avalon et Auvergne-Rhône-Alpes-Cinéma, avec la participation de France Télévisions`,
+      text: `Une série disponible sur de France TV replay, écrite par Adda Abdelli et Fabrice Chanut, co-produite avec Les Films d'Avalon et Auvergne-Rhône-Alpes-Cinéma, avec la participation de France Télévisions`,
     },
     {
       bg: virage1,

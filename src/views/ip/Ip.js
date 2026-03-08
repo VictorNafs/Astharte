@@ -66,13 +66,13 @@ const Ip = () => {
             <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
             <meta name="theme-color" content="#FFFFFF" />
         </Helmet>
-        <CRow className="bg-image-s-v">
+        <CRow className="bg-image-ip">
             <CCol xs={12}>
                 <div className="container">
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Immeuble Partagé</h1>
+                    <h1 className="ip-title mtwt">Immeuble Partagé</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -85,7 +85,7 @@ const Ip = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                        <h1 className="wara-syn">Synopsis</h1>
+                        <h1 className="ip-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                                     Nous sommes Mehdi, Myriam, William, Charlotte, Ondine et tous les autres. Nous vous
                                     invitons à suivre notre quotidien dans notre Immeuble Partagé !
@@ -98,7 +98,7 @@ const Ip = () => {
                                     C’est notre Immeuble Partagé avec toutes ces imperfections avec son humour et son impertinence. 
                                 </p>
                             <br></br>
-                            <h3 className="wara-syn">Acteurs principaux</h3>
+                            <h3 className="ip-syn">Acteurs principaux</h3>
                             <p className="text-left text-bg texte">
                                 <ul>
                                     <li>Adda ABDELLI : MEHDI</li>
@@ -119,18 +119,18 @@ const Ip = () => {
                                 </ul>
                             </p>
                       </div>
-                        <img src={affichevestiaires13} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichevestiaires13} alt="ip Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+    onEnter={() => setImageClass2("slide-from-right ipRight-slideAnim")} 
     offset={{ top: 50 }}
 >
-    <div className={`waraRight-container ${imageClass2}`}>
-        <img src={ipWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-        <div className="waraRight-textSection text-bg">
+    <div className={`ipRight-container ${imageClass2}`}>
+        <img src={ipWord1} alt="ip Image 2" className="ipRight-imageStyle" />
+        <div className="ipRight-textSection text-bg">
         <h3 className="white-title">Équipe artistique</h3>   
                 <ul>
                     <li>Une série crée par Adda Abdelli et Fabrice Chanut</li>
@@ -151,10 +151,10 @@ const Ip = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left ip-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`ip-flex-container ${imageClass3}`}>
+                        <div className="ip-text-left text-bg">
                         <h3 className="white-title">Équipe technique</h3>   
                                 <ul>
                                     <li>Directeur de la Photographie : Mathieu Andrieux, Jean Combier</li>
@@ -168,15 +168,15 @@ const Ip = () => {
                                     <li>Cheffe maquilleuse : Elsa Gendre</li>
                                 </ul>
                         </div>
-                        <img src={ipWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={ipWord2} alt="ip Image 3" className="ip-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={ipbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={ipbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={ipbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={ipbottom1} alt="ip Image 4" className="img-thumbnail" />
+        <img src={ipbottom2} alt="ip Image 4" className="img-thumbnail" />
+        <img src={ipbottom3} alt="ip Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>
@@ -189,4 +189,3 @@ const Ip = () => {
 }
 
 export default Ip;
-

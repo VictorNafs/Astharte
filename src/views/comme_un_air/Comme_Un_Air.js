@@ -18,7 +18,7 @@ import commeunairbottom1 from 'src/assets/images/commeunair-bottom1.jpg';
 import commeunairbottom2 from 'src/assets/images/commeunair-bottom2.jpg';
 import commeunairbottom3 from 'src/assets/images/commeunair-bottom3.jpg';
 
-const Wara_S1 = () => {
+const comme_un_air_S1 = () => {
     const navigate = useNavigate();
     const [imageClass1, setImageClass1] = useState("slide-initial");
     const [imageClass2, setImageClass2] = useState("slide-initial");
@@ -72,7 +72,7 @@ const Wara_S1 = () => {
                     {/* <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div> */}
-                    <h1 className="wara-title mtwt">Comme Un Air d'Autoroute</h1>
+                    <h1 className="comme_un_air-title mtwt">Comme Un Air d'Autoroute</h1>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -93,7 +93,7 @@ const Wara_S1 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="comme_un_air-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                             Nourrisson abandonné à la naissance, Peter a fait de l'aire d'autoroute qui l'a vu grandir un havre de paix, joyeux et extravagant. Entouré par une tribu d'employés loufoques et fantasques, il résiste aux assauts du groupe pétrolier Degrand, dont le patron ambitionne de devenir le maître incontesté de l'autoroute 440 en récupérant la dernière aire qui lui échappe encore. L'arrivée de la belle Marie, fille de l'industriel envoyée pour l'espionner, va remettre en question le quotidien de Peter...
                             </p>
@@ -102,17 +102,17 @@ const Wara_S1 = () => {
                             Les réalisateurs Franck Lebon et Vincent Burgevin signent ici une nouvelle comédie musicale déjantée, produite par Sophie Deloche et Philippe Braunstein. Boris Vigneron, compère et acteur fétiche des deux cinéastes, y interprète un propriétaire d'aire d'autoroute au grand cœur qui gère avec bienveillance ce petit village gaulois résistant encore à l'envahisseur. Pour lui donner la réplique, la pétillante Maryvette Lair campe le rôle d'une fille à papa potiche, naïve et maladroite, missionnée par son père pour le séduire et le faire plier. Dans la peau de l'industriel machiavélique, Didier Bourdon n'a rien perdu de son pouvoir comique. Une intrigue qui sert de prétexte au duo de réalisateurs pour mettre en scène une galerie de personnages hauts en couleur, au rythme de scènes de comédies musicales décalées, aux faux airs de Broadway.
                             </p>
                       </div>
-                        <img src={affichecommeunair} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichecommeunair} alt="comme_un_air Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right comme_un_airRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={commeunairWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`comme_un_airRight-container ${imageClass2}`}>
+                            <img src={commeunairWord1} alt="comme_un_air Image 2" className="comme_un_airRight-imageStyle" />
+                                <div className="comme_un_airRight-textSection text-bg">
                                     <h3 className="white-title">Acteurs</h3>   
                                         <ul>
                                             <li>Boris Vigneron : Peter</li>
@@ -137,10 +137,10 @@ const Wara_S1 = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left comme_un_air-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`comme_un_air-flex-container ${imageClass3}`}>
+                        <div className="comme_un_air-text-left text-bg">
                         <h3 className="white-title">Équipe artistique et technique</h3>   
                             <ul>
                                 <li>Production : Sophie Deloche et Philippe Braunstein</li>
@@ -165,15 +165,15 @@ const Wara_S1 = () => {
                                 <li>Décors : Marie-Hélène Sulmoni</li>
                             </ul>
                         </div>
-                        <img src={commeunairWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={commeunairWord2} alt="comme_un_air Image 3" className="comme_un_air-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={commeunairbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={commeunairbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={commeunairbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom1} alt="comme_un_air Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom2} alt="comme_un_air Image 4" className="img-thumbnail" />
+        <img src={commeunairbottom3} alt="comme_un_air Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>
@@ -185,4 +185,4 @@ const Wara_S1 = () => {
     );
 }
 
-export default Wara_S1;
+export default comme_un_air_S1;

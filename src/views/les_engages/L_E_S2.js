@@ -71,8 +71,8 @@ const L_E_S2 = () => {
                     <div>
                     <CButton color="secondary" className="btn-previous" onClick={handleGoBack}>← Précédent</CButton>
                     </div>
-                    <h1 className="wara-title mtwt">Les Engagés</h1>
-                    <h3 className="wara-title-h3">Saison 2</h3>
+                    <h1 className="les_engages-title mtwt">Les Engagés</h1>
+                    <h3 className="les_engages-title-h3">Saison 2</h3>
                     {/* <div className="video-button-container">
                         <CButton color="link" className="mr-3 video-button" onClick={() => window.open('URL_DE_LA_VIDEO', '_blank')}>
                             Voir la vidéo
@@ -85,7 +85,7 @@ const L_E_S2 = () => {
                     <ScrollTrigger onEnter={() => setImageClass1("slide-from-left")}>
                       <div className={`flex-container ${imageClass1}`}>
                         <div className="text-container-S2 special-text-container">
-                          <h1 className="wara-syn">Synopsis</h1>
+                          <h1 className="les_engages-syn">Synopsis</h1>
                             <p className="text-left text-bg texte">
                                 Les Engagés est une web-série française créée et écrite par Sullivan Le Postec. La deuxième saison est réalisée par Slimane-Baptiste Berhoun.
                                 La série est coproduite par Astharté & Compagnie et France Télévisions Nouvelles Écritures, et diffusée à l’origine sur la plateforme Studio 4 à partir du 17 mai 2017. Depuis la refonte de l’offre numérique de France Télévisions, Les Engagés est reprise sur France.tv Slash1.
@@ -100,17 +100,17 @@ const L_E_S2 = () => {
                                 Réalisée par Slimane-Baptiste BERHOUN
                                 Produit par Sophie DELOCHE & Baptiste RINALDI</p>
                       </div>
-                        <img src={affichele2} alt="Wara Image 1" className="img-thumbnail-large" />
+                        <img src={affichele2} alt="les_engages Image 1" className="img-thumbnail-large" />
                     </div>
                     </ScrollTrigger>
                     <div style={{ clear: 'both' }}></div>
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass2("slide-from-right waraRight-slideAnim")} 
+                    onEnter={() => setImageClass2("slide-from-right les_engagesRight-slideAnim")} 
                     offset={{ top: 50 }}>
-                        <div className={`waraRight-container ${imageClass2}`}>
-                            <img src={S2lesengagesWord1} alt="Wara Image 2" className="waraRight-imageStyle" />
-                                <div className="waraRight-textSection text-bg">
+                        <div className={`les_engagesRight-container ${imageClass2}`}>
+                            <img src={S2lesengagesWord1} alt="les_engages Image 2" className="les_engagesRight-imageStyle" />
+                                <div className="les_engagesRight-textSection text-bg">
                                 <h3 className="white-title">Acteurs</h3>   
                                     <ul>
                                         <li>Mehdi MESKAR</li>
@@ -130,10 +130,10 @@ const L_E_S2 = () => {
 
 
                     <ScrollTrigger 
-                    onEnter={() => setImageClass3("slide-from-left wara-slide-in")} 
+                    onEnter={() => setImageClass3("slide-from-left les_engages-slide-in")} 
                     offset={{ top: 50 }}>
-                    <div className={`wara-flex-container ${imageClass3}`}>
-                        <div className="wara-text-left text-bg">
+                    <div className={`les_engages-flex-container ${imageClass3}`}>
+                        <div className="les_engages-text-left text-bg">
                         <h3 className="white-title">Équipe artistique et technique</h3>   
                                     <ul>
                                         <li>Créateur de la série : Sullivan Le Postec</li>
@@ -162,15 +162,15 @@ const L_E_S2 = () => {
                                         <li>Chef monteur son / Mixeur : Charli CIRCUS </li>
                                     </ul>
                         </div>
-                        <img src={S2lesengagesWord2} alt="Wara Image 3" className="wara-img-thumbnail" />
+                        <img src={S2lesengagesWord2} alt="les_engages Image 3" className="les_engages-img-thumbnail" />
                     </div>
                     </ScrollTrigger>
 
                     <ScrollTrigger onEnter={() => setImageClass4("fade-in active")} offset={{ top: 200 }}>
                     <div className={`${imageClass4}`}>
-        <img src={S2lesengagesbottom1} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={S2lesengagesbottom2} alt="Wara Image 4" className="img-thumbnail" />
-        <img src={S2lesengagesbottom3} alt="Wara Image 4" className="img-thumbnail" />
+        <img src={S2lesengagesbottom1} alt="les_engages Image 4" className="img-thumbnail" />
+        <img src={S2lesengagesbottom2} alt="les_engages Image 4" className="img-thumbnail" />
+        <img src={S2lesengagesbottom3} alt="les_engages Image 4" className="img-thumbnail" />
 
     </div>
 </ScrollTrigger>
